@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7488C941BE8144100F90F49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7488C931BE8144100F90F49 /* AppDelegate.swift */; };
+		F7488C961BE8144100F90F49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7488C951BE8144100F90F49 /* ViewController.swift */; };
+		F7488C991BE8144100F90F49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7488C971BE8144100F90F49 /* Main.storyboard */; };
+		F7488C9C1BE8144100F90F49 /* Scheduler_3_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7488C9A1BE8144100F90F49 /* Scheduler_3_0.xcdatamodeld */; };
+		F7488C9E1BE8144100F90F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7488C9D1BE8144100F90F49 /* Assets.xcassets */; };
+		F7488CA11BE8144100F90F49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7488C9F1BE8144100F90F49 /* LaunchScreen.storyboard */; };
+		F7488CAC1BE8144200F90F49 /* Scheduler_3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7488CAB1BE8144200F90F49 /* Scheduler_3_0Tests.swift */; };
+		F7488CB71BE8144200F90F49 /* Scheduler_3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7488CB61BE8144200F90F49 /* Scheduler_3_0UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7488CA81BE8144200F90F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7488C881BE8144100F90F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7488C8F1BE8144100F90F49;
+			remoteInfo = "Scheduler 3.0";
+		};
+		F7488CB31BE8144200F90F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7488C881BE8144100F90F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7488C8F1BE8144100F90F49;
+			remoteInfo = "Scheduler 3.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7488C901BE8144100F90F49 /* Scheduler 3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scheduler 3.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7488C931BE8144100F90F49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7488C951BE8144100F90F49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7488C981BE8144100F90F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7488C9B1BE8144100F90F49 /* Scheduler_3_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scheduler_3_0.xcdatamodel; sourceTree = "<group>"; };
+		F7488C9D1BE8144100F90F49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7488CA01BE8144100F90F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7488CA21BE8144100F90F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7488CA71BE8144200F90F49 /* Scheduler 3.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scheduler 3.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7488CAB1BE8144200F90F49 /* Scheduler_3_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scheduler_3_0Tests.swift; sourceTree = "<group>"; };
+		F7488CAD1BE8144200F90F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7488CB21BE8144200F90F49 /* Scheduler 3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scheduler 3.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7488CB61BE8144200F90F49 /* Scheduler_3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scheduler_3_0UITests.swift; sourceTree = "<group>"; };
+		F7488CB81BE8144200F90F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7488C8D1BE8144100F90F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7488CA41BE8144200F90F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7488CAF1BE8144200F90F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7488C871BE8144100F90F49 = {
+			isa = PBXGroup;
+			children = (
+				F7488C921BE8144100F90F49 /* Scheduler 3.0 */,
+				F7488CAA1BE8144200F90F49 /* Scheduler 3.0Tests */,
+				F7488CB51BE8144200F90F49 /* Scheduler 3.0UITests */,
+				F7488C911BE8144100F90F49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7488C911BE8144100F90F49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7488C901BE8144100F90F49 /* Scheduler 3.0.app */,
+				F7488CA71BE8144200F90F49 /* Scheduler 3.0Tests.xctest */,
+				F7488CB21BE8144200F90F49 /* Scheduler 3.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7488C921BE8144100F90F49 /* Scheduler 3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				F7488C931BE8144100F90F49 /* AppDelegate.swift */,
+				F7488C951BE8144100F90F49 /* ViewController.swift */,
+				F7488C971BE8144100F90F49 /* Main.storyboard */,
+				F7488C9D1BE8144100F90F49 /* Assets.xcassets */,
+				F7488C9F1BE8144100F90F49 /* LaunchScreen.storyboard */,
+				F7488CA21BE8144100F90F49 /* Info.plist */,
+				F7488C9A1BE8144100F90F49 /* Scheduler_3_0.xcdatamodeld */,
+			);
+			path = "Scheduler 3.0";
+			sourceTree = "<group>";
+		};
+		F7488CAA1BE8144200F90F49 /* Scheduler 3.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F7488CAB1BE8144200F90F49 /* Scheduler_3_0Tests.swift */,
+				F7488CAD1BE8144200F90F49 /* Info.plist */,
+			);
+			path = "Scheduler 3.0Tests";
+			sourceTree = "<group>";
+		};
+		F7488CB51BE8144200F90F49 /* Scheduler 3.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7488CB61BE8144200F90F49 /* Scheduler_3_0UITests.swift */,
+				F7488CB81BE8144200F90F49 /* Info.plist */,
+			);
+			path = "Scheduler 3.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7488C8F1BE8144100F90F49 /* Scheduler 3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7488CBB1BE8144200F90F49 /* Build configuration list for PBXNativeTarget "Scheduler 3.0" */;
+			buildPhases = (
+				F7488C8C1BE8144100F90F49 /* Sources */,
+				F7488C8D1BE8144100F90F49 /* Frameworks */,
+				F7488C8E1BE8144100F90F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scheduler 3.0";
+			productName = "Scheduler 3.0";
+			productReference = F7488C901BE8144100F90F49 /* Scheduler 3.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7488CA61BE8144200F90F49 /* Scheduler 3.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7488CBE1BE8144200F90F49 /* Build configuration list for PBXNativeTarget "Scheduler 3.0Tests" */;
+			buildPhases = (
+				F7488CA31BE8144200F90F49 /* Sources */,
+				F7488CA41BE8144200F90F49 /* Frameworks */,
+				F7488CA51BE8144200F90F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7488CA91BE8144200F90F49 /* PBXTargetDependency */,
+			);
+			name = "Scheduler 3.0Tests";
+			productName = "Scheduler 3.0Tests";
+			productReference = F7488CA71BE8144200F90F49 /* Scheduler 3.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7488CB11BE8144200F90F49 /* Scheduler 3.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7488CC11BE8144200F90F49 /* Build configuration list for PBXNativeTarget "Scheduler 3.0UITests" */;
+			buildPhases = (
+				F7488CAE1BE8144200F90F49 /* Sources */,
+				F7488CAF1BE8144200F90F49 /* Frameworks */,
+				F7488CB01BE8144200F90F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7488CB41BE8144200F90F49 /* PBXTargetDependency */,
+			);
+			name = "Scheduler 3.0UITests";
+			productName = "Scheduler 3.0UITests";
+			productReference = F7488CB21BE8144200F90F49 /* Scheduler 3.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7488C881BE8144100F90F49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Patronus LLC";
+				TargetAttributes = {
+					F7488C8F1BE8144100F90F49 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					F7488CA61BE8144200F90F49 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F7488C8F1BE8144100F90F49;
+					};
+					F7488CB11BE8144200F90F49 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F7488C8F1BE8144100F90F49;
+					};
+				};
+			};
+			buildConfigurationList = F7488C8B1BE8144100F90F49 /* Build configuration list for PBXProject "Scheduler 3.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7488C871BE8144100F90F49;
+			productRefGroup = F7488C911BE8144100F90F49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7488C8F1BE8144100F90F49 /* Scheduler 3.0 */,
+				F7488CA61BE8144200F90F49 /* Scheduler 3.0Tests */,
+				F7488CB11BE8144200F90F49 /* Scheduler 3.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7488C8E1BE8144100F90F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7488CA11BE8144100F90F49 /* LaunchScreen.storyboard in Resources */,
+				F7488C9E1BE8144100F90F49 /* Assets.xcassets in Resources */,
+				F7488C991BE8144100F90F49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7488CA51BE8144200F90F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7488CB01BE8144200F90F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7488C8C1BE8144100F90F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7488C9C1BE8144100F90F49 /* Scheduler_3_0.xcdatamodeld in Sources */,
+				F7488C961BE8144100F90F49 /* ViewController.swift in Sources */,
+				F7488C941BE8144100F90F49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7488CA31BE8144200F90F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7488CAC1BE8144200F90F49 /* Scheduler_3_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7488CAE1BE8144200F90F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7488CB71BE8144200F90F49 /* Scheduler_3_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7488CA91BE8144200F90F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7488C8F1BE8144100F90F49 /* Scheduler 3.0 */;
+			targetProxy = F7488CA81BE8144200F90F49 /* PBXContainerItemProxy */;
+		};
+		F7488CB41BE8144200F90F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7488C8F1BE8144100F90F49 /* Scheduler 3.0 */;
+			targetProxy = F7488CB31BE8144200F90F49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7488C971BE8144100F90F49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7488C981BE8144100F90F49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7488C9F1BE8144100F90F49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7488CA01BE8144100F90F49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7488CB91BE8144200F90F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7488CBA1BE8144200F90F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7488CBC1BE8144200F90F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Scheduler 3.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patronusllc.Scheduler-3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7488CBD1BE8144200F90F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Scheduler 3.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patronusllc.Scheduler-3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7488CBF1BE8144200F90F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Scheduler 3.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patronusllc.Scheduler-3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scheduler 3.0.app/Scheduler 3.0";
+			};
+			name = Debug;
+		};
+		F7488CC01BE8144200F90F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Scheduler 3.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patronusllc.Scheduler-3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scheduler 3.0.app/Scheduler 3.0";
+			};
+			name = Release;
+		};
+		F7488CC21BE8144200F90F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Scheduler 3.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patronusllc.Scheduler-3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Scheduler 3.0";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F7488CC31BE8144200F90F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Scheduler 3.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patronusllc.Scheduler-3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Scheduler 3.0";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7488C8B1BE8144100F90F49 /* Build configuration list for PBXProject "Scheduler 3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7488CB91BE8144200F90F49 /* Debug */,
+				F7488CBA1BE8144200F90F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7488CBB1BE8144200F90F49 /* Build configuration list for PBXNativeTarget "Scheduler 3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7488CBC1BE8144200F90F49 /* Debug */,
+				F7488CBD1BE8144200F90F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7488CBE1BE8144200F90F49 /* Build configuration list for PBXNativeTarget "Scheduler 3.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7488CBF1BE8144200F90F49 /* Debug */,
+				F7488CC01BE8144200F90F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7488CC11BE8144200F90F49 /* Build configuration list for PBXNativeTarget "Scheduler 3.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7488CC21BE8144200F90F49 /* Debug */,
+				F7488CC31BE8144200F90F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F7488C9A1BE8144100F90F49 /* Scheduler_3_0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F7488C9B1BE8144100F90F49 /* Scheduler_3_0.xcdatamodel */,
+			);
+			currentVersion = F7488C9B1BE8144100F90F49 /* Scheduler_3_0.xcdatamodel */;
+			path = Scheduler_3_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F7488C881BE8144100F90F49 /* Project object */;
+}
