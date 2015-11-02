@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2686C13A87E8F6D6C2141E1E /* Pods_Scheduler_3_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C8E67C6AB536CFC684708B /* Pods_Scheduler_3_0.framework */; };
 		F7488C941BE8144100F90F49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7488C931BE8144100F90F49 /* AppDelegate.swift */; };
 		F7488C961BE8144100F90F49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7488C951BE8144100F90F49 /* ViewController.swift */; };
 		F7488C991BE8144100F90F49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7488C971BE8144100F90F49 /* Main.storyboard */; };
@@ -15,6 +16,26 @@
 		F7488CA11BE8144100F90F49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7488C9F1BE8144100F90F49 /* LaunchScreen.storyboard */; };
 		F7488CAC1BE8144200F90F49 /* Scheduler_3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7488CAB1BE8144200F90F49 /* Scheduler_3_0Tests.swift */; };
 		F7488CB71BE8144200F90F49 /* Scheduler_3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7488CB61BE8144200F90F49 /* Scheduler_3_0UITests.swift */; };
+		F74C63BD1BE822A50019DC24 /* FUIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63961BE822A40019DC24 /* FUIAlertView.m */; };
+		F74C63BE1BE822A50019DC24 /* FUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63981BE822A40019DC24 /* FUIButton.m */; };
+		F74C63BF1BE822A50019DC24 /* FUICellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C639A1BE822A40019DC24 /* FUICellBackgroundView.m */; };
+		F74C63C01BE822A50019DC24 /* FUIPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C639C1BE822A40019DC24 /* FUIPopoverBackgroundView.m */; };
+		F74C63C11BE822A50019DC24 /* FUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C639E1BE822A40019DC24 /* FUISegmentedControl.m */; };
+		F74C63C21BE822A50019DC24 /* FUISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63A01BE822A50019DC24 /* FUISwitch.m */; };
+		F74C63C31BE822A50019DC24 /* FUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63A21BE822A50019DC24 /* FUITextField.m */; };
+		F74C63C41BE822A50019DC24 /* NSString+Icons.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63A41BE822A50019DC24 /* NSString+Icons.m */; };
+		F74C63C51BE822A50019DC24 /* UIBarButtonItem+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63A61BE822A50019DC24 /* UIBarButtonItem+FlatUI.m */; };
+		F74C63C61BE822A50019DC24 /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63A81BE822A50019DC24 /* UIColor+FlatUI.m */; };
+		F74C63C71BE822A50019DC24 /* UIFont+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63AA1BE822A50019DC24 /* UIFont+FlatUI.m */; };
+		F74C63C81BE822A50019DC24 /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63AC1BE822A50019DC24 /* UIImage+FlatUI.m */; };
+		F74C63C91BE822A50019DC24 /* UINavigationBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63AE1BE822A50019DC24 /* UINavigationBar+FlatUI.m */; };
+		F74C63CA1BE822A50019DC24 /* UIPopoverController+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63B01BE822A50019DC24 /* UIPopoverController+FlatUI.m */; };
+		F74C63CB1BE822A50019DC24 /* UIProgressView+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63B21BE822A50019DC24 /* UIProgressView+FlatUI.m */; };
+		F74C63CC1BE822A50019DC24 /* UISlider+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63B41BE822A50019DC24 /* UISlider+FlatUI.m */; };
+		F74C63CD1BE822A50019DC24 /* UIStepper+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63B61BE822A50019DC24 /* UIStepper+FlatUI.m */; };
+		F74C63CE1BE822A50019DC24 /* UITabBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63B81BE822A50019DC24 /* UITabBar+FlatUI.m */; };
+		F74C63CF1BE822A50019DC24 /* UITableViewCell+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63BA1BE822A50019DC24 /* UITableViewCell+FlatUI.m */; };
+		F74C63D01BE822A50019DC24 /* UIToolbar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63BC1BE822A50019DC24 /* UIToolbar+FlatUI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27C8E67C6AB536CFC684708B /* Pods_Scheduler_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scheduler_3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C50BFC2D2616F125A5D81C /* Pods-Scheduler 3.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scheduler 3.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scheduler 3.0/Pods-Scheduler 3.0.release.xcconfig"; sourceTree = "<group>"; };
+		E296F0A119EFAFAAFB2C5D63 /* Pods-Scheduler 3.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scheduler 3.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scheduler 3.0/Pods-Scheduler 3.0.debug.xcconfig"; sourceTree = "<group>"; };
 		F7488C901BE8144100F90F49 /* Scheduler 3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scheduler 3.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7488C931BE8144100F90F49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7488C951BE8144100F90F49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +73,48 @@
 		F7488CB21BE8144200F90F49 /* Scheduler 3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scheduler 3.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7488CB61BE8144200F90F49 /* Scheduler_3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scheduler_3_0UITests.swift; sourceTree = "<group>"; };
 		F7488CB81BE8144200F90F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74C63921BE821F10019DC24 /* Scheduler-FlatUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scheduler-FlatUIKit.h"; sourceTree = "<group>"; };
+		F74C63941BE822A40019DC24 /* FlatUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatUIKit.h; sourceTree = "<group>"; };
+		F74C63951BE822A40019DC24 /* FUIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIAlertView.h; sourceTree = "<group>"; };
+		F74C63961BE822A40019DC24 /* FUIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIAlertView.m; sourceTree = "<group>"; };
+		F74C63971BE822A40019DC24 /* FUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIButton.h; sourceTree = "<group>"; };
+		F74C63981BE822A40019DC24 /* FUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIButton.m; sourceTree = "<group>"; };
+		F74C63991BE822A40019DC24 /* FUICellBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUICellBackgroundView.h; sourceTree = "<group>"; };
+		F74C639A1BE822A40019DC24 /* FUICellBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUICellBackgroundView.m; sourceTree = "<group>"; };
+		F74C639B1BE822A40019DC24 /* FUIPopoverBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIPopoverBackgroundView.h; sourceTree = "<group>"; };
+		F74C639C1BE822A40019DC24 /* FUIPopoverBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIPopoverBackgroundView.m; sourceTree = "<group>"; };
+		F74C639D1BE822A40019DC24 /* FUISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUISegmentedControl.h; sourceTree = "<group>"; };
+		F74C639E1BE822A40019DC24 /* FUISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUISegmentedControl.m; sourceTree = "<group>"; };
+		F74C639F1BE822A50019DC24 /* FUISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUISwitch.h; sourceTree = "<group>"; };
+		F74C63A01BE822A50019DC24 /* FUISwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUISwitch.m; sourceTree = "<group>"; };
+		F74C63A11BE822A50019DC24 /* FUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUITextField.h; sourceTree = "<group>"; };
+		F74C63A21BE822A50019DC24 /* FUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUITextField.m; sourceTree = "<group>"; };
+		F74C63A31BE822A50019DC24 /* NSString+Icons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Icons.h"; sourceTree = "<group>"; };
+		F74C63A41BE822A50019DC24 /* NSString+Icons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Icons.m"; sourceTree = "<group>"; };
+		F74C63A51BE822A50019DC24 /* UIBarButtonItem+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+FlatUI.h"; sourceTree = "<group>"; };
+		F74C63A61BE822A50019DC24 /* UIBarButtonItem+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+FlatUI.m"; sourceTree = "<group>"; };
+		F74C63A71BE822A50019DC24 /* UIColor+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatUI.h"; sourceTree = "<group>"; };
+		F74C63A81BE822A50019DC24 /* UIColor+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatUI.m"; sourceTree = "<group>"; };
+		F74C63A91BE822A50019DC24 /* UIFont+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FlatUI.h"; sourceTree = "<group>"; };
+		F74C63AA1BE822A50019DC24 /* UIFont+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FlatUI.m"; sourceTree = "<group>"; };
+		F74C63AB1BE822A50019DC24 /* UIImage+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FlatUI.h"; sourceTree = "<group>"; };
+		F74C63AC1BE822A50019DC24 /* UIImage+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FlatUI.m"; sourceTree = "<group>"; };
+		F74C63AD1BE822A50019DC24 /* UINavigationBar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+FlatUI.h"; sourceTree = "<group>"; };
+		F74C63AE1BE822A50019DC24 /* UINavigationBar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+FlatUI.m"; sourceTree = "<group>"; };
+		F74C63AF1BE822A50019DC24 /* UIPopoverController+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+FlatUI.h"; sourceTree = "<group>"; };
+		F74C63B01BE822A50019DC24 /* UIPopoverController+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+FlatUI.m"; sourceTree = "<group>"; };
+		F74C63B11BE822A50019DC24 /* UIProgressView+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+FlatUI.h"; sourceTree = "<group>"; };
+		F74C63B21BE822A50019DC24 /* UIProgressView+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+FlatUI.m"; sourceTree = "<group>"; };
+		F74C63B31BE822A50019DC24 /* UISlider+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISlider+FlatUI.h"; sourceTree = "<group>"; };
+		F74C63B41BE822A50019DC24 /* UISlider+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISlider+FlatUI.m"; sourceTree = "<group>"; };
+		F74C63B51BE822A50019DC24 /* UIStepper+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStepper+FlatUI.h"; sourceTree = "<group>"; };
+		F74C63B61BE822A50019DC24 /* UIStepper+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStepper+FlatUI.m"; sourceTree = "<group>"; };
+		F74C63B71BE822A50019DC24 /* UITabBar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+FlatUI.h"; sourceTree = "<group>"; };
+		F74C63B81BE822A50019DC24 /* UITabBar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+FlatUI.m"; sourceTree = "<group>"; };
+		F74C63B91BE822A50019DC24 /* UITableViewCell+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+FlatUI.h"; sourceTree = "<group>"; };
+		F74C63BA1BE822A50019DC24 /* UITableViewCell+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+FlatUI.m"; sourceTree = "<group>"; };
+		F74C63BB1BE822A50019DC24 /* UIToolbar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+FlatUI.h"; sourceTree = "<group>"; };
+		F74C63BC1BE822A50019DC24 /* UIToolbar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+FlatUI.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2686C13A87E8F6D6C2141E1E /* Pods_Scheduler_3_0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +143,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74C9677DB86BBD498D82AA03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E296F0A119EFAFAAFB2C5D63 /* Pods-Scheduler 3.0.debug.xcconfig */,
+				48C50BFC2D2616F125A5D81C /* Pods-Scheduler 3.0.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E36A7699D13D05E247EF0A0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F74C63931BE822A40019DC24 /* ios */,
+				27C8E67C6AB536CFC684708B /* Pods_Scheduler_3_0.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F7488C871BE8144100F90F49 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +168,8 @@
 				F7488CAA1BE8144200F90F49 /* Scheduler 3.0Tests */,
 				F7488CB51BE8144200F90F49 /* Scheduler 3.0UITests */,
 				F7488C911BE8144100F90F49 /* Products */,
+				74C9677DB86BBD498D82AA03 /* Pods */,
+				E36A7699D13D05E247EF0A0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +188,7 @@
 			children = (
 				F7488C931BE8144100F90F49 /* AppDelegate.swift */,
 				F7488C951BE8144100F90F49 /* ViewController.swift */,
+				F74C63921BE821F10019DC24 /* Scheduler-FlatUIKit.h */,
 				F7488C971BE8144100F90F49 /* Main.storyboard */,
 				F7488C9D1BE8144100F90F49 /* Assets.xcassets */,
 				F7488C9F1BE8144100F90F49 /* LaunchScreen.storyboard */,
@@ -128,6 +216,55 @@
 			path = "Scheduler 3.0UITests";
 			sourceTree = "<group>";
 		};
+		F74C63931BE822A40019DC24 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				F74C63941BE822A40019DC24 /* FlatUIKit.h */,
+				F74C63951BE822A40019DC24 /* FUIAlertView.h */,
+				F74C63961BE822A40019DC24 /* FUIAlertView.m */,
+				F74C63971BE822A40019DC24 /* FUIButton.h */,
+				F74C63981BE822A40019DC24 /* FUIButton.m */,
+				F74C63991BE822A40019DC24 /* FUICellBackgroundView.h */,
+				F74C639A1BE822A40019DC24 /* FUICellBackgroundView.m */,
+				F74C639B1BE822A40019DC24 /* FUIPopoverBackgroundView.h */,
+				F74C639C1BE822A40019DC24 /* FUIPopoverBackgroundView.m */,
+				F74C639D1BE822A40019DC24 /* FUISegmentedControl.h */,
+				F74C639E1BE822A40019DC24 /* FUISegmentedControl.m */,
+				F74C639F1BE822A50019DC24 /* FUISwitch.h */,
+				F74C63A01BE822A50019DC24 /* FUISwitch.m */,
+				F74C63A11BE822A50019DC24 /* FUITextField.h */,
+				F74C63A21BE822A50019DC24 /* FUITextField.m */,
+				F74C63A31BE822A50019DC24 /* NSString+Icons.h */,
+				F74C63A41BE822A50019DC24 /* NSString+Icons.m */,
+				F74C63A51BE822A50019DC24 /* UIBarButtonItem+FlatUI.h */,
+				F74C63A61BE822A50019DC24 /* UIBarButtonItem+FlatUI.m */,
+				F74C63A71BE822A50019DC24 /* UIColor+FlatUI.h */,
+				F74C63A81BE822A50019DC24 /* UIColor+FlatUI.m */,
+				F74C63A91BE822A50019DC24 /* UIFont+FlatUI.h */,
+				F74C63AA1BE822A50019DC24 /* UIFont+FlatUI.m */,
+				F74C63AB1BE822A50019DC24 /* UIImage+FlatUI.h */,
+				F74C63AC1BE822A50019DC24 /* UIImage+FlatUI.m */,
+				F74C63AD1BE822A50019DC24 /* UINavigationBar+FlatUI.h */,
+				F74C63AE1BE822A50019DC24 /* UINavigationBar+FlatUI.m */,
+				F74C63AF1BE822A50019DC24 /* UIPopoverController+FlatUI.h */,
+				F74C63B01BE822A50019DC24 /* UIPopoverController+FlatUI.m */,
+				F74C63B11BE822A50019DC24 /* UIProgressView+FlatUI.h */,
+				F74C63B21BE822A50019DC24 /* UIProgressView+FlatUI.m */,
+				F74C63B31BE822A50019DC24 /* UISlider+FlatUI.h */,
+				F74C63B41BE822A50019DC24 /* UISlider+FlatUI.m */,
+				F74C63B51BE822A50019DC24 /* UIStepper+FlatUI.h */,
+				F74C63B61BE822A50019DC24 /* UIStepper+FlatUI.m */,
+				F74C63B71BE822A50019DC24 /* UITabBar+FlatUI.h */,
+				F74C63B81BE822A50019DC24 /* UITabBar+FlatUI.m */,
+				F74C63B91BE822A50019DC24 /* UITableViewCell+FlatUI.h */,
+				F74C63BA1BE822A50019DC24 /* UITableViewCell+FlatUI.m */,
+				F74C63BB1BE822A50019DC24 /* UIToolbar+FlatUI.h */,
+				F74C63BC1BE822A50019DC24 /* UIToolbar+FlatUI.m */,
+			);
+			name = ios;
+			path = Pods/FlatUIKit/Classes/ios;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +272,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7488CBB1BE8144200F90F49 /* Build configuration list for PBXNativeTarget "Scheduler 3.0" */;
 			buildPhases = (
+				10EB78FA323A8FA13C628596 /* Check Pods Manifest.lock */,
 				F7488C8C1BE8144100F90F49 /* Sources */,
 				F7488C8D1BE8144100F90F49 /* Frameworks */,
 				F7488C8E1BE8144100F90F49 /* Resources */,
+				5F8249DE04697BE39889604E /* Embed Pods Frameworks */,
+				D99C3AE43496D84BAA0D4422 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,14 +394,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10EB78FA323A8FA13C628596 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F8249DE04697BE39889604E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scheduler 3.0/Pods-Scheduler 3.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D99C3AE43496D84BAA0D4422 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scheduler 3.0/Pods-Scheduler 3.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F7488C8C1BE8144100F90F49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F74C63BD1BE822A50019DC24 /* FUIAlertView.m in Sources */,
+				F74C63CA1BE822A50019DC24 /* UIPopoverController+FlatUI.m in Sources */,
+				F74C63CE1BE822A50019DC24 /* UITabBar+FlatUI.m in Sources */,
+				F74C63CB1BE822A50019DC24 /* UIProgressView+FlatUI.m in Sources */,
+				F74C63C71BE822A50019DC24 /* UIFont+FlatUI.m in Sources */,
+				F74C63C11BE822A50019DC24 /* FUISegmentedControl.m in Sources */,
+				F74C63C31BE822A50019DC24 /* FUITextField.m in Sources */,
+				F74C63C61BE822A50019DC24 /* UIColor+FlatUI.m in Sources */,
 				F7488C9C1BE8144100F90F49 /* Scheduler_3_0.xcdatamodeld in Sources */,
+				F74C63D01BE822A50019DC24 /* UIToolbar+FlatUI.m in Sources */,
+				F74C63C91BE822A50019DC24 /* UINavigationBar+FlatUI.m in Sources */,
 				F7488C961BE8144100F90F49 /* ViewController.swift in Sources */,
+				F74C63CC1BE822A50019DC24 /* UISlider+FlatUI.m in Sources */,
+				F74C63CF1BE822A50019DC24 /* UITableViewCell+FlatUI.m in Sources */,
+				F74C63C51BE822A50019DC24 /* UIBarButtonItem+FlatUI.m in Sources */,
+				F74C63BF1BE822A50019DC24 /* FUICellBackgroundView.m in Sources */,
 				F7488C941BE8144100F90F49 /* AppDelegate.swift in Sources */,
+				F74C63CD1BE822A50019DC24 /* UIStepper+FlatUI.m in Sources */,
+				F74C63C41BE822A50019DC24 /* NSString+Icons.m in Sources */,
+				F74C63C01BE822A50019DC24 /* FUIPopoverBackgroundView.m in Sources */,
+				F74C63C81BE822A50019DC24 /* UIImage+FlatUI.m in Sources */,
+				F74C63BE1BE822A50019DC24 /* FUIButton.m in Sources */,
+				F74C63C21BE822A50019DC24 /* FUISwitch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,23 +607,29 @@
 		};
 		F7488CBC1BE8144200F90F49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E296F0A119EFAFAAFB2C5D63 /* Pods-Scheduler 3.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Scheduler 3.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.patronusllc.Scheduler-3-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kscholl/Documents/Coding stuff/Thinkful/Scheduler 3.0/Scheduler 3.0/Scheduler-FlatUIKit.h";
 			};
 			name = Debug;
 		};
 		F7488CBD1BE8144200F90F49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48C50BFC2D2616F125A5D81C /* Pods-Scheduler 3.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Scheduler 3.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.patronusllc.Scheduler-3-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kscholl/Documents/Coding stuff/Thinkful/Scheduler 3.0/Scheduler 3.0/Scheduler-FlatUIKit.h";
 			};
 			name = Release;
 		};
@@ -486,6 +700,7 @@
 				F7488CBD1BE8144200F90F49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7488CBE1BE8144200F90F49 /* Build configuration list for PBXNativeTarget "Scheduler 3.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +709,7 @@
 				F7488CC01BE8144200F90F49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7488CC11BE8144200F90F49 /* Build configuration list for PBXNativeTarget "Scheduler 3.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +718,7 @@
 				F7488CC31BE8144200F90F49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
