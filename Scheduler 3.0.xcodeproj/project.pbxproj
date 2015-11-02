@@ -188,7 +188,7 @@
 			children = (
 				F7488C931BE8144100F90F49 /* AppDelegate.swift */,
 				F7488C951BE8144100F90F49 /* ViewController.swift */,
-				F74C63D11BE825670019DC24 /* Supporting Files */,
+				F74C63921BE821F10019DC24 /* Scheduler-FlatUIKit.h */,
 				F7488C971BE8144100F90F49 /* Main.storyboard */,
 				F74C63D21BE825B60019DC24 /* Stuff I don't really use */,
 			);
@@ -260,14 +260,6 @@
 			);
 			name = ios;
 			path = Pods/FlatUIKit/Classes/ios;
-			sourceTree = "<group>";
-		};
-		F74C63D11BE825670019DC24 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F74C63921BE821F10019DC24 /* Scheduler-FlatUIKit.h */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		F74C63D21BE825B60019DC24 /* Stuff I don't really use */ = {
