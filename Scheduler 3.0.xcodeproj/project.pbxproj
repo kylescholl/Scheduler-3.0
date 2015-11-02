@@ -188,12 +188,9 @@
 			children = (
 				F7488C931BE8144100F90F49 /* AppDelegate.swift */,
 				F7488C951BE8144100F90F49 /* ViewController.swift */,
-				F74C63921BE821F10019DC24 /* Scheduler-FlatUIKit.h */,
+				F74C63D11BE825670019DC24 /* Supporting Files */,
 				F7488C971BE8144100F90F49 /* Main.storyboard */,
-				F7488C9D1BE8144100F90F49 /* Assets.xcassets */,
-				F7488C9F1BE8144100F90F49 /* LaunchScreen.storyboard */,
-				F7488CA21BE8144100F90F49 /* Info.plist */,
-				F7488C9A1BE8144100F90F49 /* Scheduler_3_0.xcdatamodeld */,
+				F74C63D21BE825B60019DC24 /* Stuff I don't really use */,
 			);
 			path = "Scheduler 3.0";
 			sourceTree = "<group>";
@@ -263,6 +260,25 @@
 			);
 			name = ios;
 			path = Pods/FlatUIKit/Classes/ios;
+			sourceTree = "<group>";
+		};
+		F74C63D11BE825670019DC24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F74C63921BE821F10019DC24 /* Scheduler-FlatUIKit.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F74C63D21BE825B60019DC24 /* Stuff I don't really use */ = {
+			isa = PBXGroup;
+			children = (
+				F7488C9D1BE8144100F90F49 /* Assets.xcassets */,
+				F7488C9F1BE8144100F90F49 /* LaunchScreen.storyboard */,
+				F7488CA21BE8144100F90F49 /* Info.plist */,
+				F7488C9A1BE8144100F90F49 /* Scheduler_3_0.xcdatamodeld */,
+			);
+			name = "Stuff I don't really use";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
