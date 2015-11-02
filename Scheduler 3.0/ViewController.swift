@@ -13,23 +13,23 @@ class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		print("viewDidLoad()")
 	}
 	
 	override func viewWillAppear(animated: Bool)  {
 		super.viewWillAppear(animated)
-		
-		var jesus = FUIButton(frame: CGRectMake(20, 350, 280, 40))
-		jesus.layer.cornerRadius = 10
-		
-		//var flatButton = FUIButton(frame:CGRectMake(20, 350, 280, 40), withBackgroundColor:UIColor(red: 0.521569, green: 0.768627, blue: 0.254902, alpha: 1))
-		/*
+		print("viewWillAppear()")
+		let flatButton = FUIButton(frame: CGRectMake(166, 323, 280, 40))
 		flatButton.layer.cornerRadius = 10
-		flatButton.setTitle("Sign In", forState:UIControlState.Normal)
+		flatButton.setTitle("Sign In", forState: UIControlState.Normal)
+		flatButton.setTitleColor(UIColor.wetAsphaltColor(), forState: UIControlState.Normal)
 		flatButton.titleLabel!.font = UIFont(name:"Avenir-Black", size: 20.0)
-		flatButton.addTarget(self, action: "flatButtonPressed:", forControlEvents: UIControlEvents.TouchUpInside)
+		//flatButton.addTarget(self, action: "flatButtonPressed:", forControlEvents: UIControlEvents.TouchUpInside)
 		self.view.addSubview(flatButton)
-		*/
+	}
+	
+	func flatButtonPressed(sender:  AnyObject) {
+		NSLog("flatButtonPressed")
 	}
 
 	override func didReceiveMemoryWarning() {
