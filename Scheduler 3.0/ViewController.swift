@@ -10,26 +10,56 @@ import UIKit
 
 
 class ViewController: UIViewController {
-
+	
+	@IBOutlet var showScheduleButton: UIButton!
+	@IBOutlet var netClassroomButton: UIButton!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		print("viewDidLoad()")
+		
+		
+	}
+	
+	func initializeButtonText () {
+		
+		// Schedule
+		let ssb = showScheduleButton
+		ssb.layer.cornerRadius = 20
+		ssb.backgroundColor = UIColor.peterRiverColor()
+		ssb.setTitle("Schedule", forState: UIControlState.Normal)
+		ssb.setTitleColor(UIColor.cloudsColor(), forState: UIControlState.Normal)
+		ssb.titleLabel!.font = UIFont(name: "Helvetica Neue Light", size: 20.0)
+		
+		// NetClassroom
+		let ncb = netClassroomButton
+		ncb.layer.cornerRadius = 20
+		ncb.backgroundColor = UIColor.peterRiverColor()
+		ncb.setTitle("NetClassroom", forState: UIControlState.Normal)
+		ncb.setTitleColor(UIColor.cloudsColor(), forState: UIControlState.Normal)
+		ncb.titleLabel!.font = UIFont(name: "Helvetica Neue Light", size: 20.0)
+	}
+	
+	
+	
+	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+		
 	}
 	
 	override func viewWillAppear(animated: Bool)  {
 		super.viewWillAppear(animated)
 		print("viewWillAppear()")
-		let flatButton = FUIButton(frame: CGRectMake(166, 323, 280, 40))
-		flatButton.layer.cornerRadius = 10
-		flatButton.setTitle("Sign In", forState: UIControlState.Normal)
-		flatButton.setTitleColor(UIColor.wetAsphaltColor(), forState: UIControlState.Normal)
-		flatButton.titleLabel!.font = UIFont(name:"Avenir-Black", size: 20.0)
-		//flatButton.addTarget(self, action: "flatButtonPressed:", forControlEvents: UIControlEvents.TouchUpInside)
-		self.view.addSubview(flatButton)
+		
+		self.view.backgroundColor = UIColor.wetAsphaltColor()
+		initializeButtonText()
 	}
 	
-	func flatButtonPressed(sender:  AnyObject) {
-		NSLog("flatButtonPressed")
+	func showScheduleButtonPressed(sender: UIButton) {
+		NSLog("showScheduleButtonPressed")
+	}
+	
+	func netClassroomButtonPressed(sender: UIButton) {
+		NSLog("netClassroomButtonPressed")
 	}
 
 	override func didReceiveMemoryWarning() {
@@ -39,4 +69,8 @@ class ViewController: UIViewController {
 
 
 }
+
+
+
+
 

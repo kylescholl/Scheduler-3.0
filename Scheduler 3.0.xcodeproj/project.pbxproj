@@ -188,8 +188,8 @@
 			children = (
 				F7488C931BE8144100F90F49 /* AppDelegate.swift */,
 				F7488C951BE8144100F90F49 /* ViewController.swift */,
-				F74C63921BE821F10019DC24 /* Scheduler-FlatUIKit.h */,
 				F7488C971BE8144100F90F49 /* Main.storyboard */,
+				F74C63921BE821F10019DC24 /* Scheduler-FlatUIKit.h */,
 				F74C63D21BE825B60019DC24 /* Stuff I don't really use */,
 			);
 			path = "Scheduler 3.0";
@@ -217,10 +217,12 @@
 			isa = PBXGroup;
 			children = (
 				F74C63941BE822A40019DC24 /* FlatUIKit.h */,
-				F74C63951BE822A40019DC24 /* FUIAlertView.h */,
-				F74C63961BE822A40019DC24 /* FUIAlertView.m */,
 				F74C63971BE822A40019DC24 /* FUIButton.h */,
 				F74C63981BE822A40019DC24 /* FUIButton.m */,
+				F74C63A11BE822A50019DC24 /* FUITextField.h */,
+				F74C63A21BE822A50019DC24 /* FUITextField.m */,
+				F74C63951BE822A40019DC24 /* FUIAlertView.h */,
+				F74C63961BE822A40019DC24 /* FUIAlertView.m */,
 				F74C63991BE822A40019DC24 /* FUICellBackgroundView.h */,
 				F74C639A1BE822A40019DC24 /* FUICellBackgroundView.m */,
 				F74C639B1BE822A40019DC24 /* FUIPopoverBackgroundView.h */,
@@ -229,8 +231,6 @@
 				F74C639E1BE822A40019DC24 /* FUISegmentedControl.m */,
 				F74C639F1BE822A50019DC24 /* FUISwitch.h */,
 				F74C63A01BE822A50019DC24 /* FUISwitch.m */,
-				F74C63A11BE822A50019DC24 /* FUITextField.h */,
-				F74C63A21BE822A50019DC24 /* FUITextField.m */,
 				F74C63A31BE822A50019DC24 /* NSString+Icons.h */,
 				F74C63A41BE822A50019DC24 /* NSString+Icons.m */,
 				F74C63A51BE822A50019DC24 /* UIBarButtonItem+FlatUI.h */,
