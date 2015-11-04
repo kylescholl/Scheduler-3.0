@@ -1985,17 +1985,17 @@
                         <outletCollection property="gBlockTextViewCollection" destination="JFe-FM-zKm" collectionClass="NSMutableArray" id="MaJ-wP-xEh"/>
                         <outletCollection property="gBlockTextViewCollection" destination="gpu-rL-Kdu" collectionClass="NSMutableArray" id="1kM-tI-xEY"/>
                         <outletCollection property="gBlockTextViewCollection" destination="2lg-wb-nhg" collectionClass="NSMutableArray" id="ezf-ff-Xnh"/>
-                        <segue destination="NC2-Qo-s7G" kind="presentation" identifier="showAddItemViewController" id="aZg-NO-otF"/>
+                        <segue destination="NC2-Qo-s7G" kind="presentation" identifier="showEditScheduleViewController" id="aZg-NO-otF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WDN-hm-Ju3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-180.5" y="88.5"/>
         </scene>
-        <!--Add Item View Controller-->
+        <!--Edit Schedule View Controller-->
         <scene sceneID="0GD-8N-hMc">
             <objects>
-                <viewController id="hhx-I2-wyN" customClass="AddItemViewController" customModule="Scheduler_3_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hhx-I2-wyN" customClass="EditScheduleViewController" customModule="Scheduler_3_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="A77-po-aBc"/>
                         <viewControllerLayoutGuide type="bottom" id="aZp-d3-vhi"/>
@@ -2021,12 +2021,18 @@
                                 <color key="textColor" red="0.0" green="0.50196078430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="create:" destination="hhx-I2-wyN" eventType="editingDidEnd" id="oaQ-Hc-1rN"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ksc-dl-wcc">
                                 <rect key="frame" x="62" y="132" width="250" height="30"/>
                                 <color key="textColor" red="0.0" green="0.50196078430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="create:" destination="hhx-I2-wyN" eventType="editingDidEnd" id="YI6-Px-LeW"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="F block" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nGA-we-Ntv">
                                 <rect key="frame" x="91" y="437" width="200" height="22"/>
@@ -2051,12 +2057,18 @@
                                 <color key="textColor" red="0.0" green="0.50196078430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="create:" destination="hhx-I2-wyN" eventType="editingDidEnd" id="EZF-HW-zRl"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NGG-3u-loV">
                                 <rect key="frame" x="61" y="535" width="250" height="30"/>
                                 <color key="textColor" red="0.0" green="0.50196078430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="create:" destination="hhx-I2-wyN" eventType="editingDidEnd" id="PNR-A4-OHL"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="A block" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtE-cp-Oaa">
                                 <rect key="frame" x="91" y="102" width="200" height="22"/>
@@ -2069,12 +2081,18 @@
                                 <color key="textColor" red="0.0" green="0.50196078430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="create:" destination="hhx-I2-wyN" eventType="editingDidEnd" id="a1W-eg-jw0"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bAR-jP-xvl">
                                 <rect key="frame" x="61" y="199" width="250" height="30"/>
                                 <color key="textColor" red="0.0" green="0.50196078430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="create:" destination="hhx-I2-wyN" eventType="editingDidEnd" id="iEV-Gf-YXE"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="D block" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rem-QW-JOM">
                                 <rect key="frame" x="91" y="303" width="200" height="22"/>
@@ -2087,6 +2105,9 @@
                                 <color key="textColor" red="0.0" green="0.50196078430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="create:" destination="hhx-I2-wyN" eventType="editingDidEnd" id="0Rq-Ln-bS4"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2132,11 +2153,21 @@
                     </view>
                     <navigationItem key="navigationItem" id="66h-B1-YN4">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="ekD-z5-fJK"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="cbO-2g-Cw2"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="cbO-2g-Cw2">
+                            <connections>
+                                <action selector="save:" destination="hhx-I2-wyN" id="EUC-u5-uim"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="ABlock" destination="Ksc-dl-wcc" id="EZq-LB-n5a"/>
+                        <outlet property="BBlock" destination="bAR-jP-xvl" id="FCf-7o-bdb"/>
+                        <outlet property="CBlock" destination="7FH-AY-5em" id="bXU-0I-fW3"/>
+                        <outlet property="DBlock" destination="uww-xf-i0I" id="cNo-h3-VyF"/>
+                        <outlet property="EBlock" destination="yPi-Gc-bHu" id="EpM-ma-imY"/>
+                        <outlet property="FBlock" destination="ly8-BG-09X" id="KTg-fD-083"/>
+                        <outlet property="GBlock" destination="NGG-3u-loV" id="16g-yH-Nze"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5yn-Qm-ast" userLabel="First Responder" sceneMemberID="firstResponder"/>

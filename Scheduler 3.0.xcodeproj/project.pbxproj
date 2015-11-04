@@ -38,7 +38,7 @@
 		F74C63D01BE822A50019DC24 /* UIToolbar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63BC1BE822A50019DC24 /* UIToolbar+FlatUI.m */; };
 		F74C63D51BE84C6A0019DC24 /* SchedulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C63D41BE84C6A0019DC24 /* SchedulerViewController.swift */; };
 		F7EA6D421BE937D400F85FAE /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EA6D411BE937D400F85FAE /* TextView.swift */; };
-		F7EA6D4B1BE9949100F85FAE /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EA6D4A1BE9949100F85FAE /* AddItemViewController.swift */; };
+		F7EA6D4D1BE9A0F400F85FAE /* EditScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EA6D4C1BE9A0F400F85FAE /* EditScheduleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,7 +120,7 @@
 		F74C63BC1BE822A50019DC24 /* UIToolbar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+FlatUI.m"; sourceTree = "<group>"; };
 		F74C63D41BE84C6A0019DC24 /* SchedulerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerViewController.swift; sourceTree = "<group>"; };
 		F7EA6D411BE937D400F85FAE /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextView.swift; path = ../TextView.swift; sourceTree = "<group>"; };
-		F7EA6D4A1BE9949100F85FAE /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddItemViewController.swift; path = ../AddItemViewController.swift; sourceTree = "<group>"; };
+		F7EA6D4C1BE9A0F400F85FAE /* EditScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditScheduleViewController.swift; path = ../EditScheduleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,7 +284,7 @@
 			children = (
 				F7488C951BE8144100F90F49 /* ViewController.swift */,
 				F74C63D41BE84C6A0019DC24 /* SchedulerViewController.swift */,
-				F7EA6D4A1BE9949100F85FAE /* AddItemViewController.swift */,
+				F7EA6D4C1BE9A0F400F85FAE /* EditScheduleViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -485,10 +485,10 @@
 				F74C63CE1BE822A50019DC24 /* UITabBar+FlatUI.m in Sources */,
 				F74C63CB1BE822A50019DC24 /* UIProgressView+FlatUI.m in Sources */,
 				F74C63C71BE822A50019DC24 /* UIFont+FlatUI.m in Sources */,
-				F7EA6D4B1BE9949100F85FAE /* AddItemViewController.swift in Sources */,
 				F74C63C11BE822A50019DC24 /* FUISegmentedControl.m in Sources */,
 				F74C63C31BE822A50019DC24 /* FUITextField.m in Sources */,
 				F74C63C61BE822A50019DC24 /* UIColor+FlatUI.m in Sources */,
+				F7EA6D4D1BE9A0F400F85FAE /* EditScheduleViewController.swift in Sources */,
 				F7488C9C1BE8144100F90F49 /* Scheduler_3_0.xcdatamodeld in Sources */,
 				F74C63D01BE822A50019DC24 /* UIToolbar+FlatUI.m in Sources */,
 				F74C63C91BE822A50019DC24 /* UINavigationBar+FlatUI.m in Sources */,

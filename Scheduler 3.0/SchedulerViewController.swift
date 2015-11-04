@@ -8,10 +8,10 @@
 
 import UIKit
 
-class SchedulerViewController: UIViewController, AddItemViewControllerDelegate {
+class SchedulerViewController: UIViewController, EditScheduleViewControllerDelegate {
 	
 	
-	func aBlockController(aBlockController: AddItemViewController, aBlockItem: String){
+	func aBlockController(aBlockController: EditScheduleViewController, aBlockItem: String){
 		
 		print("aBlockItem: \(aBlockItem)")
 		
@@ -32,7 +32,7 @@ class SchedulerViewController: UIViewController, AddItemViewControllerDelegate {
 		}
 	}
 	
-	func bBlockController(bBlockController: AddItemViewController, bBlockItem: String){
+	func bBlockController(bBlockController: EditScheduleViewController, bBlockItem: String){
 		
 		let numOfBlocks: Int = bBlockTextViewCollection.count
 		
@@ -49,7 +49,7 @@ class SchedulerViewController: UIViewController, AddItemViewControllerDelegate {
 		}
 	}
 	
-	func cBlockController(cBlockController: AddItemViewController, cBlockItem: String){
+	func cBlockController(cBlockController: EditScheduleViewController, cBlockItem: String){
 		
 		let numOfBlocks: Int = cBlockTextViewCollection.count
 		print("numOfABlocks: \(numOfBlocks)")
@@ -67,7 +67,7 @@ class SchedulerViewController: UIViewController, AddItemViewControllerDelegate {
 		}
 	}
 	
-	func dBlockController(dBlockController: AddItemViewController, dBlockItem: String){
+	func dBlockController(dBlockController: EditScheduleViewController, dBlockItem: String){
 		
 		let numOfBlocks: Int = dBlockTextViewCollection.count
 		if dBlockItem == "" {
@@ -83,7 +83,7 @@ class SchedulerViewController: UIViewController, AddItemViewControllerDelegate {
 		}
 	}
 	
-	func eBlockController(eBlockController: AddItemViewController, eBlockItem: String){
+	func eBlockController(eBlockController: EditScheduleViewController, eBlockItem: String){
 		
 		let numOfBlocks: Int = eBlockTextViewCollection.count
 		if eBlockItem == "" {
@@ -99,7 +99,7 @@ class SchedulerViewController: UIViewController, AddItemViewControllerDelegate {
 		}
 	}
 	
-	func fBlockController(fBlockController: AddItemViewController, fBlockItem: String){
+	func fBlockController(fBlockController: EditScheduleViewController, fBlockItem: String){
 		
 		let numOfBlocks: Int = fBlockTextViewCollection.count
 		if fBlockItem == "" {
@@ -115,7 +115,7 @@ class SchedulerViewController: UIViewController, AddItemViewControllerDelegate {
 		}
 	}
 	
-	func gBlockController(gBlockController: AddItemViewController, gBlockItem: String){
+	func gBlockController(gBlockController: EditScheduleViewController, gBlockItem: String){
 		
 		let numOfBlocks: Int = gBlockTextViewCollection.count
 		
@@ -375,11 +375,11 @@ class SchedulerViewController: UIViewController, AddItemViewControllerDelegate {
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 		
 		// SchedulerViewController
-		if segue.identifier == "AddItemViewController" {
+		if segue.identifier == "EditScheduleViewController" {
 			let navigationController = segue.destinationViewController as? UINavigationController
-			let addItemViewController = navigationController?.topViewController as? AddItemViewController
+			let editScheduleViewController = navigationController?.topViewController as? EditScheduleViewController
 			
-			if let viewController = addItemViewController {
+			if let viewController = editScheduleViewController {
 				viewController.delegate = self
 			}
 		}
