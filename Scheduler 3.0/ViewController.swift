@@ -55,12 +55,8 @@ class ViewController: UIViewController {
 		
 		// SchedulerViewController
 		if segue.identifier == "SchedulerViewController" {
-			let navigationController = segue.destinationViewController as? UINavigationController
-			let schedulerViewController = navigationController?.topViewController as? SchedulerViewController
-			
-			if let viewController = schedulerViewController {
-				//viewController.delegate = self
-			}
+			//let navigationController = segue.destinationViewController as? UINavigationController
+			//let schedulerViewController = navigationController?.topViewController as? SchedulerViewController
 		}
 		
 		// NetClassroomViewController

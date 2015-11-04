@@ -37,6 +37,8 @@
 		F74C63CF1BE822A50019DC24 /* UITableViewCell+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63BA1BE822A50019DC24 /* UITableViewCell+FlatUI.m */; };
 		F74C63D01BE822A50019DC24 /* UIToolbar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63BC1BE822A50019DC24 /* UIToolbar+FlatUI.m */; };
 		F74C63D51BE84C6A0019DC24 /* SchedulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C63D41BE84C6A0019DC24 /* SchedulerViewController.swift */; };
+		F7EA6D421BE937D400F85FAE /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EA6D411BE937D400F85FAE /* TextView.swift */; };
+		F7EA6D4B1BE9949100F85FAE /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EA6D4A1BE9949100F85FAE /* AddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +119,8 @@
 		F74C63BB1BE822A50019DC24 /* UIToolbar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+FlatUI.h"; sourceTree = "<group>"; };
 		F74C63BC1BE822A50019DC24 /* UIToolbar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+FlatUI.m"; sourceTree = "<group>"; };
 		F74C63D41BE84C6A0019DC24 /* SchedulerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerViewController.swift; sourceTree = "<group>"; };
+		F7EA6D411BE937D400F85FAE /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextView.swift; path = ../TextView.swift; sourceTree = "<group>"; };
+		F7EA6D4A1BE9949100F85FAE /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddItemViewController.swift; path = ../AddItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,7 +194,7 @@
 			children = (
 				F74C63D31BE84C2D0019DC24 /* View Controllers */,
 				F7488C971BE8144100F90F49 /* Main.storyboard */,
-				F74C63921BE821F10019DC24 /* Scheduler-FlatUIKit.h */,
+				F7EA6D431BE937E900F85FAE /* Supporting Files */,
 				F74C63D21BE825B60019DC24 /* Stuff I don't really use */,
 			);
 			path = "Scheduler 3.0";
@@ -280,8 +284,18 @@
 			children = (
 				F7488C951BE8144100F90F49 /* ViewController.swift */,
 				F74C63D41BE84C6A0019DC24 /* SchedulerViewController.swift */,
+				F7EA6D4A1BE9949100F85FAE /* AddItemViewController.swift */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F7EA6D431BE937E900F85FAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7EA6D411BE937D400F85FAE /* TextView.swift */,
+				F74C63921BE821F10019DC24 /* Scheduler-FlatUIKit.h */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -471,6 +485,7 @@
 				F74C63CE1BE822A50019DC24 /* UITabBar+FlatUI.m in Sources */,
 				F74C63CB1BE822A50019DC24 /* UIProgressView+FlatUI.m in Sources */,
 				F74C63C71BE822A50019DC24 /* UIFont+FlatUI.m in Sources */,
+				F7EA6D4B1BE9949100F85FAE /* AddItemViewController.swift in Sources */,
 				F74C63C11BE822A50019DC24 /* FUISegmentedControl.m in Sources */,
 				F74C63C31BE822A50019DC24 /* FUITextField.m in Sources */,
 				F74C63C61BE822A50019DC24 /* UIColor+FlatUI.m in Sources */,
@@ -480,6 +495,7 @@
 				F7488C961BE8144100F90F49 /* ViewController.swift in Sources */,
 				F74C63CC1BE822A50019DC24 /* UISlider+FlatUI.m in Sources */,
 				F74C63CF1BE822A50019DC24 /* UITableViewCell+FlatUI.m in Sources */,
+				F7EA6D421BE937D400F85FAE /* TextView.swift in Sources */,
 				F74C63D51BE84C6A0019DC24 /* SchedulerViewController.swift in Sources */,
 				F74C63C51BE822A50019DC24 /* UIBarButtonItem+FlatUI.m in Sources */,
 				F74C63BF1BE822A50019DC24 /* FUICellBackgroundView.m in Sources */,
