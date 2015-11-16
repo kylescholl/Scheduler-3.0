@@ -283,10 +283,18 @@
 			isa = PBXGroup;
 			children = (
 				F7488C951BE8144100F90F49 /* ViewController.swift */,
+				F7C3E0491BF0D91F00514E5E /* Scheduler path */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F7C3E0491BF0D91F00514E5E /* Scheduler path */ = {
+			isa = PBXGroup;
+			children = (
 				F74C63D41BE84C6A0019DC24 /* SchedulerViewController.swift */,
 				F7EA6D4C1BE9A0F400F85FAE /* EditScheduleViewController.swift */,
 			);
-			name = "View Controllers";
+			name = "Scheduler path";
 			sourceTree = "<group>";
 		};
 		F7EA6D431BE937E900F85FAE /* Supporting Files */ = {

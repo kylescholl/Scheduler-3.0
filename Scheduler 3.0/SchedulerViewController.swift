@@ -217,7 +217,7 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 	
 	@IBOutlet var daySevenLabelGroup: [UILabel]!
 	
-	//	Just realized that I could've just made an even and od groups instead.....oh well
+	//	Just realized that I could've just made even and odd groups instead.....oh well
 	
 	
 	// BUTTON OUTLETS
@@ -236,11 +236,12 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 	
 	@IBOutlet var daySevenButton: UIButton!
 	
+	
 	// ALL LABELS
 	
 	@IBOutlet var allLabelsCollection: [UILabel]!
 	
-	
+	// this isn't working for some reason
 	
 	
 	
@@ -355,7 +356,6 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 		let cancelAction: UIAlertAction = UIAlertAction(title: "Cancel", style: .Cancel) { action -> Void in
 			self.setEditingForViews(false)
 		}
-		
 		actionSheetController.addAction(cancelAction)
 		
 		//let plot = CGRectMake(5, 20, 320, 400)
@@ -377,10 +377,9 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 				action -> Void in
 				self.setEditingForViews(true)
 			}
-			
-			
-			
 			editMethodSheetController.addAction(individualEditMethod)
+			
+			
 			
 			
 			// Segue to ViewController
@@ -444,7 +443,7 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
     }
 	
 	override func viewWillAppear(animated: Bool) {
-		setTextToDefault()
+		//setTextToDefault()
 		initializeAllUIElements()
 		
 		self.view.backgroundColor = UIColor.wetAsphaltColor()
@@ -514,7 +513,7 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////// The following is all /////////////////////////////
-/////////////////////////// styling and customization //////////////////////////
+////////////////////////// styling and customization ///////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
@@ -536,83 +535,52 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 	func initializeAllUIElements() {
 		
 		let textColor : UIColor = UIColor.cloudsColor()
-		let backColor : UIColor = UIColor.wetAsphaltColor()
+		let fontStyle = UIFont(name: "Helvetica Neue Thin", size: 11.0)
+		// let backColor : UIColor = UIColor.wetAsphaltColor()
+		
 		
 		// Sets the textViews
-	/*
 		for index in 0..<6 {
-			var elem : UITextView
 			
-			elem = dayOneGroup[index]
-			elem.backgroundColor = UIColor.wetAsphaltColor()
-			elem.textColor = textColor
+			//dayOneGroup[index].backgroundColor = backColor
+			dayOneGroup[index].textColor = textColor
+			dayOneGroup[index].font = fontStyle
 			
-			elem = dayTwoGroup[index]
-			elem.backgroundColor = UIColor.midnightBlueColor()
-			elem.textColor = textColor
-		
-			elem = dayThreeGroup[index]
-			elem.backgroundColor = UIColor.wetAsphaltColor()
-			elem.textColor = textColor
+			//dayTwoGroup[index].backgroundColor = backColor
+			dayTwoGroup[index].textColor = textColor
+			dayTwoGroup[index].font = fontStyle
 			
-			elem = dayFourGroup[index]
-			elem.backgroundColor = UIColor.midnightBlueColor()
-			elem.textColor = textColor
+			//dayThreeGroup[index].backgroundColor = backColor
+			dayThreeGroup[index].textColor = textColor
+			dayThreeGroup[index].font = fontStyle
 			
-			elem = dayFiveGroup[index]
-			elem.backgroundColor = UIColor.wetAsphaltColor()
-			elem.textColor = textColor
+			//dayFourGroup[index].backgroundColor = backColor
+			dayFourGroup[index].textColor = textColor
+			dayFourGroup[index].font = fontStyle
 			
-			elem = daySixGroup[index]
-			elem.backgroundColor = UIColor.midnightBlueColor()
-			elem.textColor = textColor
+			//dayFiveGroup[index].backgroundColor = backColor
+			dayFiveGroup[index].textColor = textColor
+			dayFiveGroup[index].font = fontStyle
 			
-			elem = daySevenGroup[index]
-			elem.backgroundColor = UIColor.wetAsphaltColor()
-			elem.textColor = textColor
-		}
-	*/
-		
-		for index in 0..<6 {
-			var elem : UITextView
-			var curElem : UITextView
-			
-			elem = dayOneGroup[index]
-			//elem.backgroundColor = backColor
-			elem.textColor = textColor
-			
-			elem = dayTwoGroup[index]
-			//elem.backgroundColor = backColor
-			elem.textColor = textColor
-			
-			elem = dayThreeGroup[index]
-			//elem.backgroundColor = backColor
-			elem.textColor = textColor
-			
-			elem = dayFourGroup[index]
-			//elem.backgroundColor = backColor
-			elem.textColor = textColor
-			
-			curElem = dayFiveGroup[index]
-			elem = curElem
-			//elem.backgroundColor = backColor
-			elem.textColor = textColor
-			
-			elem = daySixGroup[index]
-			//elem.backgroundColor = backColor
-			elem.textColor = textColor
-			
-			elem = daySevenGroup[index]
-			////elem.backgroundColor = backColor
-			elem.textColor = textColor
-		}
-		
+			//daySixGroup[index].backgroundColor = backColor
+			daySixGroup[index].textColor = textColor
+			daySixGroup[index].font = fontStyle
 
-		for index in 0..<allLabelsCollection.count {
-			//allLabelsCollection[index].backgroundColor = backColor
+			////daySevenGroup[index].backgroundColor = backColor
+			daySevenGroup[index].textColor = textColor
+			daySevenGroup[index].font = fontStyle
+		}
+		
+		let arrayCount = allLabelsCollection.count
+		for numOfLabels in 0..<arrayCount {
 			
-			allLabelsCollection[index].textColor = textColor
-			allLabelsCollection[index].font = UIFont(name: "Helvetica Neue Thin", size: 12.0)
+			//allLabelsCollection[numOfLabels].textColor = textColor
+			//allLabelsCollection[numOfLabels].font = fontStyle
+			
+			allLabelsCollection[numOfLabels].font = UIFont(name: "Helvetica Neue Thin", size: 11.0)
+			print(numOfLabels)
+			allLabelsCollection[numOfLabels].textColor = UIColor.cloudsColor()
+			print("the jawn ran")
 		}
 	}
 	

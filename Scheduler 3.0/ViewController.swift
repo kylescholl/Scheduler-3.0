@@ -32,6 +32,9 @@ class ViewController: UIViewController {
 		ssb.backgroundColor = UIColor.orangeColor()
 		//ssb.backgroundColor = UIColor.belizeHoleColor()
 		
+		ssb.layer.cornerRadius = 10.0
+		ssb.tag = 2
+		
 		ssb.setTitle("Schedule", forState: UIControlState.Normal)
 		ssb.setTitleColor(UIColor.cloudsColor(), forState: UIControlState.Normal)
 		ssb.titleLabel!.font = UIFont(name: "Helvetica Neue Light", size: 50.0)
@@ -42,6 +45,9 @@ class ViewController: UIViewController {
 		//	ncb.layer.cornerRadius = 10
 		//ncb.backgroundColor = UIColor.peterRiverColor()
 		ncb.backgroundColor = UIColor.orangeColor()
+		
+		ncb.layer.cornerRadius = 10.0
+		ncb.tag = 2
 		
 		ncb.setTitle("NetClassroom", forState: UIControlState.Normal)
 		ncb.setTitleColor(UIColor.cloudsColor(), forState: UIControlState.Normal)
