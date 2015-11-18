@@ -8,14 +8,7 @@
 
 import UIKit
 
-protocol SchedulerViewControllerDelegate {
-	func hehe(hehe: SchedulerViewController, lol: String)
-}
-
 class SchedulerViewController: UIViewController, EditScheduleViewControllerDelegate {
-	
-	var delegate: SchedulerViewControllerDelegate?
-	
 	
 	func aBlockController(aBlockController: EditScheduleViewController, aBlockItem: String){
 		
@@ -311,8 +304,7 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 		
 		//Create and add an option action
 		let nextAction: UIAlertAction = UIAlertAction(title: "Yes, clear", style: UIAlertActionStyle.Default) { action -> Void in
-			//self.setTextViewText("")
-			self.setTextToDefault()
+			self.setTextOfBlocks("clear")
 			
 		}
 		actionSheetController.addAction(nextAction)
@@ -358,15 +350,6 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 		}
 		actionSheetController.addAction(cancelAction)
 		
-		//let plot = CGRectMake(5, 20, 320, 400)
-		let alert : FUIAlertView = FUIAlertView()
-		alert.title = "Alert"
-		alert.message = "Here's a message"
-		alert.addButtonWithTitle("Understod")
-		alert.show()
-		
-		
-		
 		//Create and add an option action
 		let nextAction: UIAlertAction = UIAlertAction(title: "Edit", style: UIAlertActionStyle.Default) { action -> Void in
 			let editMethodSheetController : UIAlertController = UIAlertController(title: "", message: "Would you like to edit the block groups or each individually?", preferredStyle: .Alert)
@@ -400,17 +383,76 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 		self.presentViewController(actionSheetController, animated: true, completion: nil)
 	}
 	
-	
-	
-	
-	
-	
 	@IBAction func back(sender: UIBarButtonItem) {
 		self.dismissViewControllerAnimated(true, completion: nil)
 	}
 	
-	func setTextViewText(someString: String) {
+	
+	
+	
+	
+	func setTextOfBlocks(condition: String) {
+		if condition == "clear" {
+			for index in 0..<6 {
+				aBlockTextViewCollection[index].text = ""
+				bBlockTextViewCollection[index].text = ""
+				cBlockTextViewCollection[index].text = ""
+				dBlockTextViewCollection[index].text = ""
+				eBlockTextViewCollection[index].text = ""
+				fBlockTextViewCollection[index].text = ""
+				gBlockTextViewCollection[index].text = ""
+			}
+		}
 		
+		let aNumIndex : Int = aBlockTextViewCollection.count
+		let bNumIndex : Int = bBlockTextViewCollection.count
+		let cNumIndex : Int = cBlockTextViewCollection.count
+		let dNumIndex : Int = dBlockTextViewCollection.count
+		let eNumIndex : Int = eBlockTextViewCollection.count
+		let fNumIndex : Int = fBlockTextViewCollection.count
+		let gNumIndex : Int = gBlockTextViewCollection.count
+		
+		if condition == "default" {
+			// A
+			for index in 0..<aNumIndex {
+				aBlockTextViewCollection[index].text = "A"
+			}
+			
+			// B
+			for index in 0..<bNumIndex {
+				bBlockTextViewCollection[index].text = "B"
+			}
+			
+			// C
+			for index in 0..<cNumIndex {
+				cBlockTextViewCollection[index].text = "C"
+			}
+			
+			// D
+			for index in 0..<dNumIndex {
+				dBlockTextViewCollection[index].text = "D"
+			}
+			
+			// E
+			for index in 0..<eNumIndex {
+				eBlockTextViewCollection[index].text = "E"
+			}
+			
+			// F
+			for index in 0..<fNumIndex {
+				fBlockTextViewCollection[index].text = "F"
+			}
+			
+			// G
+			for index in 0..<gNumIndex {
+				gBlockTextViewCollection[index].text = "G"
+			}
+		}
+	}
+	
+	
+	
+	func setTextViewText(someString: String) {
 		for index in 0..<6 {
 			aBlockTextViewCollection[index].text = someString
 			bBlockTextViewCollection[index].text = someString
@@ -420,33 +462,6 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 			fBlockTextViewCollection[index].text = someString
 			gBlockTextViewCollection[index].text = someString
 		}
-	}
-	
-	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-		
-		// SchedulerViewController
-		if segue.identifier == "EditScheduleViewController" {
-			let navigationController = segue.destinationViewController as? UINavigationController
-			let editScheduleViewController = navigationController?.topViewController as? EditScheduleViewController
-			
-			if let viewController = editScheduleViewController {
-				viewController.delegate = self
-			}
-		}
-	}
-	
-    override func viewDidLoad() {
-        super.viewDidLoad()
-		NSLog("SchedulerViewController: viewDidLoad()")
-		
-		setEditingForViews(false)
-    }
-	
-	override func viewWillAppear(animated: Bool) {
-		//setTextToDefault()
-		initializeAllUIElements()
-		
-		self.view.backgroundColor = UIColor.wetAsphaltColor()
 	}
 	
 	func setTextToDefault() {
@@ -495,6 +510,41 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 		}
 	}
 	
+	
+	
+	
+	
+	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+		// SchedulerViewController
+		if segue.identifier == "EditScheduleViewController" {
+			let navigationController = segue.destinationViewController as? UINavigationController
+			let editScheduleViewController = navigationController?.topViewController as? EditScheduleViewController
+			
+			if let viewController = editScheduleViewController {
+				viewController.delegate = self
+			}
+		}
+	}
+	
+	
+	
+	
+    override func viewDidLoad() {
+        super.viewDidLoad()
+		NSLog("SchedulerViewController: viewDidLoad()")
+		
+		setEditingForViews(false)
+    }
+	
+	override func viewWillAppear(animated: Bool) {
+		//setTextToDefault()
+		initializeAllUIElements()
+		
+		self.view.backgroundColor = UIColor.wetAsphaltColor()
+	}
+	
+	
+	
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -535,7 +585,9 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 	func initializeAllUIElements() {
 		
 		let textColor : UIColor = UIColor.cloudsColor()
-		let fontStyle = UIFont(name: "Helvetica Neue Thin", size: 11.0)
+		//let fontStyle = UIFont(name: "Helvetica Neue Thin", size: 11.0)
+		let fontStyle = UIFont(name: "Directory", size: 18.0)
+		
 		// let backColor : UIColor = UIColor.wetAsphaltColor()
 		
 		
@@ -571,13 +623,13 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 			daySevenGroup[index].font = fontStyle
 		}
 		
+		let fontStyleTwo = UIFont(name: "Helvetica Neue Thin", size: 10.0)
 		let arrayCount = allLabelsCollection.count
 		for numOfLabels in 0..<arrayCount {
 			
 			//allLabelsCollection[numOfLabels].textColor = textColor
-			//allLabelsCollection[numOfLabels].font = fontStyle
+			allLabelsCollection[numOfLabels].font = fontStyleTwo
 			
-			allLabelsCollection[numOfLabels].font = UIFont(name: "Helvetica Neue Thin", size: 11.0)
 			print(numOfLabels)
 			allLabelsCollection[numOfLabels].textColor = UIColor.cloudsColor()
 			print("the jawn ran")

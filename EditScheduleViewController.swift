@@ -29,11 +29,14 @@ class EditScheduleViewController: UIViewController, UITextFieldDelegate {
 	@IBOutlet var FBlock: UITextField?
 	@IBOutlet var GBlock: UITextField?
 	
+	
 	var delegate: EditScheduleViewControllerDelegate?
+	
 	
 	@IBAction func save(sender: UIBarButtonItem) {
 		self.dismissViewControllerAnimated(true, completion: nil)
 	}
+	
 	
 	@IBAction func create(sender: AnyObject) {
 		

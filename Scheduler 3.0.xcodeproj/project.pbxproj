@@ -37,6 +37,7 @@
 		F74C63CF1BE822A50019DC24 /* UITableViewCell+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63BA1BE822A50019DC24 /* UITableViewCell+FlatUI.m */; };
 		F74C63D01BE822A50019DC24 /* UIToolbar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63BC1BE822A50019DC24 /* UIToolbar+FlatUI.m */; };
 		F74C63D51BE84C6A0019DC24 /* SchedulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C63D41BE84C6A0019DC24 /* SchedulerViewController.swift */; };
+		F7B0264B1BFA9C0E001C4532 /* Directory.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7B0264A1BFA9C0E001C4532 /* Directory.ttf */; };
 		F7EA6D421BE937D400F85FAE /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EA6D411BE937D400F85FAE /* TextView.swift */; };
 		F7EA6D4D1BE9A0F400F85FAE /* EditScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EA6D4C1BE9A0F400F85FAE /* EditScheduleViewController.swift */; };
 /* End PBXBuildFile section */
@@ -119,6 +120,7 @@
 		F74C63BB1BE822A50019DC24 /* UIToolbar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+FlatUI.h"; sourceTree = "<group>"; };
 		F74C63BC1BE822A50019DC24 /* UIToolbar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+FlatUI.m"; sourceTree = "<group>"; };
 		F74C63D41BE84C6A0019DC24 /* SchedulerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerViewController.swift; sourceTree = "<group>"; };
+		F7B0264A1BFA9C0E001C4532 /* Directory.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Directory.ttf; sourceTree = "<group>"; };
 		F7EA6D411BE937D400F85FAE /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextView.swift; path = ../TextView.swift; sourceTree = "<group>"; };
 		F7EA6D4C1BE9A0F400F85FAE /* EditScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditScheduleViewController.swift; path = ../EditScheduleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -195,6 +197,7 @@
 				F74C63D31BE84C2D0019DC24 /* View Controllers */,
 				F7488C971BE8144100F90F49 /* Main.storyboard */,
 				F7EA6D431BE937E900F85FAE /* Supporting Files */,
+				F7B026471BFA990C001C4532 /* Resources */,
 				F74C63D21BE825B60019DC24 /* Stuff I don't really use */,
 			);
 			path = "Scheduler 3.0";
@@ -286,6 +289,14 @@
 				F7C3E0491BF0D91F00514E5E /* Scheduler path */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F7B026471BFA990C001C4532 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7B0264A1BFA9C0E001C4532 /* Directory.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		F7C3E0491BF0D91F00514E5E /* Scheduler path */ = {
@@ -415,6 +426,7 @@
 			files = (
 				F7488CA11BE8144100F90F49 /* LaunchScreen.storyboard in Resources */,
 				F7488C9E1BE8144100F90F49 /* Assets.xcassets in Resources */,
+				F7B0264B1BFA9C0E001C4532 /* Directory.ttf in Resources */,
 				F7488C991BE8144100F90F49 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
