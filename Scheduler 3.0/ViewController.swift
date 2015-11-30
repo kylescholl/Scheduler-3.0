@@ -10,17 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 	
-	func hehe(hehe: SchedulerViewController, lol: String) {
-	
-	}
-	
-	
 	@IBOutlet var showScheduleButton: UIButton!
 	@IBOutlet var netClassroomButton: UIButton!
+	
+	@IBOutlet var orangeButton: UIButton!
+	@IBOutlet var carrotButton: UIButton!
+	@IBOutlet var pumpkinButton: UIButton!
+	@IBOutlet var greenSeaButton: UIButton!
+	
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		print("viewDidLoad()")
+		
+		let bool = true
+		if bool.boolValue == true {
+			orangeButton.hidden = true
+			carrotButton.hidden = true
+			pumpkinButton.hidden = true
+			greenSeaButton.hidden = true
+			
+			print("color buttons hidden")
+		}
 	}
 	
 	func setButtonStyles() {
@@ -28,29 +39,25 @@ class ViewController: UIViewController {
 		// Schedule
 		let ssb = showScheduleButton
 		
-		//	ssb.layer.cornerRadius = 10
-		ssb.backgroundColor = UIColor.orangeColor()
-		//ssb.backgroundColor = UIColor.belizeHoleColor()
+		//ssb.backgroundColor = UIColor.orangeColor()
 		
 		ssb.layer.cornerRadius = 10.0
 		ssb.tag = 2
 		
 		ssb.setTitle("Schedule", forState: UIControlState.Normal)
-		ssb.setTitleColor(UIColor.cloudsColor(), forState: UIControlState.Normal)
+		//ssb.setTitleColor(UIColor.cloudsColor(), forState: UIControlState.Normal)
 		ssb.titleLabel!.font = UIFont(name: "Helvetica Neue Light", size: 50.0)
 		
 		// NetClassroom
 		let ncb = netClassroomButton
 		
-		//	ncb.layer.cornerRadius = 10
-		//ncb.backgroundColor = UIColor.peterRiverColor()
 		ncb.backgroundColor = UIColor.orangeColor()
 		
 		ncb.layer.cornerRadius = 10.0
 		ncb.tag = 2
 		
 		ncb.setTitle("NetClassroom", forState: UIControlState.Normal)
-		ncb.setTitleColor(UIColor.cloudsColor(), forState: UIControlState.Normal)
+		//ncb.setTitleColor(UIColor.cloudsColor(), forState: UIControlState.Normal)
 		ncb.titleLabel!.font = UIFont(name: "Helvetica Neue Light", size: 50.0)
 		
 		
@@ -62,6 +69,15 @@ class ViewController: UIViewController {
 	}
 	
 	
+	
+	
+
+
+
+
+
+
+
 	@IBAction func showScheduleButtonPressed(sender: UIButton) {
 		NSLog("showScheduleButtonPressed")
 		
@@ -71,14 +87,15 @@ class ViewController: UIViewController {
 	
 	
 	
+	
+/*
 	@IBAction func animateButtons(sender: UIButton) {
 		
 		let button = sender as UIButton
 		
 		button.addTarget(self, action: "pressed:", forControlEvents: .TouchUpInside)
 		button.addTarget(self, action: "touchEnded", forControlEvents: .TouchCancel)
-		
-
+	
 /*
 		// resets the color back to normal
 		UIView.animateWithDuration(1.0, animations: {
@@ -100,26 +117,26 @@ class ViewController: UIViewController {
 	func touchEnded(sender: UIButton!) {
 		print("touchEnded() ran")
 	}
+*/
 	
 	
 	
 	
 	
 	
-	
-	
+
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 		
 		// SchedulerViewController
 		if segue.identifier == "AddItemViewController" {
-			let navigationController = segue.destinationViewController as? UINavigationController
-			let schedulerViewController = navigationController?.topViewController as? SchedulerViewController
+			//let navigationController = segue.destinationViewController as? UINavigationController
+			//let schedulerViewController = navigationController?.topViewController as? SchedulerViewController
 			
-			if let viewController = schedulerViewController {
+			//if let viewController = schedulerViewController {
 				//viewController.delegate = self
-			}
+				//}
 		}
-		
+/*
 		// NetClassroomViewController
 		if segue.identifier == "NetClassroomViewController" {
 			//let navigationController = segue.destinationViewController as? UINavigationController
@@ -132,26 +149,19 @@ class ViewController: UIViewController {
 			*/
 		}
 	}
+*/
+	}
 	
 	override func viewWillAppear(animated: Bool)  {
 		super.viewWillAppear(animated)
 		print("viewWillAppear()")
 		
-		self.view.backgroundColor = UIColor.wetAsphaltColor()
+		//self.view.backgroundColor = UIColor.wetAsphaltColor()
 		setButtonStyles()
 	}
 	
-	
-	
-	
-	
-	
-	
-	
 	@IBAction func netClassroomButtonPressed(sender: UIButton) {
 		NSLog("netClassroomButtonPressed")
-		
-		
 		
 		//let plot = CGRectMake(5, 20, 320, 400)
 		let alert : FUIAlertView = FUIAlertView()
@@ -161,25 +171,12 @@ class ViewController: UIViewController {
 		alert.defaultButtonColor = UIColor.wetAsphaltColor()
 		
 		alert.show()
-		
-		
-		
-		
 	}
-	
-	
-	
-	
-	
-	
-	
 	
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.
 	}
-
-
 }
 
 

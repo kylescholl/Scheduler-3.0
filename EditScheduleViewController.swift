@@ -9,14 +9,7 @@
 import UIKit
 
 protocol EditScheduleViewControllerDelegate {
-	
-	func aBlockController(aBlockController: EditScheduleViewController, aBlockItem: String)
-	func bBlockController(bBlockController: EditScheduleViewController, bBlockItem: String)
-	func cBlockController(cBlockController: EditScheduleViewController, cBlockItem: String)
-	func dBlockController(dBlockController: EditScheduleViewController, dBlockItem: String)
-	func eBlockController(eBlockController: EditScheduleViewController, eBlockItem: String)
-	func fBlockController(fBlockController: EditScheduleViewController, fBlockItem: String)
-	func gBlockController(gBlockController: EditScheduleViewController, gBlockItem: String)
+	func controller(controller: EditScheduleViewController, aBlockItem: String, bBlockItem: String, cBlockItem: String, dBlockItem: String, eBlockItem: String, fBlockItem: String, gBlockItem: String)
 }
 
 class EditScheduleViewController: UIViewController, UITextFieldDelegate {
@@ -69,18 +62,27 @@ class EditScheduleViewController: UIViewController, UITextFieldDelegate {
 		
 		
 		if let delegate = self.delegate {
-			delegate.aBlockController(self, aBlockItem: ABlockText)
-			delegate.bBlockController(self, bBlockItem: BBlockText)
-			delegate.cBlockController(self, cBlockItem: CBlockText)
-			delegate.dBlockController(self, dBlockItem: DBlockText)
-			delegate.eBlockController(self, eBlockItem: EBlockText)
-			delegate.fBlockController(self, fBlockItem: FBlockText)
-			delegate.gBlockController(self, gBlockItem: GBlockText)
+			delegate.controller(self, aBlockItem: ABlockText, bBlockItem: BBlockText, cBlockItem: CBlockText, dBlockItem: DBlockText, eBlockItem: EBlockText, fBlockItem: FBlockText, gBlockItem: GBlockText)
+			
+			print("Delegate if statement ran")
 		}
+	}
+	
+	func textFieldShouldReturn(textField: UITextField) -> Bool {
+		self.view.endEditing(true)
+		return false
 	}
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		
+		self.ABlock!.delegate = self
+		self.BBlock!.delegate = self
+		self.CBlock!.delegate = self
+		self.DBlock!.delegate = self
+		self.EBlock!.delegate = self
+		self.FBlock!.delegate = self
+		self.GBlock!.delegate = self
 	}
 	
 	override func didReceiveMemoryWarning() {
