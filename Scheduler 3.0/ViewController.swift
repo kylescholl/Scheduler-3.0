@@ -23,6 +23,7 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 		print("viewDidLoad()")
 		
+		/*
 		let bool = true
 		if bool.boolValue == true {
 			orangeButton.hidden = true
@@ -32,6 +33,7 @@ class ViewController: UIViewController {
 			
 			print("color buttons hidden")
 		}
+*/
 	}
 	
 	func setButtonStyles() {
@@ -87,7 +89,9 @@ class ViewController: UIViewController {
 	
 	
 	
-	
+	// Removed the connection between the buttons 
+	// and func in hopes to fix throwback error
+		// It didn't work
 /*
 	@IBAction func animateButtons(sender: UIButton) {
 		
@@ -160,6 +164,7 @@ class ViewController: UIViewController {
 		setButtonStyles()
 	}
 	
+/*
 	@IBAction func netClassroomButtonPressed(sender: UIButton) {
 		NSLog("netClassroomButtonPressed")
 		
@@ -172,6 +177,7 @@ class ViewController: UIViewController {
 		
 		alert.show()
 	}
+*/
 	
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()

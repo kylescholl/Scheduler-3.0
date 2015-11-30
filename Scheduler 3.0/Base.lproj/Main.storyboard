@@ -2324,7 +2324,6 @@
                                     <color key="titleColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="animateButtons:" destination="BYZ-38-t0r" eventType="touchDown" id="XVT-vP-zBt"/>
                                     <action selector="netClassroomButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mho-Gf-K1j"/>
                                 </connections>
                             </button>
@@ -2356,7 +2355,6 @@
                                     <color key="titleColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="animateButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s4Z-OT-fmx"/>
                                     <action selector="showScheduleButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nud-eq-pta"/>
                                 </connections>
                             </button>
@@ -2379,7 +2377,7 @@
                         <outlet property="orangeButton" destination="xRg-r2-7P5" id="jab-Zt-NYY"/>
                         <outlet property="pumpkinButton" destination="fog-il-2Tr" id="vq4-hJ-XHD"/>
                         <outlet property="showScheduleButton" destination="c7k-Xb-kZa" id="Qc1-zJ-NhN"/>
-                        <segue destination="HL8-0w-b1D" kind="show" identifier="SchedulerViewController" id="iu1-6C-e6w"/>
+                        <segue destination="HL8-0w-b1D" kind="presentation" identifier="SchedulerViewController" id="iu1-6C-e6w"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -2427,6 +2425,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HL8-0w-b1D" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="bo0-j7-jxS"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dGG-jE-liF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

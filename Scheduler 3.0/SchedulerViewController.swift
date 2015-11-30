@@ -22,6 +22,7 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 		print("sup fam")
 		
 		if aBlockItem.isEmpty == false || bBlockItem.isEmpty == false || cBlockItem.isEmpty == false || dBlockItem.isEmpty == false || eBlockItem.isEmpty == false || fBlockItem == "" || gBlockItem == "" {
+			
 			let defaults = NSUserDefaults.standardUserDefaults()
 			defaults.setValue(aBlockItem, forKey: "ABlock")
 			defaults.setValue(bBlockItem, forKey: "BBlock")
@@ -447,7 +448,9 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 	
 	
 	func loadSchedule() {
+		
 		let defaults = NSUserDefaults.standardUserDefaults()
+		
 		
 		// Last indexes of each array
 		let aNumIndex = aBlockTextViewCollection.count
@@ -499,8 +502,8 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 	
     override func viewDidLoad() {
         super.viewDidLoad()
-		NSLog("SchedulerViewController: viewDidLoad()")
 		
+		loadSchedule()
 		setEditingForViews(false)
     }
 	
