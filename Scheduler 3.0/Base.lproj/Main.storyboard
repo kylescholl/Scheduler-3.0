@@ -5,7 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
     </dependencies>
     <scenes>
         <!--Scheduler View Controller-->
@@ -1975,31 +1974,28 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="gSp-Ne-ozQ">
-                        <barButtonItem key="leftBarButtonItem" title="Back" id="n4T-mR-xQB">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="done" id="ML4-bK-1AJ">
                             <color key="tintColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="a0e-bv-qoB">
+                            <rect key="frame" x="157" y="7" width="62" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="Clear">
+                                <color key="titleColor" red="0.82745098039999998" green="0.3294117647" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="awF-zg-h9i">
+                            <color key="tintColor" red="0.086274509799999996" green="0.62745098040000002" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <action selector="back:" destination="1Tm-zA-Rjv" id="TQ4-Fs-H7f"/>
+                                <action selector="editSchedule:" destination="1Tm-zA-Rjv" id="UVt-iO-E69"/>
                             </connections>
                         </barButtonItem>
-                        <rightBarButtonItems>
-                            <barButtonItem systemItem="edit" id="awF-zg-h9i">
-                                <color key="tintColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <connections>
-                                    <action selector="editSchedule:" destination="1Tm-zA-Rjv" id="UVt-iO-E69"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem title="Clear                           " id="2Tx-9K-faJ">
-                                <color key="tintColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <connections>
-                                    <action selector="clearSchedule:" destination="1Tm-zA-Rjv" id="cdM-r7-h6z"/>
-                                </connections>
-                            </barButtonItem>
-                        </rightBarButtonItems>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="backButton" destination="gSp-Ne-ozQ" id="Ovu-0Z-eNK"/>
-                        <outlet property="clearButton" destination="2Tx-9K-faJ" id="VN9-Bs-Tod"/>
                         <outlet property="editButton" destination="awF-zg-h9i" id="Ymi-Fm-Tcr"/>
                         <outlet property="navigationBar" destination="gSp-Ne-ozQ" id="qF5-wR-SNB"/>
                         <outletCollection property="aBlockTextViewCollection" destination="Uhy-uj-72R" collectionClass="NSMutableArray" id="swy-sv-gBS"/>
@@ -2281,10 +2277,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="66h-B1-YN4">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="ekD-z5-fJK">
-                            <color key="tintColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" red="0.82745098039999998" green="0.3294117647" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="cbO-2g-Cw2">
-                            <color key="tintColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" red="0.086274509799999996" green="0.62745098040000002" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="save:" destination="hhx-I2-wyN" id="EUC-u5-uim"/>
                             </connections>
@@ -2319,11 +2315,12 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usE-0f-NvB" userLabel="NetClassroom Button">
                                 <rect key="frame" x="87" y="428" width="200" height="75"/>
-                                <color key="backgroundColor" red="0.90196078430000004" green="0.4941176471" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.086274509799999996" green="0.62745098040000002" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="(87, 428)">
                                     <color key="titleColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="netClassroomButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hdc-D0-BX1"/>
                                     <action selector="netClassroomButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mho-Gf-K1j"/>
                                 </connections>
                             </button>
@@ -2377,18 +2374,51 @@
                         <outlet property="orangeButton" destination="xRg-r2-7P5" id="jab-Zt-NYY"/>
                         <outlet property="pumpkinButton" destination="fog-il-2Tr" id="vq4-hJ-XHD"/>
                         <outlet property="showScheduleButton" destination="c7k-Xb-kZa" id="Qc1-zJ-NhN"/>
-                        <segue destination="HL8-0w-b1D" kind="presentation" identifier="SchedulerViewController" id="iu1-6C-e6w"/>
+                        <segue destination="HL8-0w-b1D" kind="show" identifier="SchedulerViewController" id="iu1-6C-e6w"/>
+                        <segue destination="FP0-Yb-bjl" kind="show" identifier="NetClassroomController" id="0XS-Hh-qhx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1384.5" y="484.5"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="UsT-AI-G5m">
+            <objects>
+                <viewController id="uVq-nR-YWL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eRr-Ug-7w3"/>
+                        <viewControllerLayoutGuide type="bottom" id="lY4-Uv-coA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i1G-af-h55">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HpI-To-2KZ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cmK-qf-WGn">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="bU3-1g-TI4"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="webView" destination="HpI-To-2KZ" id="smf-l2-b9q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1sQ-0U-MNA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-12.5" y="915.5"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="xW3-oQ-UrA">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zq3-e0-FHf" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aNX-24-9e8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2400,7 +2430,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iMa-dm-cqQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2147" y="485"/>
+            <point key="canvasLocation" x="-1973.5" y="484.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0hh-2y-XEk">
@@ -2437,7 +2467,25 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NMQ-eO-hLw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-651.5" y="88.5"/>
+            <point key="canvasLocation" x="-644.5" y="88.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="09J-9p-OAC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FP0-Yb-bjl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Pk1-Zd-pid">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uVq-nR-YWL" kind="relationship" relationship="rootViewController" id="xx5-gA-iCo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="49I-MC-a84" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-644.5" y="915.5"/>
         </scene>
     </scenes>
 </document>

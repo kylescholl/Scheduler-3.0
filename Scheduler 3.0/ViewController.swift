@@ -53,7 +53,7 @@ class ViewController: UIViewController {
 		// NetClassroom
 		let ncb = netClassroomButton
 		
-		ncb.backgroundColor = UIColor.orangeColor()
+		//ncb.backgroundColor = UIColor.orangeColor()
 		
 		ncb.layer.cornerRadius = 10.0
 		ncb.tag = 2
@@ -84,6 +84,12 @@ class ViewController: UIViewController {
 		NSLog("showScheduleButtonPressed")
 		
 		self.performSegueWithIdentifier("SchedulerViewController", sender: self)
+	}
+	
+	@IBAction func netClassroomButton(sender: UIButton) {
+		NSLog("netClassroomButton")
+		
+		self.performSegueWithIdentifier("NetClassroomController", sender: self)
 	}
 	
 	
@@ -131,29 +137,10 @@ class ViewController: UIViewController {
 
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 		
-		// SchedulerViewController
-		if segue.identifier == "AddItemViewController" {
-			//let navigationController = segue.destinationViewController as? UINavigationController
-			//let schedulerViewController = navigationController?.topViewController as? SchedulerViewController
-			
-			//if let viewController = schedulerViewController {
-				//viewController.delegate = self
-				//}
-		}
-/*
 		// NetClassroomViewController
-		if segue.identifier == "NetClassroomViewController" {
-			//let navigationController = segue.destinationViewController as? UINavigationController
-			//let netClassroomViewController = navigationController?.topViewController as? NetClassroomViewController
-			
-			/*
-			if let viewController = netClassroomViewController {
-			viewController.delegate = self
-			}
-			*/
+		if segue.identifier == "NetClassroomController" {
 		}
-	}
-*/
+
 	}
 	
 	override func viewWillAppear(animated: Bool)  {

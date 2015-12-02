@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2686C13A87E8F6D6C2141E1E /* Pods_Scheduler_3_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C8E67C6AB536CFC684708B /* Pods_Scheduler_3_0.framework */; };
+		F71280081C0D214200F34A64 /* NetClassroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71280071C0D214200F34A64 /* NetClassroomViewController.swift */; };
 		F7488C941BE8144100F90F49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7488C931BE8144100F90F49 /* AppDelegate.swift */; };
 		F7488C961BE8144100F90F49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7488C951BE8144100F90F49 /* ViewController.swift */; };
 		F7488C991BE8144100F90F49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7488C971BE8144100F90F49 /* Main.storyboard */; };
@@ -63,6 +64,7 @@
 		27C8E67C6AB536CFC684708B /* Pods_Scheduler_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scheduler_3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C50BFC2D2616F125A5D81C /* Pods-Scheduler 3.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scheduler 3.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scheduler 3.0/Pods-Scheduler 3.0.release.xcconfig"; sourceTree = "<group>"; };
 		E296F0A119EFAFAAFB2C5D63 /* Pods-Scheduler 3.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scheduler 3.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scheduler 3.0/Pods-Scheduler 3.0.debug.xcconfig"; sourceTree = "<group>"; };
+		F71280071C0D214200F34A64 /* NetClassroomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetClassroomViewController.swift; sourceTree = "<group>"; };
 		F7488C901BE8144100F90F49 /* Scheduler 3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scheduler 3.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7488C931BE8144100F90F49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7488C951BE8144100F90F49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +171,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F71280021C0D154D00F34A64 /* Net Classroom */ = {
+			isa = PBXGroup;
+			children = (
+				F71280071C0D214200F34A64 /* NetClassroomViewController.swift */,
+			);
+			name = "Net Classroom";
+			sourceTree = "<group>";
+		};
 		F7488C871BE8144100F90F49 = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				F74C63D31BE84C2D0019DC24 /* View Controllers */,
+				F71280021C0D154D00F34A64 /* Net Classroom */,
 				F7488C971BE8144100F90F49 /* Main.storyboard */,
 				F7EA6D431BE937E900F85FAE /* Supporting Files */,
 				F7B026471BFA990C001C4532 /* Resources */,
@@ -524,6 +535,7 @@
 				F74C63C41BE822A50019DC24 /* NSString+Icons.m in Sources */,
 				F74C63C01BE822A50019DC24 /* FUIPopoverBackgroundView.m in Sources */,
 				F74C63C81BE822A50019DC24 /* UIImage+FlatUI.m in Sources */,
+				F71280081C0D214200F34A64 /* NetClassroomViewController.swift in Sources */,
 				F74C63BE1BE822A50019DC24 /* FUIButton.m in Sources */,
 				F74C63C21BE822A50019DC24 /* FUISwitch.m in Sources */,
 			);
