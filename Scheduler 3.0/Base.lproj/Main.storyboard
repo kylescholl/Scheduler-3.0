@@ -1977,14 +1977,20 @@
                         <nil key="title"/>
                         <barButtonItem key="leftBarButtonItem" style="plain" systemItem="done" id="ML4-bK-1AJ">
                             <color key="tintColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="dismiss:" destination="1Tm-zA-Rjv" id="geU-Ah-5Wj"/>
+                            </connections>
                         </barButtonItem>
                         <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="a0e-bv-qoB">
                             <rect key="frame" x="157" y="7" width="62" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <state key="normal" title="Clear">
-                                <color key="titleColor" red="0.82745098039999998" green="0.3294117647" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleColor" red="0.90588235294117647" green="0.29803921568627451" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
+                            <connections>
+                                <action selector="clearSchedule:" destination="1Tm-zA-Rjv" eventType="touchUpInside" id="9vm-6G-rZh"/>
+                            </connections>
                         </button>
                         <barButtonItem key="rightBarButtonItem" systemItem="edit" id="awF-zg-h9i">
                             <color key="tintColor" red="0.086274509799999996" green="0.62745098040000002" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -2278,11 +2284,14 @@
                     <navigationItem key="navigationItem" id="66h-B1-YN4">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="ekD-z5-fJK">
                             <color key="tintColor" red="0.82745098039999998" green="0.3294117647" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="dismiss:" destination="hhx-I2-wyN" id="VRV-Vw-aJV"/>
+                            </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="cbO-2g-Cw2">
                             <color key="tintColor" red="0.086274509799999996" green="0.62745098040000002" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <action selector="save:" destination="hhx-I2-wyN" id="EUC-u5-uim"/>
+                                <action selector="dismiss:" destination="hhx-I2-wyN" id="Nkf-Mu-ScG"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

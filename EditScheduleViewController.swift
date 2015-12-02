@@ -26,7 +26,7 @@ class EditScheduleViewController: UIViewController, UITextFieldDelegate {
 	var delegate: EditScheduleViewControllerDelegate?
 	
 	
-	@IBAction func save(sender: UIBarButtonItem) {
+	@IBAction func dismiss(sender: UIBarButtonItem) {
 		self.dismissViewControllerAnimated(true, completion: nil)
 	}
 	

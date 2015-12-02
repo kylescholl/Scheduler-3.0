@@ -294,38 +294,37 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 	
 	
 	// Clears the schedule
-	@IBAction func clearSchedule(sender: UIBarButtonItem) {
+	@IBAction func clearSchedule(sender: UIButton) {
 		
+		/*
 		// Create the custom attributed string
-		let attributedString = NSAttributedString(string: "Invalid Name", attributes: [
-			//NSParagraphStyleAttributeName : paragraphStyle,
-			NSFontAttributeName : UIFont.systemFontOfSize(15),
-			//NSForegroundColorAttributeName : UIColor.wetAsphaltColor()
-			NSForegroundColorAttributeName : UIColor.carrotColor()
+		let attributedString = NSAttributedString(string: "Invalid Name", attributes:
+			[
+				NSFontAttributeName : UIFont.systemFontOfSize(15),
+				NSForegroundColorAttributeName : UIColor.wetAsphaltColor()
 			])
-		
+		*/
+
 		
 		//Create the AlertController
 		let clearActionSheetController: UIAlertController = UIAlertController(title: "Clear",
 			message: "Are you sure that you want to clear the schedule?",
 			preferredStyle: .Alert)
-		//clearActionSheetController.view.tintColor = UIColor.wetAsphaltColor()
-		clearActionSheetController.view.tintColor = UIColor.carrotColor()
-		clearActionSheetController.setValue(attributedString, forKey: "attributedMessage")
+		clearActionSheetController.view.tintColor = UIColor.wetAsphaltColor()
 		
-		// Doesn't do anything
-		//clearActionSheetController.view.layer.backgroundColor = UIColor.cloudsColor().CGColor
+		//clearActionSheetController.setValue(attributedString, forKey: "attributedMessage")
+		
 		clearActionSheetController.view.layer.cornerRadius = 8
 		
 		
 		//Create and add the Cancel action
-		let cancelAction: UIAlertAction = UIAlertAction(title: "Cancel", style: .Cancel) { action -> Void in
-			// Do something
+		let cancelAction: UIAlertAction = UIAlertAction(title: "Cancel", style: .Default) { action -> Void in
+			//attributedString
 		}
 		clearActionSheetController.addAction(cancelAction)
 		
 		//Create and add an option action
-		let nextAction: UIAlertAction = UIAlertAction(title: "Yes, clear", style: UIAlertActionStyle.Default) { action -> Void in
+		let nextAction: UIAlertAction = UIAlertAction(title: "Yes, clear", style: .Destructive) { action -> Void in
 			self.view.tintColor = UIColor.alizarinColor()
 			self.setTextOfBlocks("clear")
 		}
@@ -336,7 +335,9 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 		self.presentViewController(clearActionSheetController, animated: true, completion: nil)
 	}
 	
-	
+	@IBAction func dismiss(sender: UIBarButtonItem) {
+		self.dismissViewControllerAnimated(true, completion: nil)
+	}
 	
 	
 	
@@ -359,6 +360,9 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 			gBlockTextViewCollection[index].editable = boolForEditing
 		}
 	}
+	
+	
+	
 	
 	// Edits the schedule
 	@IBAction func editSchedule(sender: UIBarButtonItem) {
@@ -384,6 +388,7 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 		//Create and add the Cancel action
 		let cancelAction: UIAlertAction = UIAlertAction(title: "Cancel", style: .Cancel) { action -> Void in
 			self.setEditingForViews(false)
+			self.view.tintColor = UIColor.alizarinColor()
 		}
 		editActionSheetController.addAction(cancelAction)
 		
@@ -420,10 +425,6 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 		self.presentViewController(editActionSheetController, animated: true, completion: nil)
 	}
 	
-	@IBAction func back(sender: UIBarButtonItem) {
-		self.dismissViewControllerAnimated(true, completion: nil)
-	}
-	
 	
 	
 	
@@ -445,6 +446,12 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 			}
 		}
 	}
+	
+	
+	
+	
+	
+	
 	
 	
 	func loadSchedule() {

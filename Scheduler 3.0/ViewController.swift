@@ -95,43 +95,6 @@ class ViewController: UIViewController {
 	
 	
 	
-	// Removed the connection between the buttons 
-	// and func in hopes to fix throwback error
-		// It didn't work
-/*
-	@IBAction func animateButtons(sender: UIButton) {
-		
-		let button = sender as UIButton
-		
-		button.addTarget(self, action: "pressed:", forControlEvents: .TouchUpInside)
-		button.addTarget(self, action: "touchEnded", forControlEvents: .TouchCancel)
-	
-/*
-		// resets the color back to normal
-		UIView.animateWithDuration(1.0, animations: {
-			button.backgroundColor = UIColor.orangeColor()
-		})
-*/
-	}
-	
-	func pressed(sender: UIButton!) {
-		
-		let button = sender as UIButton
-		
-		// darken the button's color
-		UIView.animateWithDuration(2.0, animations: {
-			button.backgroundColor = UIColor.pumpkinColor()
-		})
-	}
-	
-	func touchEnded(sender: UIButton!) {
-		print("touchEnded() ran")
-	}
-*/
-	
-	
-	
-	
 	
 	
 
