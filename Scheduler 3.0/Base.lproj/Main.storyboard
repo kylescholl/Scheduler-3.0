@@ -2391,10 +2391,10 @@
             </objects>
             <point key="canvasLocation" x="-1384.5" y="484.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Net Classroom View Controller-->
         <scene sceneID="UsT-AI-G5m">
             <objects>
-                <viewController id="uVq-nR-YWL" sceneMemberID="viewController">
+                <viewController id="uVq-nR-YWL" customClass="NetClassroomViewController" customModule="Scheduler_3_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eRr-Ug-7w3"/>
                         <viewControllerLayoutGuide type="bottom" id="lY4-Uv-coA"/>
