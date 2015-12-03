@@ -2147,7 +2147,7 @@
                         <outletCollection property="allLabelsCollection" destination="oWr-Ke-SU4" collectionClass="NSMutableArray" id="alV-YH-Mk6"/>
                         <outletCollection property="allLabelsCollection" destination="p9m-Fc-aMw" collectionClass="NSMutableArray" id="zzK-Xw-xBN"/>
                         <outletCollection property="allLabelsCollection" destination="ZJR-F5-fUu" collectionClass="NSMutableArray" id="ff3-rP-YV1"/>
-                        <segue destination="NC2-Qo-s7G" kind="presentation" identifier="editScheduleViewController" id="aZg-NO-otF"/>
+                        <segue destination="NC2-Qo-s7G" kind="presentation" identifier="editScheduleViewController" modalTransitionStyle="crossDissolve" id="aZg-NO-otF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WDN-hm-Ju3" userLabel="First Responder" sceneMemberID="firstResponder"/>
