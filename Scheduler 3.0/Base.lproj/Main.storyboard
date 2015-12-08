@@ -2329,8 +2329,7 @@
                                     <color key="titleColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="netClassroomButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hdc-D0-BX1"/>
-                                    <action selector="netClassroomButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mho-Gf-K1j"/>
+                                    <action selector="netClassroomButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3pC-ld-S9M"/>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O58-HQ-Hxb">
@@ -2383,8 +2382,8 @@
                         <outlet property="orangeButton" destination="xRg-r2-7P5" id="jab-Zt-NYY"/>
                         <outlet property="pumpkinButton" destination="fog-il-2Tr" id="vq4-hJ-XHD"/>
                         <outlet property="showScheduleButton" destination="c7k-Xb-kZa" id="Qc1-zJ-NhN"/>
-                        <segue destination="HL8-0w-b1D" kind="show" identifier="SchedulerViewController" id="iu1-6C-e6w"/>
-                        <segue destination="FP0-Yb-bjl" kind="show" identifier="NetClassroomController" id="0XS-Hh-qhx"/>
+                        <segue destination="HL8-0w-b1D" kind="show" identifier="SchedulerSegue" id="iu1-6C-e6w"/>
+                        <segue destination="FP0-Yb-bjl" kind="presentation" identifier="NetClassroomSegue" modalTransitionStyle="crossDissolve" id="0XS-Hh-qhx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -2403,15 +2402,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HpI-To-2KZ">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <color key="backgroundColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="swA-Zp-tKP">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem title="Item" style="plain" id="1gd-bb-2Js"/>
+                                    <barButtonItem systemItem="refresh" id="3cP-Fh-GfX"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="cz1-AD-qd9"/>
+                                    <barButtonItem systemItem="refresh" id="Tze-pT-LLU"/>
+                                </items>
+                            </toolbar>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HpI-To-2KZ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="559"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="cmK-qf-WGn">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="bU3-1g-TI4"/>
+                    <navigationItem key="navigationItem" id="kQr-oa-z1e">
+                        <barButtonItem key="leftBarButtonItem" title="Back" style="done" id="QHs-9d-Jl7">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Z2p-yP-bzI">
+                                <rect key="frame" x="16" y="7" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <color key="tintColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="done:" destination="uVq-nR-YWL" id="TcK-vX-JI7"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>

@@ -6,27 +6,59 @@
 //  Copyright © 2015 Patronus LLC. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class NetClassroomViewController: UIViewController {
+class NetClassroomViewController: UIViewController, NSURLConnectionDelegate {
 	
-	var delegate: NetClassroomViewController?
+	// var delegate: NetClassroomViewController?
+	
+	private var request : NSURLRequest {
+		let baseUrl = "http://netclassroom.sch.org/NetClassroom7/Forms/login.aspx?ReturnUrl=%2fNetClassroom7%2fForms%2fNCShell.aspx"
+		let URL = NSURL(string: baseUrl)!
+		return NSURLRequest(URL: URL)
+	}
+	
 	
 	@IBOutlet var webView: UIWebView!
+
 	
 	@IBAction func done(sender: UIBarButtonItem) {
-		self.dismissViewControllerAnimated(true, completion: nil)
+		self.navigationController!.popViewControllerAnimated(true)
 	}
+	
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		let url = NSURL (string:
-			"http://netclassroom.sch.org/NetClassroom7/Forms/login.aspx?ReturnUrl=%2fNetClassroom7%2fForms%2fNCShell.aspx"
-		)
+		_ = NSURLConnection(request: request, delegate: self, startImmediately: true)
+		
+	/*
 		let requestObj = NSURLRequest(URL: url!)
 		webView.loadRequest(requestObj)
+	*/
 	}
+	
+	
+	func connection(connection: NSURLConnection,
+		willSendRequestForAuthenticationChallenge challenge: NSURLAuthenticationChallenge){
+			
+			if challenge.protectionSpace.host == "miketokyo.com" {
+				let user = "user"
+				let password = "password"
+				let credential = NSURLCredential(user: user, password: password, persistence: NSURLCredentialPersistence.ForSession)
+				challenge.sender!.useCredential(credential, forAuthenticationChallenge: challenge)
+			}
+	}
+	
+	
+	func connectionDidFinishLoading(connection: NSURLConnection!) {
+		self.webView.loadRequest(request)
+	}
+
+
+
+
 	
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()

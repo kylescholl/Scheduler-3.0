@@ -203,7 +203,6 @@
 			isa = PBXGroup;
 			children = (
 				F74C63D31BE84C2D0019DC24 /* View Controllers */,
-				F71280021C0D154D00F34A64 /* Net Classroom */,
 				F7488C971BE8144100F90F49 /* Main.storyboard */,
 				F7EA6D431BE937E900F85FAE /* Supporting Files */,
 				F7B026471BFA990C001C4532 /* Resources */,
@@ -296,6 +295,7 @@
 			children = (
 				F7488C951BE8144100F90F49 /* ViewController.swift */,
 				F7C3E0491BF0D91F00514E5E /* Scheduler path */,
+				F71280021C0D154D00F34A64 /* Net Classroom */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";

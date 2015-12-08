@@ -22,18 +22,6 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		print("viewDidLoad()")
-		
-		/*
-		let bool = true
-		if bool.boolValue == true {
-			orangeButton.hidden = true
-			carrotButton.hidden = true
-			pumpkinButton.hidden = true
-			greenSeaButton.hidden = true
-			
-			print("color buttons hidden")
-		}
-*/
 	}
 	
 	func setButtonStyles() {
@@ -83,13 +71,12 @@ class ViewController: UIViewController {
 	@IBAction func showScheduleButtonPressed(sender: UIButton) {
 		NSLog("showScheduleButtonPressed")
 		
-		self.performSegueWithIdentifier("SchedulerViewController", sender: self)
+		self.performSegueWithIdentifier("SchedulerSegue", sender: self)
 	}
 	
 	@IBAction func netClassroomButton(sender: UIButton) {
 		NSLog("netClassroomButton")
-		
-		self.performSegueWithIdentifier("NetClassroomController", sender: self)
+		self.performSegueWithIdentifier("NetClassroomSegue", sender: self)
 	}
 	
 	
@@ -97,15 +84,17 @@ class ViewController: UIViewController {
 	
 	
 	
-
+/*
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 		
 		// NetClassroomViewController
-		if segue.identifier == "NetClassroomController" {
+		if segue.identifier == "NetClassroomSegue" {
 		}
 
 	}
-	
+*/
+
+
 	override func viewWillAppear(animated: Bool)  {
 		super.viewWillAppear(animated)
 		print("viewWillAppear()")
@@ -113,21 +102,6 @@ class ViewController: UIViewController {
 		//self.view.backgroundColor = UIColor.wetAsphaltColor()
 		setButtonStyles()
 	}
-	
-/*
-	@IBAction func netClassroomButtonPressed(sender: UIButton) {
-		NSLog("netClassroomButtonPressed")
-		
-		//let plot = CGRectMake(5, 20, 320, 400)
-		let alert : FUIAlertView = FUIAlertView()
-		alert.title = "Alert"
-		alert.message = "Here's a message"
-		alert.addButtonWithTitle("Understod")
-		alert.defaultButtonColor = UIColor.wetAsphaltColor()
-		
-		alert.show()
-	}
-*/
 	
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
