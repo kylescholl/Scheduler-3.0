@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 	
 	@IBOutlet var showScheduleButton: UIButton!
 	@IBOutlet var netClassroomButton: UIButton!
+	@IBOutlet var weatherButton: UIButton!
 	
 	@IBOutlet var orangeButton: UIButton!
 	@IBOutlet var carrotButton: UIButton!
@@ -23,17 +24,17 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 		print("viewDidLoad()")
 	}
-	
+
 	func setButtonStyles() {
-		
+
 		// Schedule
 		let ssb = showScheduleButton
-		
+
 		//ssb.backgroundColor = UIColor.orangeColor()
-		
+
 		ssb.layer.cornerRadius = 10.0
 		ssb.tag = 2
-		
+
 		ssb.setTitle("Schedule", forState: UIControlState.Normal)
 		//ssb.setTitleColor(UIColor.cloudsColor(), forState: UIControlState.Normal)
 		ssb.titleLabel!.font = UIFont(name: "Helvetica Neue Light", size: 50.0)

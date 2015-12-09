@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2686C13A87E8F6D6C2141E1E /* Pods_Scheduler_3_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C8E67C6AB536CFC684708B /* Pods_Scheduler_3_0.framework */; };
+		F709FC721C17650000398709 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F709FC601C17650000398709 /* AFHTTPRequestOperation.m */; };
+		F709FC731C17650000398709 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F709FC621C17650000398709 /* AFHTTPRequestOperationManager.m */; };
+		F709FC741C17650000398709 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F709FC641C17650000398709 /* AFHTTPSessionManager.m */; };
+		F709FC751C17650000398709 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F709FC671C17650000398709 /* AFNetworkReachabilityManager.m */; };
+		F709FC761C17650000398709 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = F709FC691C17650000398709 /* AFSecurityPolicy.m */; };
+		F709FC771C17650000398709 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F709FC6B1C17650000398709 /* AFURLConnectionOperation.m */; };
+		F709FC781C17650000398709 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F709FC6D1C17650000398709 /* AFURLRequestSerialization.m */; };
+		F709FC791C17650000398709 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F709FC6F1C17650000398709 /* AFURLResponseSerialization.m */; };
+		F709FC7A1C17650000398709 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F709FC711C17650000398709 /* AFURLSessionManager.m */; };
 		F71280081C0D214200F34A64 /* NetClassroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71280071C0D214200F34A64 /* NetClassroomViewController.swift */; };
 		F7488C941BE8144100F90F49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7488C931BE8144100F90F49 /* AppDelegate.swift */; };
 		F7488C961BE8144100F90F49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7488C951BE8144100F90F49 /* ViewController.swift */; };
@@ -39,6 +48,7 @@
 		F74C63D01BE822A50019DC24 /* UIToolbar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63BC1BE822A50019DC24 /* UIToolbar+FlatUI.m */; };
 		F74C63D51BE84C6A0019DC24 /* SchedulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C63D41BE84C6A0019DC24 /* SchedulerViewController.swift */; };
 		F7B0264B1BFA9C0E001C4532 /* Directory.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7B0264A1BFA9C0E001C4532 /* Directory.ttf */; };
+		F7CC31D91C18B76900428DFD /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC31D81C18B76900428DFD /* WeatherViewController.swift */; };
 		F7EA6D4D1BE9A0F400F85FAE /* EditScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EA6D4C1BE9A0F400F85FAE /* EditScheduleViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +73,25 @@
 		27C8E67C6AB536CFC684708B /* Pods_Scheduler_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scheduler_3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C50BFC2D2616F125A5D81C /* Pods-Scheduler 3.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scheduler 3.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scheduler 3.0/Pods-Scheduler 3.0.release.xcconfig"; sourceTree = "<group>"; };
 		E296F0A119EFAFAAFB2C5D63 /* Pods-Scheduler 3.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scheduler 3.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scheduler 3.0/Pods-Scheduler 3.0.debug.xcconfig"; sourceTree = "<group>"; };
+		F709FC5F1C17650000398709 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		F709FC601C17650000398709 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		F709FC611C17650000398709 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		F709FC621C17650000398709 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		F709FC631C17650000398709 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		F709FC641C17650000398709 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		F709FC651C17650000398709 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		F709FC661C17650000398709 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		F709FC671C17650000398709 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		F709FC681C17650000398709 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		F709FC691C17650000398709 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		F709FC6A1C17650000398709 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		F709FC6B1C17650000398709 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		F709FC6C1C17650000398709 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		F709FC6D1C17650000398709 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		F709FC6E1C17650000398709 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		F709FC6F1C17650000398709 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		F709FC701C17650000398709 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		F709FC711C17650000398709 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		F71280071C0D214200F34A64 /* NetClassroomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetClassroomViewController.swift; sourceTree = "<group>"; };
 		F7488C901BE8144100F90F49 /* Scheduler 3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scheduler 3.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7488C931BE8144100F90F49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,7 +107,7 @@
 		F7488CB21BE8144200F90F49 /* Scheduler 3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scheduler 3.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7488CB61BE8144200F90F49 /* Scheduler_3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scheduler_3_0UITests.swift; sourceTree = "<group>"; };
 		F7488CB81BE8144200F90F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F74C63921BE821F10019DC24 /* Scheduler-FlatUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scheduler-FlatUIKit.h"; sourceTree = "<group>"; };
+		F74C63921BE821F10019DC24 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
 		F74C63941BE822A40019DC24 /* FlatUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatUIKit.h; sourceTree = "<group>"; };
 		F74C63951BE822A40019DC24 /* FUIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIAlertView.h; sourceTree = "<group>"; };
 		F74C63961BE822A40019DC24 /* FUIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIAlertView.m; sourceTree = "<group>"; };
@@ -122,6 +151,7 @@
 		F74C63BC1BE822A50019DC24 /* UIToolbar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+FlatUI.m"; sourceTree = "<group>"; };
 		F74C63D41BE84C6A0019DC24 /* SchedulerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerViewController.swift; sourceTree = "<group>"; };
 		F7B0264A1BFA9C0E001C4532 /* Directory.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Directory.ttf; sourceTree = "<group>"; };
+		F7CC31D81C18B76900428DFD /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		F7EA6D4C1BE9A0F400F85FAE /* EditScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditScheduleViewController.swift; path = ../EditScheduleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,6 +197,32 @@
 				27C8E67C6AB536CFC684708B /* Pods_Scheduler_3_0.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F709FC5E1C17650000398709 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				F709FC5F1C17650000398709 /* AFHTTPRequestOperation.h */,
+				F709FC601C17650000398709 /* AFHTTPRequestOperation.m */,
+				F709FC611C17650000398709 /* AFHTTPRequestOperationManager.h */,
+				F709FC621C17650000398709 /* AFHTTPRequestOperationManager.m */,
+				F709FC631C17650000398709 /* AFHTTPSessionManager.h */,
+				F709FC641C17650000398709 /* AFHTTPSessionManager.m */,
+				F709FC651C17650000398709 /* AFNetworking.h */,
+				F709FC661C17650000398709 /* AFNetworkReachabilityManager.h */,
+				F709FC671C17650000398709 /* AFNetworkReachabilityManager.m */,
+				F709FC681C17650000398709 /* AFSecurityPolicy.h */,
+				F709FC691C17650000398709 /* AFSecurityPolicy.m */,
+				F709FC6A1C17650000398709 /* AFURLConnectionOperation.h */,
+				F709FC6B1C17650000398709 /* AFURLConnectionOperation.m */,
+				F709FC6C1C17650000398709 /* AFURLRequestSerialization.h */,
+				F709FC6D1C17650000398709 /* AFURLRequestSerialization.m */,
+				F709FC6E1C17650000398709 /* AFURLResponseSerialization.h */,
+				F709FC6F1C17650000398709 /* AFURLResponseSerialization.m */,
+				F709FC701C17650000398709 /* AFURLSessionManager.h */,
+				F709FC711C17650000398709 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 		F71280021C0D154D00F34A64 /* Net Classroom */ = {
@@ -295,6 +351,7 @@
 			children = (
 				F7488C951BE8144100F90F49 /* ViewController.swift */,
 				F7C3E0491BF0D91F00514E5E /* Scheduler path */,
+				F7CC31D71C18B6BF00428DFD /* Weather */,
 				F71280021C0D154D00F34A64 /* Net Classroom */,
 			);
 			name = "View Controllers";
@@ -317,10 +374,19 @@
 			name = "Scheduler path";
 			sourceTree = "<group>";
 		};
+		F7CC31D71C18B6BF00428DFD /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				F7CC31D81C18B76900428DFD /* WeatherViewController.swift */,
+			);
+			name = Weather;
+			sourceTree = "<group>";
+		};
 		F7EA6D431BE937E900F85FAE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F74C63921BE821F10019DC24 /* Scheduler-FlatUIKit.h */,
+				F74C63921BE821F10019DC24 /* bridge.h */,
+				F709FC5E1C17650000398709 /* AFNetworking */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -508,25 +574,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F709FC721C17650000398709 /* AFHTTPRequestOperation.m in Sources */,
+				F7CC31D91C18B76900428DFD /* WeatherViewController.swift in Sources */,
 				F74C63BD1BE822A50019DC24 /* FUIAlertView.m in Sources */,
 				F74C63CA1BE822A50019DC24 /* UIPopoverController+FlatUI.m in Sources */,
 				F74C63CE1BE822A50019DC24 /* UITabBar+FlatUI.m in Sources */,
 				F74C63CB1BE822A50019DC24 /* UIProgressView+FlatUI.m in Sources */,
 				F74C63C71BE822A50019DC24 /* UIFont+FlatUI.m in Sources */,
+				F709FC741C17650000398709 /* AFHTTPSessionManager.m in Sources */,
 				F74C63C11BE822A50019DC24 /* FUISegmentedControl.m in Sources */,
 				F74C63C31BE822A50019DC24 /* FUITextField.m in Sources */,
 				F74C63C61BE822A50019DC24 /* UIColor+FlatUI.m in Sources */,
+				F709FC7A1C17650000398709 /* AFURLSessionManager.m in Sources */,
 				F7EA6D4D1BE9A0F400F85FAE /* EditScheduleViewController.swift in Sources */,
+				F709FC761C17650000398709 /* AFSecurityPolicy.m in Sources */,
+				F709FC791C17650000398709 /* AFURLResponseSerialization.m in Sources */,
 				F7488C9C1BE8144100F90F49 /* Scheduler_3_0.xcdatamodeld in Sources */,
 				F74C63D01BE822A50019DC24 /* UIToolbar+FlatUI.m in Sources */,
 				F74C63C91BE822A50019DC24 /* UINavigationBar+FlatUI.m in Sources */,
 				F7488C961BE8144100F90F49 /* ViewController.swift in Sources */,
+				F709FC771C17650000398709 /* AFURLConnectionOperation.m in Sources */,
 				F74C63CC1BE822A50019DC24 /* UISlider+FlatUI.m in Sources */,
+				F709FC781C17650000398709 /* AFURLRequestSerialization.m in Sources */,
 				F74C63CF1BE822A50019DC24 /* UITableViewCell+FlatUI.m in Sources */,
 				F74C63D51BE84C6A0019DC24 /* SchedulerViewController.swift in Sources */,
 				F74C63C51BE822A50019DC24 /* UIBarButtonItem+FlatUI.m in Sources */,
+				F709FC731C17650000398709 /* AFHTTPRequestOperationManager.m in Sources */,
 				F74C63BF1BE822A50019DC24 /* FUICellBackgroundView.m in Sources */,
 				F7488C941BE8144100F90F49 /* AppDelegate.swift in Sources */,
+				F709FC751C17650000398709 /* AFNetworkReachabilityManager.m in Sources */,
 				F74C63CD1BE822A50019DC24 /* UIStepper+FlatUI.m in Sources */,
 				F74C63C41BE822A50019DC24 /* NSString+Icons.m in Sources */,
 				F74C63C01BE822A50019DC24 /* FUIPopoverBackgroundView.m in Sources */,
@@ -628,6 +704,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -665,6 +742,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -679,7 +757,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.patronusllc.Scheduler-3-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kscholl/Documents/Coding stuff/Thinkful/Scheduler 3.0/Scheduler 3.0/Scheduler-FlatUIKit.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kscholl/Documents/Coding stuff/Thinkful/Scheduler 3.0/Scheduler 3.0/bridge.h";
 			};
 			name = Debug;
 		};
@@ -693,7 +771,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.patronusllc.Scheduler-3-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kscholl/Documents/Coding stuff/Thinkful/Scheduler 3.0/Scheduler 3.0/Scheduler-FlatUIKit.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kscholl/Documents/Coding stuff/Thinkful/Scheduler 3.0/Scheduler 3.0/bridge.h";
 			};
 			name = Release;
 		};

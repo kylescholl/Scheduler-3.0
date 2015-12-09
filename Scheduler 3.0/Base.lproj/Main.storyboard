@@ -2152,7 +2152,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WDN-hm-Ju3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12.5" y="88.5"/>
+            <point key="canvasLocation" x="-832.5" y="-357.5"/>
         </scene>
         <!--Edit Schedule View Controller-->
         <scene sceneID="0GD-8N-hMc">
@@ -2308,7 +2308,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5yn-Qm-ast" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1363.5" y="88.5"/>
+            <point key="canvasLocation" x="225.5" y="-357.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -2322,8 +2322,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7k-Xb-kZa">
+                                <rect key="frame" x="87" y="143" width="200" height="75"/>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.4941176471" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="(87, 183)">
+                                    <color key="titleColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="showScheduleButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nud-eq-pta"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xRg-r2-7P5">
+                                <rect key="frame" x="0.0" y="251" width="375" height="45"/>
+                                <color key="backgroundColor" red="0.95294117647058818" green="0.61176470588235299" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Orange">
+                                    <color key="titleColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77L-Cn-hEs" userLabel="Weather Button">
+                                <rect key="frame" x="87" y="513" width="200" height="75"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="(87, 513)">
+                                    <color key="titleColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tpt-CP-dqs" kind="show" identifier="WeatherSegue" id="DBY-Ei-bgU"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usE-0f-NvB" userLabel="NetClassroom Button">
-                                <rect key="frame" x="87" y="428" width="200" height="75"/>
+                                <rect key="frame" x="87" y="328" width="200" height="75"/>
                                 <color key="backgroundColor" red="0.086274509799999996" green="0.62745098040000002" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="(87, 428)">
                                     <color key="titleColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -2332,46 +2360,37 @@
                                     <action selector="netClassroomButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3pC-ld-S9M"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O58-HQ-Hxb">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O58-HQ-Hxb">
                                 <rect key="frame" x="0.0" y="296" width="375" height="45"/>
                                 <color key="backgroundColor" red="0.90196078431372551" green="0.49411764705882355" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Carrot">
                                     <color key="titleColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fog-il-2Tr">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fog-il-2Tr">
                                 <rect key="frame" x="0.0" y="341" width="375" height="45"/>
                                 <color key="backgroundColor" red="0.82745098039215681" green="0.32941176470588235" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Pumpkin">
                                     <color key="titleColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sdT-d6-DFA">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sdT-d6-DFA">
                                 <rect key="frame" x="0.0" y="386" width="375" height="45"/>
                                 <color key="backgroundColor" red="0.086274509803921567" green="0.62745098039215685" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Green Sea">
                                     <color key="titleColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7k-Xb-kZa">
-                                <rect key="frame" x="87" y="183" width="200" height="75"/>
-                                <color key="backgroundColor" red="0.90196078430000004" green="0.4941176471" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="(87, 189)">
-                                    <color key="titleColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="showScheduleButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nud-eq-pta"/>
-                                </connections>
-                            </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xRg-r2-7P5">
-                                <rect key="frame" x="0.0" y="251" width="375" height="45"/>
-                                <color key="backgroundColor" red="0.95294117647058818" green="0.61176470588235299" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Orange">
-                                    <color key="titleColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="xRg-r2-7P5"/>
+                                <exclude reference="O58-HQ-Hxb"/>
+                                <exclude reference="fog-il-2Tr"/>
+                                <exclude reference="sdT-d6-DFA"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="U0N-3f-m8x"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -2382,6 +2401,7 @@
                         <outlet property="orangeButton" destination="xRg-r2-7P5" id="jab-Zt-NYY"/>
                         <outlet property="pumpkinButton" destination="fog-il-2Tr" id="vq4-hJ-XHD"/>
                         <outlet property="showScheduleButton" destination="c7k-Xb-kZa" id="Qc1-zJ-NhN"/>
+                        <outlet property="weatherButton" destination="77L-Cn-hEs" id="yzG-2t-cZS"/>
                         <segue destination="HL8-0w-b1D" kind="show" identifier="SchedulerSegue" id="iu1-6C-e6w"/>
                         <segue destination="FP0-Yb-bjl" kind="presentation" identifier="NetClassroomSegue" modalTransitionStyle="crossDissolve" id="0XS-Hh-qhx"/>
                     </connections>
@@ -2389,6 +2409,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1384.5" y="484.5"/>
+        </scene>
+        <!--Weather View Controller-->
+        <scene sceneID="yGR-xQ-Cfb">
+            <objects>
+                <viewController id="i7H-eB-g2l" customClass="WeatherViewController" customModule="Scheduler_3_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zgx-2u-NVA"/>
+                        <viewControllerLayoutGuide type="bottom" id="fjl-EH-uiK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yvV-of-mDB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JF0-Hy-EfD">
+                                <rect key="frame" x="20" y="184" width="335" height="300"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oV4-MF-gBw"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="weatherLabel" destination="JF0-Hy-EfD" id="4Kn-96-P8d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9BX-1r-zgm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-832.5" y="1455.5"/>
         </scene>
         <!--Net Classroom View Controller-->
         <scene sceneID="UsT-AI-G5m">
@@ -2440,7 +2491,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1sQ-0U-MNA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12.5" y="915.5"/>
+            <point key="canvasLocation" x="-344.5" y="695.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xW3-oQ-UrA">
@@ -2477,11 +2528,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bCR-GE-l9g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="678.5" y="88.5"/>
+            <point key="canvasLocation" x="-344.5" y="-357.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="R7B-5q-5iV">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NMQ-eO-hLw" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HL8-0w-b1D" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="bo0-j7-jxS"/>
@@ -2494,9 +2546,8 @@
                         <segue destination="1Tm-zA-Rjv" kind="relationship" relationship="rootViewController" id="7bd-BX-i59"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NMQ-eO-hLw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-644.5" y="88.5"/>
+            <point key="canvasLocation" x="-1384.5" y="-357.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="09J-9p-OAC">
@@ -2514,7 +2565,25 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="49I-MC-a84" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-644.5" y="915.5"/>
+            <point key="canvasLocation" x="-832.5" y="695.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3YU-Lz-IbN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tpt-CP-dqs" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TeE-tk-KhR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="i7H-eB-g2l" kind="relationship" relationship="rootViewController" id="kiC-e0-ClF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nKR-Nv-QAX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1384.5" y="1455.5"/>
         </scene>
     </scenes>
 </document>

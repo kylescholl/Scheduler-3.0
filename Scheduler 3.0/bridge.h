@@ -9,8 +9,7 @@
 #ifndef Scheduler_FlatUIKit_h
 #define Scheduler_FlatUIKit_h
 
-
 #import "FlatUIKit.h"
-
+#import "AFNetworking/AFNetworking.h"
 
 #endif /* Scheduler_FlatUIKit_h */
