@@ -37,7 +37,7 @@ class ViewController: UIViewController {
 
 		ssb.setTitle("Schedule", forState: UIControlState.Normal)
 		ncb.setTitle("NetClassroom", forState: UIControlState.Normal)
-		wb.setTitle("Weater", forState: UIControlState.Normal)
+		wb.setTitle("Weather", forState: UIControlState.Normal)
 		
 		ssb.titleLabel!.font = UIFont(name: "Helvetica Neue Light", size: 50.0)
 		ncb.titleLabel!.font = UIFont(name: "Helvetica Neue Light", size: 50.0)

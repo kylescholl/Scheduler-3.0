@@ -13,12 +13,15 @@ class WeatherViewController: UIViewController {
 	
 	@IBOutlet var weatherLabel: UILabel!
 	@IBOutlet var _weatherLabel: UILabel!
+	
 	@IBOutlet var currentWeatherIcon: UIImageView!
 	@IBOutlet var staticWeatherIcon: UIImageView!
 	
+	//	@IBOutlet var testWeatherIcon: UIImageView!
 	
     override func viewDidLoad() {
         super.viewDidLoad()
+		
 		
 		let manager = AFHTTPRequestOperationManager()
 		manager.GET(
@@ -39,46 +42,61 @@ class WeatherViewController: UIViewController {
 					switch forecastID {
 					case 200...232:
 						print("Thunderstorm")
-						
+						self.currentWeatherIcon.image = UIImage(named: "Cloud – thunder + bolt behind")
+					
 					case 300...321:
 						print("Drizzle")
-						
+						self.currentWeatherIcon.image = UIImage(named: "Cloud – rain drop")
+					
 					case 500...531:
 						print("Rain")
-						
+						self.currentWeatherIcon.image = UIImage(named: "Cloud – Rain")
+					
 					case 600...622:
 						print("Snow")
-						
+						self.currentWeatherIcon.image = UIImage(named: "Cloud – snow")
+					
 					case 701...781:
 						print("Atmosphere (fog and stuff)")
-						
+						self.currentWeatherIcon.image = UIImage(named: "Wind/fog")
+					
 					case 800:
 						print("Clear")
 						
+						//if time
+						self.currentWeatherIcon.image = UIImage(named: "Cloud")
+					
 					case 801...804:
 						print("Clouds")
+						self.currentWeatherIcon.image = UIImage(named: "Cloud")
 					
 					case 900:
 						print("Tornado")
+						self.currentWeatherIcon.image = UIImage(named: "Cloud")
 					
 					case 901...902:
 						print("Hurricane")
+						self.currentWeatherIcon.image = UIImage(named: "Cloud")
 					
 					case 903:
 						print("Extreme cold")
+						self.currentWeatherIcon.image = UIImage(named: "Cloud")
 					
 					case 904:
 						print("Extreme hot")
+						self.currentWeatherIcon.image = UIImage(named: "Cloud")
 					
 					case 905:
 						print("Extreme wind")
+						self.currentWeatherIcon.image = UIImage(named: "Cloud")
 					
 					case 906:
 						print("Extreme hail")
+						self.currentWeatherIcon.image = UIImage(named: "Cloud")
 					
 					default:
 						print("Failure")
-					
+						self.currentWeatherIcon.image = UIImage(named: "Cloud")
 					}
 				}
 			},
@@ -86,7 +104,7 @@ class WeatherViewController: UIViewController {
 			
 			failure: { (operation: AFHTTPRequestOperation?, error: NSError!) in
 				print("Error: " + error.localizedDescription)
-				self.weatherLabel.text = "error"
+				self.weatherLabel.text = "error in fetching data"
 		})
 		
 		

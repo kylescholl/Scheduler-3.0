@@ -2434,7 +2434,7 @@
                                 <color key="textColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5a9-jW-OaP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5a9-jW-OaP">
                                 <rect key="frame" x="112" y="104" width="150" height="150"/>
                                 <attributedString key="attributedText">
                                     <fragment content="H">
@@ -2447,7 +2447,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l40-FJ-G02">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l40-FJ-G02">
                                 <rect key="frame" x="20" y="294" width="80" height="80"/>
                                 <attributedString key="attributedText">
                                     <fragment content="E">
@@ -2460,13 +2460,27 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sun" translatesAutoresizingMaskIntoConstraints="NO" id="CXF-xA-RrI">
+                                <rect key="frame" x="112" y="104" width="150" height="150"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J6v-7N-KSu">
+                                <rect key="frame" x="20" y="294" width="80" height="80"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="5a9-jW-OaP"/>
+                                <exclude reference="l40-FJ-G02"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="oV4-MF-gBw"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="_weatherLabel" destination="KED-oY-D0h" id="6fi-c8-6Kj"/>
+                        <outlet property="currentWeatherIcon" destination="J6v-7N-KSu" id="TTz-QB-Fbd"/>
+                        <outlet property="staticWeatherIcon" destination="CXF-xA-RrI" id="ry5-9l-MjV"/>
                         <outlet property="weatherLabel" destination="JF0-Hy-EfD" id="4Kn-96-P8d"/>
                     </connections>
                 </viewController>
@@ -2566,7 +2580,6 @@
         <!--Navigation Controller-->
         <scene sceneID="R7B-5q-5iV">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NMQ-eO-hLw" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HL8-0w-b1D" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="bo0-j7-jxS"/>
@@ -2579,6 +2592,7 @@
                         <segue destination="1Tm-zA-Rjv" kind="relationship" relationship="rootViewController" id="7bd-BX-i59"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NMQ-eO-hLw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1384.5" y="-357.5"/>
         </scene>
@@ -2621,5 +2635,6 @@
     </scenes>
     <resources>
         <image name="Return thin" width="25" height="25"/>
+        <image name="Sun" width="591" height="590"/>
     </resources>
 </document>
