@@ -26,37 +26,22 @@ class ViewController: UIViewController {
 	}
 
 	func setButtonStyles() {
-
-		// Schedule
+		
 		let ssb = showScheduleButton
-
-		//ssb.backgroundColor = UIColor.orangeColor()
-
+		let ncb = netClassroomButton
+		let wb = weatherButton
+		
 		ssb.layer.cornerRadius = 10.0
-		ssb.tag = 2
+		ncb.layer.cornerRadius = 10.0
+		wb.layer.cornerRadius = 10.0
 
 		ssb.setTitle("Schedule", forState: UIControlState.Normal)
-		//ssb.setTitleColor(UIColor.cloudsColor(), forState: UIControlState.Normal)
-		ssb.titleLabel!.font = UIFont(name: "Helvetica Neue Light", size: 50.0)
-		
-		// NetClassroom
-		let ncb = netClassroomButton
-		
-		//ncb.backgroundColor = UIColor.orangeColor()
-		
-		ncb.layer.cornerRadius = 10.0
-		ncb.tag = 2
-		
 		ncb.setTitle("NetClassroom", forState: UIControlState.Normal)
-		//ncb.setTitleColor(UIColor.cloudsColor(), forState: UIControlState.Normal)
+		wb.setTitle("Weater", forState: UIControlState.Normal)
+		
+		ssb.titleLabel!.font = UIFont(name: "Helvetica Neue Light", size: 50.0)
 		ncb.titleLabel!.font = UIFont(name: "Helvetica Neue Light", size: 50.0)
-		
-		
-		let custom = CGRectMake(0, 362, 375, 5)
-		
-		let whiteLine = UIView(frame: custom)
-		whiteLine.backgroundColor = UIColor.cloudsColor()
-		//self.view.addSubview(whiteLine)
+		wb.titleLabel!.font = UIFont(name: "Helvetica Neue Light", size: 50.0)
 	}
 	
 	

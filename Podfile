@@ -3,6 +3,7 @@ use_frameworks!
 
 target 'Scheduler 3.0' do
 	pod 'FlatUIKit', '~> 1.6'
+	pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
 end
 
 target 'Scheduler 3.0Tests' do

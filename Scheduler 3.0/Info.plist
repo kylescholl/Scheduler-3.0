@@ -9,6 +9,7 @@
 	</dict>
 	<key>Fonts provided by the application</key>
 	<array>
+		<string>meteocons.otf</string>
 		<string>Directory.ttf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>

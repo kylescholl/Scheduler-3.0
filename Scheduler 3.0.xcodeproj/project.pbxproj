@@ -152,6 +152,7 @@
 		F74C63D41BE84C6A0019DC24 /* SchedulerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerViewController.swift; sourceTree = "<group>"; };
 		F7B0264A1BFA9C0E001C4532 /* Directory.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Directory.ttf; sourceTree = "<group>"; };
 		F7CC31D81C18B76900428DFD /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		F7CC31DA1C1A3CDA00428DFD /* meteocons.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = meteocons.otf; sourceTree = "<group>"; };
 		F7EA6D4C1BE9A0F400F85FAE /* EditScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditScheduleViewController.swift; path = ../EditScheduleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -338,7 +339,6 @@
 			isa = PBXGroup;
 			children = (
 				F7488C931BE8144100F90F49 /* AppDelegate.swift */,
-				F7488C9D1BE8144100F90F49 /* Assets.xcassets */,
 				F7488C9F1BE8144100F90F49 /* LaunchScreen.storyboard */,
 				F7488CA21BE8144100F90F49 /* Info.plist */,
 				F7488C9A1BE8144100F90F49 /* Scheduler_3_0.xcdatamodeld */,
@@ -360,6 +360,7 @@
 		F7B026471BFA990C001C4532 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F7CC31DA1C1A3CDA00428DFD /* meteocons.otf */,
 				F7B0264A1BFA9C0E001C4532 /* Directory.ttf */,
 			);
 			name = Resources;
@@ -386,6 +387,7 @@
 			isa = PBXGroup;
 			children = (
 				F74C63921BE821F10019DC24 /* bridge.h */,
+				F7488C9D1BE8144100F90F49 /* Assets.xcassets */,
 				F709FC5E1C17650000398709 /* AFNetworking */,
 			);
 			name = "Supporting Files";
