@@ -26,10 +26,8 @@ class ViewController: UIViewController {
 	@IBOutlet var dateLabel: UILabel!
 	
 	
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		print("viewDidLoad()")
-	}
+	@IBOutlet var helpView: UIView!
+	
 	
 	func setButtonStyles() {
 		
@@ -98,19 +96,19 @@ class ViewController: UIViewController {
 		let currentWeekday : String
 		switch weekday {
 		case 1:
-			currentWeekday = "Monday"
-		case 2:
-			currentWeekday = "Tuesday"
-		case 3:
-			currentWeekday = "Wednesday"
-		case 4:
-			currentWeekday = "Thursday"
-		case 5:
-			currentWeekday = "Friday"
-		case 6:
-			currentWeekday = "Saturday"
-		case 7:
 			currentWeekday = "Sunday"
+		case 2:
+			currentWeekday = "Monday"
+		case 3:
+			currentWeekday = "Tuesday"
+		case 4:
+			currentWeekday = "Wednesday"
+		case 5:
+			currentWeekday = "Thursday"
+		case 6:
+			currentWeekday = "Friday"
+		case 7:
+			currentWeekday = "Saturday"
 		default:
 			currentWeekday = "Error"
 			NSLog("Error")
@@ -124,10 +122,7 @@ class ViewController: UIViewController {
 	@IBAction func helpButton(sender: UIButton) {
 		NSLog("HelpButtonPressed")
 		
-		//self.performSegueWithIdentifier("HelpButton", sender: self)
-		
-		self.modalPresentationStyle = UIModalPresentationStyle.OverCurrentContext
-		self.navigationController!.modalPresentationStyle = UIModalPresentationStyle.OverCurrentContext
+		helpView.fadeIn(duration: 1.0)
 	}
 	
 	@IBAction func showScheduleButtonPressed(sender: UIButton) {
@@ -141,21 +136,25 @@ class ViewController: UIViewController {
 		self.performSegueWithIdentifier("NetClassroomSegue", sender: self)
 	}
 	
-	
-	
-	
-	
-	
-/*
-	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-		
-		// NetClassroomViewController
-		if segue.identifier == "NetClassroomSegue" {
-		}
-
+	func dismissView() {
+		//	view.endEditing(true)
+		helpView.fadeOut(duration: 1.0)
 	}
-*/
-
+	
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		
+		//Looks for single or multiple taps.
+		let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissView")
+		view.addGestureRecognizer(tap)
+		
+		
+		helpView.frame = CGRectMake(34, 80, 305, 567)
+		helpView.layer.cornerRadius = 5.0
+		helpView.alpha = 0.0
+		
+		self.view.addSubview(helpView)
+	}
 
 	override func viewWillAppear(animated: Bool)  {
 		super.viewWillAppear(animated)

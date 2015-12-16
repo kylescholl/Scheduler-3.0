@@ -47,6 +47,7 @@
 		F74C63D01BE822A50019DC24 /* UIToolbar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C63BC1BE822A50019DC24 /* UIToolbar+FlatUI.m */; };
 		F74C63D51BE84C6A0019DC24 /* SchedulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C63D41BE84C6A0019DC24 /* SchedulerViewController.swift */; };
 		F756EF7E1C1B279E003322BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F756EF7D1C1B279E003322BA /* Assets.xcassets */; };
+		F756F0071C21D5D2003322BA /* FadingAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F756F0061C21D5D2003322BA /* FadingAnimations.swift */; };
 		F7B0264B1BFA9C0E001C4532 /* Directory.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7B0264A1BFA9C0E001C4532 /* Directory.ttf */; };
 		F7CC31D91C18B76900428DFD /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC31D81C18B76900428DFD /* WeatherViewController.swift */; };
 		F7EA6D4D1BE9A0F400F85FAE /* EditScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EA6D4C1BE9A0F400F85FAE /* EditScheduleViewController.swift */; };
@@ -150,6 +151,7 @@
 		F74C63BC1BE822A50019DC24 /* UIToolbar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+FlatUI.m"; sourceTree = "<group>"; };
 		F74C63D41BE84C6A0019DC24 /* SchedulerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerViewController.swift; sourceTree = "<group>"; };
 		F756EF7D1C1B279E003322BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F756F0061C21D5D2003322BA /* FadingAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadingAnimations.swift; sourceTree = "<group>"; };
 		F7B0264A1BFA9C0E001C4532 /* Directory.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Directory.ttf; sourceTree = "<group>"; };
 		F7CC31D81C18B76900428DFD /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		F7CC31DA1C1A3CDA00428DFD /* meteocons.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = meteocons.otf; sourceTree = "<group>"; };
@@ -387,6 +389,7 @@
 			isa = PBXGroup;
 			children = (
 				F74C63921BE821F10019DC24 /* bridge.h */,
+				F756F0061C21D5D2003322BA /* FadingAnimations.swift */,
 				F756EF7D1C1B279E003322BA /* Assets.xcassets */,
 				F709FC5E1C17650000398709 /* AFNetworking */,
 			);
@@ -594,6 +597,7 @@
 				F7488C9C1BE8144100F90F49 /* Scheduler_3_0.xcdatamodeld in Sources */,
 				F74C63D01BE822A50019DC24 /* UIToolbar+FlatUI.m in Sources */,
 				F74C63C91BE822A50019DC24 /* UINavigationBar+FlatUI.m in Sources */,
+				F756F0071C21D5D2003322BA /* FadingAnimations.swift in Sources */,
 				F7488C961BE8144100F90F49 /* ViewController.swift in Sources */,
 				F709FC771C17650000398709 /* AFURLConnectionOperation.m in Sources */,
 				F74C63CC1BE822A50019DC24 /* UISlider+FlatUI.m in Sources */,
