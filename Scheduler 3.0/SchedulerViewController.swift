@@ -551,72 +551,11 @@ class SchedulerViewController: UIViewController, EditScheduleViewControllerDeleg
 	
 	@IBOutlet var navigationBar: UINavigationItem!
 	
-	@IBOutlet var backButton: UINavigationItem!
+	@IBOutlet var backButton: UIBarButtonItem!
 	
 	@IBOutlet var clearButton: UIBarButtonItem!
 	
 	@IBOutlet var editButton: UIBarButtonItem!
-	
-	
-	
-	/*
-	func initializeAllUIElements() {
-		
-		let textColor : UIColor = UIColor.cloudsColor()
-		//let fontStyle = UIFont(name: "Helvetica Neue Thin", size: 11.0)
-		let fontStyle = UIFont(name: "Directory", size: 18.0)
-		
-		// let backColor : UIColor = UIColor.wetAsphaltColor()
-		
-		
-		// Sets the textViews
-		for index in 0..<6 {
-			
-			//dayOneGroup[index].backgroundColor = backColor
-			dayOneGroup[index].textColor = textColor
-			dayOneGroup[index].font = fontStyle
-			
-			//dayTwoGroup[index].backgroundColor = backColor
-			dayTwoGroup[index].textColor = textColor
-			dayTwoGroup[index].font = fontStyle
-			
-			//dayThreeGroup[index].backgroundColor = backColor
-			dayThreeGroup[index].textColor = textColor
-			dayThreeGroup[index].font = fontStyle
-			
-			//dayFourGroup[index].backgroundColor = backColor
-			dayFourGroup[index].textColor = textColor
-			dayFourGroup[index].font = fontStyle
-			
-			//dayFiveGroup[index].backgroundColor = backColor
-			dayFiveGroup[index].textColor = textColor
-			dayFiveGroup[index].font = fontStyle
-			
-			//daySixGroup[index].backgroundColor = backColor
-			daySixGroup[index].textColor = textColor
-			daySixGroup[index].font = fontStyle
-
-			////daySevenGroup[index].backgroundColor = backColor
-			daySevenGroup[index].textColor = textColor
-			daySevenGroup[index].font = fontStyle
-		}
-		
-		let fontStyleTwo = UIFont(name: "Helvetica Neue Thin", size: 10.0)
-		let arrayCount = allLabelsCollection.count
-		for numOfLabels in 0..<arrayCount {
-			
-			//allLabelsCollection[numOfLabels].textColor = textColor
-			allLabelsCollection[numOfLabels].font = fontStyleTwo
-			
-			allLabelsCollection[numOfLabels].textColor = UIColor.cloudsColor()
-		}
-	}
-	*/
-	
-	
-	
-	
-	
 	
 	
 	

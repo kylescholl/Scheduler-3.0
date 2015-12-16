@@ -8,162 +8,193 @@
 
 /* Begin PBXBuildFile section */
 		097E6D2C2111CC0AC7461AF45F1D8755 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6C3EE63866231DEF7F61F752205148 /* QuartzCore.framework */; };
-		0C5291482A3F7BA2CC58320C9B5BCA16 /* FUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FA2C513338A614AE2C4A95AAA649EA /* FUIButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		112A4FB2ECD2A55F39EDA4928D2ACA9D /* FUIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9028B935484542F7CFEDB2B7F949841 /* FUIAlertView.m */; };
-		1768B9615B6D6518F559FA5355AE3C7E /* FUICellBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E401D386EE277039C21F893BFEFA630 /* FUICellBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18C3AEE080A0F24DF5B368130143C50B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D44C7445252760B80A4D77DE14F019 /* Foundation.framework */; };
-		1A1996C93383A3C703E7DA5BC59F0FDB /* flat-ui-icons-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA40C451FE98983795E48FB636DCFA5 /* flat-ui-icons-regular.ttf */; };
-		1B8D06F57ABB9C73800ED039173E80A2 /* UINavigationBar+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F634F959573585330D9813D9762CD374 /* UINavigationBar+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F01150CCF0FBD91A951A60C457623EC /* UISlider+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D53DDB8B63036DCBDDC126BAAD8D31 /* UISlider+FlatUI.m */; };
-		201742A2D20350811849AC7E279D89C1 /* FUIAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D0C59F6DF3EF58388C4C062269E5780 /* FUIAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20210326E14FAA2C05DEC09A2C822462 /* FUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9404B73798861296689D5B5A304AF28C /* FUITextField.m */; };
-		2746B1D5E8F1D5D0854710EDF8F92293 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F12AB2386C3D4401E34EBDC465F3257 /* SwiftyJSON.swift */; };
-		2A1E59654B89E214A131F4AA82B8741A /* UIPopoverController+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A7E903FEF798C6C8F7EA4CE84BC12D /* UIPopoverController+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A20DD6FD5B9EA1CB9D7D33AD25F6990 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E90221DF4C71E217080A05B39FC4FFB /* Lato-Italic.ttf */; };
+		0BC288D73EE92E28F9286D780D32F575 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4374A0C726E9F37BC8EFD4B667DFE9BE /* DataStructures.swift */; };
+		0C5291482A3F7BA2CC58320C9B5BCA16 /* FUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 909EACDFE0189C70CDCC0A15472F2A9F /* FUIButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		112A4FB2ECD2A55F39EDA4928D2ACA9D /* FUIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AE37FF84EC309A55E4FE9CEA230193 /* FUIAlertView.m */; };
+		163F7CA29DAF3DD40E4016803EBB0127 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2332254FAA6C0EFA83D5986F159EF1D5 /* SwiftyJSON-dummy.m */; };
+		1768B9615B6D6518F559FA5355AE3C7E /* FUICellBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F04D1E462D811A6527993AF4D64DD3 /* FUICellBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A1996C93383A3C703E7DA5BC59F0FDB /* flat-ui-icons-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E8EF9D56570F5A844D23914928C8088 /* flat-ui-icons-regular.ttf */; };
+		1B8D06F57ABB9C73800ED039173E80A2 /* UINavigationBar+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F656FCF49EF7F97295459570B5731F00 /* UINavigationBar+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F01150CCF0FBD91A951A60C457623EC /* UISlider+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7399FA60D04F7EB9719157FF334FD3D3 /* UISlider+FlatUI.m */; };
+		201742A2D20350811849AC7E279D89C1 /* FUIAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = C63A76EF9C15FD6AECF84F4A091FE99B /* FUIAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20210326E14FAA2C05DEC09A2C822462 /* FUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F28BD551508937BEFB072B69F2F6C5 /* FUITextField.m */; };
+		2A1E59654B89E214A131F4AA82B8741A /* UIPopoverController+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = D217A1D5FBA33BC45D5C7C84CF7563FA /* UIPopoverController+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A20DD6FD5B9EA1CB9D7D33AD25F6990 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 007E909FCDD1DB950083C63C9853F939 /* Lato-Italic.ttf */; };
 		2A91F18E93B99740BB80D48C536DD0B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D44C7445252760B80A4D77DE14F019 /* Foundation.framework */; };
 		2E8B5131B7D8788D688EF2ED7C654406 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9211CDA31B8B6976CC91D65357D9B225 /* CoreText.framework */; };
-		2ECF841EB016889D3AF3A8615708FB37 /* NSString+Icons.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B16E4885C17A904AE97A344218365C /* NSString+Icons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EF4E8B5DA06CF8CF7E4C7437C04390A /* UIToolbar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0801ADCAE17456EA5483FF81C493B /* UIToolbar+FlatUI.m */; };
-		2FA3641B2811D21FFBC3732564E11BD9 /* UIColor+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = CBCC6390AAD6F85E671210CF55CB0CBB /* UIColor+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FD368C3F18F5F6AFAE5D2C1166D28F3 /* FUICellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6602AB4828205B6D181596DF224EF6CB /* FUICellBackgroundView.m */; };
-		30686CFDA8810EA3FD79C81676D8BEE4 /* FUISwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D8F55E841ED2F998C7E6E3572886DC /* FUISwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BEC156281D69151048A9799FB68580A /* UITabBar+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF5D60259D3AC7F441BC32E46039A1B /* UITabBar+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C993E9055C907D131B70A13725FCBD2 /* UITableViewCell+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 59A5AE9FA6E38EEF7EA359A3AB21612A /* UITableViewCell+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		420E5F12AB7FC7093F055D7B3EEE0595 /* UIFont+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D410F99F1781F145DF66ACCAD6851E /* UIFont+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48303E0C3327C7EB6FAF609E6B42387E /* UIImage+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B7DF314F03E2393C26ED3B0741672B /* UIImage+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BDFF6BEA49BDB9DBB4E06E17868248D /* FlatUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A2C9F7F8D65D3E1486AF8BFA8D098A /* FlatUIKit-dummy.m */; };
-		561FDB72BA8B61417BC0109D57FB53DD /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E47C89874CF7714348012DED10F4025 /* Lato-Bold.ttf */; };
-		5638E8C1AC3D36348BF52B821A63184E /* FlatUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C03BD895542BE269B997AFC9161F38AF /* FlatUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56C20D36C1BE8A7DAE8498DA7D73F8F7 /* FUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9432742297E3E88946A2FBE150BD00CA /* FUIButton.m */; };
-		5AF0906E3CC401EF05B9E306B3EFD499 /* UIBarButtonItem+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7042BBC56BCEC9760CB4F837539D5AC7 /* UIBarButtonItem+FlatUI.m */; };
-		5F072C98A3888CDCE924B1E0AE6CE025 /* UITabBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C7623C2BFC654727CC5EE02323CDBF8E /* UITabBar+FlatUI.m */; };
-		5F2F9A38D20F0DA3A1216644C2FCE99F /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD33C67521F71B376256DCC7AE497A5 /* UIImage+FlatUI.m */; };
-		6047CAC2349B1C186BA37A51DE790C9E /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E2F9C5C0FFD73D3D9462AC78921D7B8 /* Lato-Regular.ttf */; };
-		6385A4FCE4594DB3C4C0AE3630B86375 /* FUISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = D5686EE3427F14E60FD1FF387267BB67 /* FUISwitch.m */; };
-		65C63243CF9B34F40546B4773EB0F188 /* UIFont+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7424D383DFFA7963EC4D55A1091F33BB /* UIFont+FlatUI.m */; };
-		67B70A96D6BBBB9C9DC6D7BC1BE729D6 /* UINavigationBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AB3865E408CE594427BFE9DB07B6D9 /* UINavigationBar+FlatUI.m */; };
-		6B4F96C280717746A98B11A1EAFD274F /* FUIPopoverBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = A2E41196C0A0F84E6029F951C395F4AC /* FUIPopoverBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AE363356D9DAF059498E982C5BD0AD9 /* NSString+Icons.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DD32A6DB777103C8B9EFE1BEF319AE /* NSString+Icons.m */; };
-		8202542249F394EB94178687EF0A4C89 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97B8874DD6330793A446C232AB306E1F /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86E4DF6273553138DF185E40CB9E70D1 /* Pods-Scheduler 3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 588382C4E05F2167961B8A1837F2C189 /* Pods-Scheduler 3.0-dummy.m */; };
-		96B8E925EA9DD5D8394039CB6E187FAA /* UIStepper+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = A02FB31513FA4A56B86B00DDE55A1426 /* UIStepper+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96FF8E0FFD15B6383BF9613CCD4BF652 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40082A701891FC7423CF88AF03E6DA58 /* SwiftyJSON-dummy.m */; };
-		97C1D50670F0A109D5533CD3B1A3F6BF /* UIStepper+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2923853C24C41CF5311825743C4475 /* UIStepper+FlatUI.m */; };
-		9953A1F6E763CEED3CC4DB86C9D55845 /* UISlider+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB4FC15FA110B6D76B6122EDD598280 /* UISlider+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1818D9416A84341F98AFC7AF54565DC /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7534EE29BBC8F5E3F54F4B444D49B5EA /* UIColor+FlatUI.m */; };
-		A301B8F6BC707D768D1BA401B66CA18A /* FUISegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 54FDF33923AF05157FF87AAA1E72129E /* FUISegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3856F999C2EBB1F3A28359DD1F9C49A /* UIPopoverController+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA130C829CA5B9FB7FC578DDC05CF56 /* UIPopoverController+FlatUI.m */; };
-		AC583F0F6B82DDB0CB37DFB15998D6CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D44C7445252760B80A4D77DE14F019 /* Foundation.framework */; };
-		ACE1EEC5A30626AE9ECC8B8D13D1BBC6 /* UIProgressView+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50B437022A68A3BBAC2AFD5C8CCB8D /* UIProgressView+FlatUI.m */; };
-		B5CE0157F1F9EB6AF6F004D818F58A3A /* FUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0743E6AC126CC3E91D1D087481976EBC /* FUISegmentedControl.m */; };
-		BCB526791EA218830B02817A425FC7B0 /* UITableViewCell+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 166FC87F3F366541F5712BE7B07CB171 /* UITableViewCell+FlatUI.m */; };
-		C487BF47D0AEBFFB32FDA30A03F2903D /* UIBarButtonItem+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = CD9D2B58E5687B28C1F43E4C3FCF919B /* UIBarButtonItem+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D666A3E2B978CF6D89284BEA6E9280BE /* Pods-Scheduler 3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32551EFFD6DF3756231DD48C1DE4A02D /* Pods-Scheduler 3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE88AADD6CDD355FDEF74226741ADA01 /* UIToolbar+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 13141E2218A161A2E2923B7B08D554AB /* UIToolbar+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7A0DF07BEE9186EAA58D701552BEBE0 /* UIProgressView+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 92A459252B936D92F400B55DF7F3AEF5 /* UIProgressView+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF479ABEEE6F16D8B37197AA22C70A02 /* FUIPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B707C285052B8E3BA4E242E45D57A85 /* FUIPopoverBackgroundView.m */; };
-		F2FA2A4CAE1467E990B61BA78254E651 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F35ED131A5B254CCD91AA30D68D881 /* Lato-Light.ttf */; };
-		F80F0C5DD55B014CBCE737C87E3E24F0 /* FUITextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F377A373B8289688727D894A5FC25AA /* FUITextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F888C8B955E332D7B81BA8E85F1BCC4B /* FlatUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E7FE64397609119CDD45918DC712EB /* FlatUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ECF841EB016889D3AF3A8615708FB37 /* NSString+Icons.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4850E544797F9295CFF5FC885E4D78 /* NSString+Icons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EF4E8B5DA06CF8CF7E4C7437C04390A /* UIToolbar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F73BBA08DDF7BAAB9A232DCBE1635D57 /* UIToolbar+FlatUI.m */; };
+		2FA3641B2811D21FFBC3732564E11BD9 /* UIColor+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 06BD147F77194067C306B47EED6F2695 /* UIColor+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FD368C3F18F5F6AFAE5D2C1166D28F3 /* FUICellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A79E3835A2B7D89D1113813FACC6556 /* FUICellBackgroundView.m */; };
+		30686CFDA8810EA3FD79C81676D8BEE4 /* FUISwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1C181313D61F616DCC7EDC873BA136 /* FUISwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BEC156281D69151048A9799FB68580A /* UITabBar+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B87A0C51E67FE624F96A2CB915F2CF3 /* UITabBar+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C993E9055C907D131B70A13725FCBD2 /* UITableViewCell+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = E822C2F9666845385CA428ACF4B0D437 /* UITableViewCell+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		420E5F12AB7FC7093F055D7B3EEE0595 /* UIFont+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1EEFD3C3BE1274D8A6E5B902CDAFE8 /* UIFont+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48303E0C3327C7EB6FAF609E6B42387E /* UIImage+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9165F98C1B6EC63CE3327E7AF0DD4707 /* UIImage+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BDFF6BEA49BDB9DBB4E06E17868248D /* FlatUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AA6440CDE412F883B448B766A483D8 /* FlatUIKit-dummy.m */; };
+		561FDB72BA8B61417BC0109D57FB53DD /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBD3247DD0DC17FF8F5ECC85B710BD9D /* Lato-Bold.ttf */; };
+		5638E8C1AC3D36348BF52B821A63184E /* FlatUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F1431364175B69D3C54037F2438200CF /* FlatUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56C20D36C1BE8A7DAE8498DA7D73F8F7 /* FUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E534E0FE74E61143340C1A3791A639E8 /* FUIButton.m */; };
+		5A45449ECE68A7567190B9BC3D603164 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D44C7445252760B80A4D77DE14F019 /* Foundation.framework */; };
+		5AF0906E3CC401EF05B9E306B3EFD499 /* UIBarButtonItem+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB754968A7403DCFDA0553EDBF6A23E /* UIBarButtonItem+FlatUI.m */; };
+		5F072C98A3888CDCE924B1E0AE6CE025 /* UITabBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9D8F353BD53E1EEAFFF900B3EB1D6C /* UITabBar+FlatUI.m */; };
+		5F2F9A38D20F0DA3A1216644C2FCE99F /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 46011BEDE863B493D204D0E75CA01235 /* UIImage+FlatUI.m */; };
+		6047CAC2349B1C186BA37A51DE790C9E /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7D73A35C917F4934AD28ED3E25DDA99 /* Lato-Regular.ttf */; };
+		6385A4FCE4594DB3C4C0AE3630B86375 /* FUISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 069DDDCFF764FA591DEEE3A2DB3ACFE2 /* FUISwitch.m */; };
+		65C63243CF9B34F40546B4773EB0F188 /* UIFont+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FEAC9695187C5CFC40ABD53BC6F1DD /* UIFont+FlatUI.m */; };
+		67B70A96D6BBBB9C9DC6D7BC1BE729D6 /* UINavigationBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE549C17EF45B48D68D59653F999CB /* UINavigationBar+FlatUI.m */; };
+		6B4F96C280717746A98B11A1EAFD274F /* FUIPopoverBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = D8036232BA20965DDC92F937C2E844D5 /* FUIPopoverBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AA07C796F0E2B981BDC2BA3A3B35693 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D44C7445252760B80A4D77DE14F019 /* Foundation.framework */; };
+		7AE363356D9DAF059498E982C5BD0AD9 /* NSString+Icons.m in Sources */ = {isa = PBXBuildFile; fileRef = 3687B09B2A38CCBB6B571C8040A65F3D /* NSString+Icons.m */; };
+		7FE74EE93F212ECB48C9432DD9F9FA26 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87CB05515E95A8160755CB3FFD4C2446 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96B8E925EA9DD5D8394039CB6E187FAA /* UIStepper+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FD31470FF1157C810968564907FF00A /* UIStepper+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97836C78E4A78C2A4A1ADCD38E91FAD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D44C7445252760B80A4D77DE14F019 /* Foundation.framework */; };
+		97C1D50670F0A109D5533CD3B1A3F6BF /* UIStepper+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A93245B4C84073DA633FDDE335EB2DE /* UIStepper+FlatUI.m */; };
+		9953A1F6E763CEED3CC4DB86C9D55845 /* UISlider+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 306D0A7EFB497E3CAF4C42941C85226B /* UISlider+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99EC61DE74BA2BB77F5C6E93EEF8A579 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88181E08BE855979B7865027A09EF5E0 /* NSDate+Extension.swift */; };
+		A1818D9416A84341F98AFC7AF54565DC /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CD501D67918AC9B870FE419D8988E0 /* UIColor+FlatUI.m */; };
+		A301B8F6BC707D768D1BA401B66CA18A /* FUISegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = BB7CD2FA70718234C346FEB9015C44E3 /* FUISegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3856F999C2EBB1F3A28359DD1F9C49A /* UIPopoverController+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EB4DC01630F7BC9D1B2B6491FD1205 /* UIPopoverController+FlatUI.m */; };
+		ABBB412ADD02E549FBD036E6E6EAAB37 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0701CE517497351938AAD17A16E78754 /* SwiftyJSON.swift */; };
+		ACE1EEC5A30626AE9ECC8B8D13D1BBC6 /* UIProgressView+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1809A2B34A0CB79333C055D1A893D8 /* UIProgressView+FlatUI.m */; };
+		B5CE0157F1F9EB6AF6F004D818F58A3A /* FUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E4B8575FC5EF67393A5E3085126B14 /* FUISegmentedControl.m */; };
+		BCB526791EA218830B02817A425FC7B0 /* UITableViewCell+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D0298AB3B56FD1D9B3A37B586B2C4E71 /* UITableViewCell+FlatUI.m */; };
+		C487BF47D0AEBFFB32FDA30A03F2903D /* UIBarButtonItem+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 69DEBBC913A7D0E3B1EB59DA23ADAE60 /* UIBarButtonItem+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6B958B7F4CEA8F4BD03529ECDDC6757 /* SwiftDate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67591F62A8586E853113C0B0188B14F0 /* SwiftDate-dummy.m */; };
+		DA646332B74B4410C181D1368C6B401A /* Pods-Scheduler 3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 588382C4E05F2167961B8A1837F2C189 /* Pods-Scheduler 3.0-dummy.m */; };
+		DE88AADD6CDD355FDEF74226741ADA01 /* UIToolbar+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3D1A671304B83257E21B8038BC71B0 /* UIToolbar+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4AF3A4E20D910F373251F07EB30665F /* Pods-Scheduler 3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32551EFFD6DF3756231DD48C1DE4A02D /* Pods-Scheduler 3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7A0DF07BEE9186EAA58D701552BEBE0 /* UIProgressView+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA201BCED5827F01A2919C2FA15640E /* UIProgressView+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF479ABEEE6F16D8B37197AA22C70A02 /* FUIPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D357132EB78CF3930DA4E6AC9D2F7B7 /* FUIPopoverBackgroundView.m */; };
+		F2A65EA247C524B76FC51A05ACF5217E /* SwiftDate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF58530B03F0520C6E2BAB940B6ED0E8 /* SwiftDate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2FA2A4CAE1467E990B61BA78254E651 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88BE7108F29A8B4DF5240532596E114C /* Lato-Light.ttf */; };
+		F80F0C5DD55B014CBCE737C87E3E24F0 /* FUITextField.h in Headers */ = {isa = PBXBuildFile; fileRef = C85B88FB44D0E8615682FBC2958029DB /* FUITextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F888C8B955E332D7B81BA8E85F1BCC4B /* FlatUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 924F43D7A7DB640AEA7E8C1C73A5E661 /* FlatUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE895B5D086833BCA7EBA5B83FCAC9F9 /* DateInRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE05EE0A1F921B93FC708740AA6A438D /* DateInRegion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1B60D54E26CF044BA0DC2FBC8406181D /* PBXContainerItemProxy */ = {
+		1A383419D56360A13AAF773997CDB74F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B7873A07F43CC474DC7700B22789B3D;
+			remoteInfo = SwiftDate;
+		};
+		B6038A53C81263A5FA119199A1B28A60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B9B2150588DBD80E5AE1795436614AF;
+			remoteInfo = SwiftyJSON;
+		};
+		E8A07F4E12006650E08DF90CB806F68C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AD0892BE565CA9D5A839B9137561277C;
 			remoteInfo = FlatUIKit;
 		};
-		DD72F77EFD8DBB85AF70872BEAE1653E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 723F309110E479B30EB53BD2762482AC;
-			remoteInfo = SwiftyJSON;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04FA2C513338A614AE2C4A95AAA649EA /* FUIButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUIButton.h; path = Classes/ios/FUIButton.h; sourceTree = "<group>"; };
-		0743E6AC126CC3E91D1D087481976EBC /* FUISegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUISegmentedControl.m; path = Classes/ios/FUISegmentedControl.m; sourceTree = "<group>"; };
-		0BA130C829CA5B9FB7FC578DDC05CF56 /* UIPopoverController+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPopoverController+FlatUI.m"; path = "Classes/ios/UIPopoverController+FlatUI.m"; sourceTree = "<group>"; };
-		0C1497EC8A6A45C783246FBC2038D0F9 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
-		0E90221DF4C71E217080A05B39FC4FFB /* Lato-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Italic.ttf"; path = "Resources/Lato-Italic.ttf"; sourceTree = "<group>"; };
-		13141E2218A161A2E2923B7B08D554AB /* UIToolbar+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+FlatUI.h"; path = "Classes/ios/UIToolbar+FlatUI.h"; sourceTree = "<group>"; };
+		007E909FCDD1DB950083C63C9853F939 /* Lato-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Italic.ttf"; path = "Resources/Lato-Italic.ttf"; sourceTree = "<group>"; };
+		069DDDCFF764FA591DEEE3A2DB3ACFE2 /* FUISwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUISwitch.m; path = Classes/ios/FUISwitch.m; sourceTree = "<group>"; };
+		06BD147F77194067C306B47EED6F2695 /* UIColor+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+FlatUI.h"; path = "Classes/ios/UIColor+FlatUI.h"; sourceTree = "<group>"; };
+		0701CE517497351938AAD17A16E78754 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		0A79E3835A2B7D89D1113813FACC6556 /* FUICellBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUICellBackgroundView.m; path = Classes/ios/FUICellBackgroundView.m; sourceTree = "<group>"; };
+		0D357132EB78CF3930DA4E6AC9D2F7B7 /* FUIPopoverBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUIPopoverBackgroundView.m; path = Classes/ios/FUIPopoverBackgroundView.m; sourceTree = "<group>"; };
+		0EA201BCED5827F01A2919C2FA15640E /* UIProgressView+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+FlatUI.h"; path = "Classes/ios/UIProgressView+FlatUI.h"; sourceTree = "<group>"; };
+		0EF596C4B1DDFA7C95256ED1A5789DE6 /* FlatUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlatUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		131CE95B19DA020C9BA1821553555CDA /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14985D135C1A8A66F8F2EAF0B85C0292 /* Pods-Scheduler 3.0-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scheduler 3.0-resources.sh"; sourceTree = "<group>"; };
 		14994C04D69FD2D90C2ADBD33CE2EBF1 /* Pods-Scheduler 3.0-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scheduler 3.0-acknowledgements.plist"; sourceTree = "<group>"; };
-		166FC87F3F366541F5712BE7B07CB171 /* UITableViewCell+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+FlatUI.m"; path = "Classes/ios/UITableViewCell+FlatUI.m"; sourceTree = "<group>"; };
-		1D0C59F6DF3EF58388C4C062269E5780 /* FUIAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUIAlertView.h; path = Classes/ios/FUIAlertView.h; sourceTree = "<group>"; };
-		1DD0801ADCAE17456EA5483FF81C493B /* UIToolbar+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+FlatUI.m"; path = "Classes/ios/UIToolbar+FlatUI.m"; sourceTree = "<group>"; };
+		1B8579E0BD9B11B9A35475AAB2389239 /* FlatUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlatUIKit-prefix.pch"; sourceTree = "<group>"; };
 		1E6C3EE63866231DEF7F61F752205148 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		1F12AB2386C3D4401E34EBDC465F3257 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
-		25D8F55E841ED2F998C7E6E3572886DC /* FUISwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUISwitch.h; path = Classes/ios/FUISwitch.h; sourceTree = "<group>"; };
-		30D53DDB8B63036DCBDDC126BAAD8D31 /* UISlider+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISlider+FlatUI.m"; path = "Classes/ios/UISlider+FlatUI.m"; sourceTree = "<group>"; };
+		2332254FAA6C0EFA83D5986F159EF1D5 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		292ED5100FE1B8AB45B7AEDE02F1B553 /* FlatUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FlatUIKit.modulemap; sourceTree = "<group>"; };
+		2DB2114CF70F2696EF06633573663749 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB754968A7403DCFDA0553EDBF6A23E /* UIBarButtonItem+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+FlatUI.m"; path = "Classes/ios/UIBarButtonItem+FlatUI.m"; sourceTree = "<group>"; };
+		306D0A7EFB497E3CAF4C42941C85226B /* UISlider+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISlider+FlatUI.h"; path = "Classes/ios/UISlider+FlatUI.h"; sourceTree = "<group>"; };
 		32551EFFD6DF3756231DD48C1DE4A02D /* Pods-Scheduler 3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Scheduler 3.0-umbrella.h"; sourceTree = "<group>"; };
-		3791DC7037495AA54FDE3E44308C9345 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
-		38A2C9F7F8D65D3E1486AF8BFA8D098A /* FlatUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlatUIKit-dummy.m"; sourceTree = "<group>"; };
-		3AF5D60259D3AC7F441BC32E46039A1B /* UITabBar+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+FlatUI.h"; path = "Classes/ios/UITabBar+FlatUI.h"; sourceTree = "<group>"; };
-		3E2F9C5C0FFD73D3D9462AC78921D7B8 /* Lato-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "Resources/Lato-Regular.ttf"; sourceTree = "<group>"; };
-		3E47C89874CF7714348012DED10F4025 /* Lato-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "Resources/Lato-Bold.ttf"; sourceTree = "<group>"; };
-		3F5C204A8D67436CEEB2B67DF9DF5515 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40082A701891FC7423CF88AF03E6DA58 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		3687B09B2A38CCBB6B571C8040A65F3D /* NSString+Icons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Icons.m"; path = "Classes/ios/NSString+Icons.m"; sourceTree = "<group>"; };
+		38CD501D67918AC9B870FE419D8988E0 /* UIColor+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FlatUI.m"; path = "Classes/ios/UIColor+FlatUI.m"; sourceTree = "<group>"; };
+		3E8EF9D56570F5A844D23914928C8088 /* flat-ui-icons-regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "flat-ui-icons-regular.ttf"; path = "Resources/flat-ui-icons-regular.ttf"; sourceTree = "<group>"; };
 		424FECDAC8DD471A7B3361D625933719 /* Pods-Scheduler 3.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scheduler 3.0.debug.xcconfig"; sourceTree = "<group>"; };
-		4B707C285052B8E3BA4E242E45D57A85 /* FUIPopoverBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUIPopoverBackgroundView.m; path = Classes/ios/FUIPopoverBackgroundView.m; sourceTree = "<group>"; };
-		4CCE3D520177276FAFB52755D5383A1F /* FlatUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlatUIKit.xcconfig; sourceTree = "<group>"; };
+		4351C85FEBA1B0E28AB921D7B9898942 /* SwiftDate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDate-prefix.pch"; sourceTree = "<group>"; };
+		4374A0C726E9F37BC8EFD4B667DFE9BE /* DataStructures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataStructures.swift; path = SwiftDate/DataStructures.swift; sourceTree = "<group>"; };
+		46011BEDE863B493D204D0E75CA01235 /* UIImage+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FlatUI.m"; path = "Classes/ios/UIImage+FlatUI.m"; sourceTree = "<group>"; };
 		4F80F46293BCD7AD86B353CF73D5AD5D /* Pods-Scheduler 3.0-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Scheduler 3.0-acknowledgements.markdown"; sourceTree = "<group>"; };
-		50B7DF314F03E2393C26ED3B0741672B /* UIImage+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FlatUI.h"; path = "Classes/ios/UIImage+FlatUI.h"; sourceTree = "<group>"; };
-		54FDF33923AF05157FF87AAA1E72129E /* FUISegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUISegmentedControl.h; path = Classes/ios/FUISegmentedControl.h; sourceTree = "<group>"; };
 		588382C4E05F2167961B8A1837F2C189 /* Pods-Scheduler 3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Scheduler 3.0-dummy.m"; sourceTree = "<group>"; };
-		59A5AE9FA6E38EEF7EA359A3AB21612A /* UITableViewCell+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+FlatUI.h"; path = "Classes/ios/UITableViewCell+FlatUI.h"; sourceTree = "<group>"; };
-		6602AB4828205B6D181596DF224EF6CB /* FUICellBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUICellBackgroundView.m; path = Classes/ios/FUICellBackgroundView.m; sourceTree = "<group>"; };
-		6CB4FC15FA110B6D76B6122EDD598280 /* UISlider+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISlider+FlatUI.h"; path = "Classes/ios/UISlider+FlatUI.h"; sourceTree = "<group>"; };
-		6E401D386EE277039C21F893BFEFA630 /* FUICellBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUICellBackgroundView.h; path = Classes/ios/FUICellBackgroundView.h; sourceTree = "<group>"; };
-		6F377A373B8289688727D894A5FC25AA /* FUITextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUITextField.h; path = Classes/ios/FUITextField.h; sourceTree = "<group>"; };
-		7042BBC56BCEC9760CB4F837539D5AC7 /* UIBarButtonItem+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+FlatUI.m"; path = "Classes/ios/UIBarButtonItem+FlatUI.m"; sourceTree = "<group>"; };
-		7424D383DFFA7963EC4D55A1091F33BB /* UIFont+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+FlatUI.m"; path = "Classes/ios/UIFont+FlatUI.m"; sourceTree = "<group>"; };
-		74D410F99F1781F145DF66ACCAD6851E /* UIFont+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+FlatUI.h"; path = "Classes/ios/UIFont+FlatUI.h"; sourceTree = "<group>"; };
-		7534EE29BBC8F5E3F54F4B444D49B5EA /* UIColor+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FlatUI.m"; path = "Classes/ios/UIColor+FlatUI.m"; sourceTree = "<group>"; };
+		5B87A0C51E67FE624F96A2CB915F2CF3 /* UITabBar+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+FlatUI.h"; path = "Classes/ios/UITabBar+FlatUI.h"; sourceTree = "<group>"; };
+		5FD31470FF1157C810968564907FF00A /* UIStepper+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIStepper+FlatUI.h"; path = "Classes/ios/UIStepper+FlatUI.h"; sourceTree = "<group>"; };
+		6119F2080F3C0D0A5456C627CCCFD12E /* FlatUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlatUIKit.xcconfig; sourceTree = "<group>"; };
+		66F28BD551508937BEFB072B69F2F6C5 /* FUITextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUITextField.m; path = Classes/ios/FUITextField.m; sourceTree = "<group>"; };
+		67591F62A8586E853113C0B0188B14F0 /* SwiftDate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftDate-dummy.m"; sourceTree = "<group>"; };
+		67E4B8575FC5EF67393A5E3085126B14 /* FUISegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUISegmentedControl.m; path = Classes/ios/FUISegmentedControl.m; sourceTree = "<group>"; };
+		69DEBBC913A7D0E3B1EB59DA23ADAE60 /* UIBarButtonItem+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+FlatUI.h"; path = "Classes/ios/UIBarButtonItem+FlatUI.h"; sourceTree = "<group>"; };
+		6B74CF9B4855EA3B3CE656633ABC894E /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		7399FA60D04F7EB9719157FF334FD3D3 /* UISlider+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISlider+FlatUI.m"; path = "Classes/ios/UISlider+FlatUI.m"; sourceTree = "<group>"; };
+		74AA6440CDE412F883B448B766A483D8 /* FlatUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlatUIKit-dummy.m"; sourceTree = "<group>"; };
+		7724E23EFFC25CC083DBB2E331A96BB9 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		818F7D8EC57DE384BC3F8C0CEBE9F22B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		878D9ED71D40867F9E4D8EB88E8D8678 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A1A092D5EB353D99D19ED0F10D9B14 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CB05515E95A8160755CB3FFD4C2446 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		88181E08BE855979B7865027A09EF5E0 /* NSDate+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDate+Extension.swift"; path = "SwiftDate/NSDate+Extension.swift"; sourceTree = "<group>"; };
+		88BE7108F29A8B4DF5240532596E114C /* Lato-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "Resources/Lato-Light.ttf"; sourceTree = "<group>"; };
+		8F1C181313D61F616DCC7EDC873BA136 /* FUISwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUISwitch.h; path = Classes/ios/FUISwitch.h; sourceTree = "<group>"; };
+		909EACDFE0189C70CDCC0A15472F2A9F /* FUIButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUIButton.h; path = Classes/ios/FUIButton.h; sourceTree = "<group>"; };
+		9165F98C1B6EC63CE3327E7AF0DD4707 /* UIImage+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FlatUI.h"; path = "Classes/ios/UIImage+FlatUI.h"; sourceTree = "<group>"; };
 		9211CDA31B8B6976CC91D65357D9B225 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
-		92A459252B936D92F400B55DF7F3AEF5 /* UIProgressView+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+FlatUI.h"; path = "Classes/ios/UIProgressView+FlatUI.h"; sourceTree = "<group>"; };
-		9404B73798861296689D5B5A304AF28C /* FUITextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUITextField.m; path = Classes/ios/FUITextField.m; sourceTree = "<group>"; };
-		9432742297E3E88946A2FBE150BD00CA /* FUIButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUIButton.m; path = Classes/ios/FUIButton.m; sourceTree = "<group>"; };
-		97B8874DD6330793A446C232AB306E1F /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		9B2B9DF5C3674659BE44596382BA8E74 /* FlatUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlatUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EC7F9C3E0386AF0F2A7812FE3DF9289 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FA40C451FE98983795E48FB636DCFA5 /* flat-ui-icons-regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "flat-ui-icons-regular.ttf"; path = "Resources/flat-ui-icons-regular.ttf"; sourceTree = "<group>"; };
-		A02FB31513FA4A56B86B00DDE55A1426 /* UIStepper+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIStepper+FlatUI.h"; path = "Classes/ios/UIStepper+FlatUI.h"; sourceTree = "<group>"; };
-		A1F35ED131A5B254CCD91AA30D68D881 /* Lato-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "Resources/Lato-Light.ttf"; sourceTree = "<group>"; };
-		A2E41196C0A0F84E6029F951C395F4AC /* FUIPopoverBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUIPopoverBackgroundView.h; path = Classes/ios/FUIPopoverBackgroundView.h; sourceTree = "<group>"; };
-		AA2923853C24C41CF5311825743C4475 /* UIStepper+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIStepper+FlatUI.m"; path = "Classes/ios/UIStepper+FlatUI.m"; sourceTree = "<group>"; };
+		924F43D7A7DB640AEA7E8C1C73A5E661 /* FlatUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlatUIKit-umbrella.h"; sourceTree = "<group>"; };
+		9A93245B4C84073DA633FDDE335EB2DE /* UIStepper+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIStepper+FlatUI.m"; path = "Classes/ios/UIStepper+FlatUI.m"; sourceTree = "<group>"; };
+		9BFE549C17EF45B48D68D59653F999CB /* UINavigationBar+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+FlatUI.m"; path = "Classes/ios/UINavigationBar+FlatUI.m"; sourceTree = "<group>"; };
+		9EE808B8BDCBD5157EA754AC4BB727E0 /* SwiftDate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftDate.xcconfig; sourceTree = "<group>"; };
+		A3AE37FF84EC309A55E4FE9CEA230193 /* FUIAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUIAlertView.m; path = Classes/ios/FUIAlertView.m; sourceTree = "<group>"; };
+		AA1809A2B34A0CB79333C055D1A893D8 /* UIProgressView+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+FlatUI.m"; path = "Classes/ios/UIProgressView+FlatUI.m"; sourceTree = "<group>"; };
+		AA9D8F353BD53E1EEAFFF900B3EB1D6C /* UITabBar+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+FlatUI.m"; path = "Classes/ios/UITabBar+FlatUI.m"; sourceTree = "<group>"; };
 		B1D44C7445252760B80A4D77DE14F019 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B38D18BCB40FACB98286AFEB0762B077 /* Pods-Scheduler 3.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scheduler 3.0.release.xcconfig"; sourceTree = "<group>"; };
-		B8C1DB910D3905BFCBB86390870DE61B /* Pods_Scheduler_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scheduler_3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9028B935484542F7CFEDB2B7F949841 /* FUIAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUIAlertView.m; path = Classes/ios/FUIAlertView.m; sourceTree = "<group>"; };
+		B5EB4DC01630F7BC9D1B2B6491FD1205 /* UIPopoverController+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPopoverController+FlatUI.m"; path = "Classes/ios/UIPopoverController+FlatUI.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE6FF3A4B5CF1265F99DC0EB7AC654D3 /* FlatUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FlatUIKit.modulemap; sourceTree = "<group>"; };
-		C03BD895542BE269B997AFC9161F38AF /* FlatUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlatUIKit.h; path = Classes/ios/FlatUIKit.h; sourceTree = "<group>"; };
-		C7623C2BFC654727CC5EE02323CDBF8E /* UITabBar+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+FlatUI.m"; path = "Classes/ios/UITabBar+FlatUI.m"; sourceTree = "<group>"; };
-		CBCC6390AAD6F85E671210CF55CB0CBB /* UIColor+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+FlatUI.h"; path = "Classes/ios/UIColor+FlatUI.h"; sourceTree = "<group>"; };
-		CD9D2B58E5687B28C1F43E4C3FCF919B /* UIBarButtonItem+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+FlatUI.h"; path = "Classes/ios/UIBarButtonItem+FlatUI.h"; sourceTree = "<group>"; };
-		D0DD32A6DB777103C8B9EFE1BEF319AE /* NSString+Icons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Icons.m"; path = "Classes/ios/NSString+Icons.m"; sourceTree = "<group>"; };
-		D2E7FE64397609119CDD45918DC712EB /* FlatUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlatUIKit-umbrella.h"; sourceTree = "<group>"; };
-		D5686EE3427F14E60FD1FF387267BB67 /* FUISwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUISwitch.m; path = Classes/ios/FUISwitch.m; sourceTree = "<group>"; };
-		D9B16E4885C17A904AE97A344218365C /* NSString+Icons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Icons.h"; path = "Classes/ios/NSString+Icons.h"; sourceTree = "<group>"; };
+		BB7CD2FA70718234C346FEB9015C44E3 /* FUISegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUISegmentedControl.h; path = Classes/ios/FUISegmentedControl.h; sourceTree = "<group>"; };
+		BD9AF44D5D7C70BC9B2EA06928BE67E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C479618E170023C925778EB1CD8A0A0C /* Pods_Scheduler_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scheduler_3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5593A2FED4873EC0DAD745278C17BA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63A76EF9C15FD6AECF84F4A091FE99B /* FUIAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUIAlertView.h; path = Classes/ios/FUIAlertView.h; sourceTree = "<group>"; };
+		C85B88FB44D0E8615682FBC2958029DB /* FUITextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUITextField.h; path = Classes/ios/FUITextField.h; sourceTree = "<group>"; };
+		CB4850E544797F9295CFF5FC885E4D78 /* NSString+Icons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Icons.h"; path = "Classes/ios/NSString+Icons.h"; sourceTree = "<group>"; };
+		CE05EE0A1F921B93FC708740AA6A438D /* DateInRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInRegion.swift; path = SwiftDate/DateInRegion.swift; sourceTree = "<group>"; };
+		D0298AB3B56FD1D9B3A37B586B2C4E71 /* UITableViewCell+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+FlatUI.m"; path = "Classes/ios/UITableViewCell+FlatUI.m"; sourceTree = "<group>"; };
+		D0FEAC9695187C5CFC40ABD53BC6F1DD /* UIFont+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+FlatUI.m"; path = "Classes/ios/UIFont+FlatUI.m"; sourceTree = "<group>"; };
+		D217A1D5FBA33BC45D5C7C84CF7563FA /* UIPopoverController+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPopoverController+FlatUI.h"; path = "Classes/ios/UIPopoverController+FlatUI.h"; sourceTree = "<group>"; };
+		D58518B2F790B656E0E899A42D6C8329 /* SwiftDate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftDate.modulemap; sourceTree = "<group>"; };
+		D7D73A35C917F4934AD28ED3E25DDA99 /* Lato-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "Resources/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		D8036232BA20965DDC92F937C2E844D5 /* FUIPopoverBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUIPopoverBackgroundView.h; path = Classes/ios/FUIPopoverBackgroundView.h; sourceTree = "<group>"; };
+		DBD3247DD0DC17FF8F5ECC85B710BD9D /* Lato-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "Resources/Lato-Bold.ttf"; sourceTree = "<group>"; };
 		DF3B3B17CF2CEA7AC1642127F47E3C04 /* Pods-Scheduler 3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Scheduler 3.0.modulemap"; sourceTree = "<group>"; };
-		E1EDF565B52D41BEDC82EF78CDE19377 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		E5AB3865E408CE594427BFE9DB07B6D9 /* UINavigationBar+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+FlatUI.m"; path = "Classes/ios/UINavigationBar+FlatUI.m"; sourceTree = "<group>"; };
-		EE50B437022A68A3BBAC2AFD5C8CCB8D /* UIProgressView+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+FlatUI.m"; path = "Classes/ios/UIProgressView+FlatUI.m"; sourceTree = "<group>"; };
-		EF4CDC553EB7F83CB7A2B66C134F08F1 /* FlatUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlatUIKit-prefix.pch"; sourceTree = "<group>"; };
-		F5A7E903FEF798C6C8F7EA4CE84BC12D /* UIPopoverController+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPopoverController+FlatUI.h"; path = "Classes/ios/UIPopoverController+FlatUI.h"; sourceTree = "<group>"; };
-		F634F959573585330D9813D9762CD374 /* UINavigationBar+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+FlatUI.h"; path = "Classes/ios/UINavigationBar+FlatUI.h"; sourceTree = "<group>"; };
+		DF58530B03F0520C6E2BAB940B6ED0E8 /* SwiftDate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDate-umbrella.h"; sourceTree = "<group>"; };
+		E0F04D1E462D811A6527993AF4D64DD3 /* FUICellBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUICellBackgroundView.h; path = Classes/ios/FUICellBackgroundView.h; sourceTree = "<group>"; };
+		E30491412BB3E730DF0FFA117C1C505B /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		E534E0FE74E61143340C1A3791A639E8 /* FUIButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUIButton.m; path = Classes/ios/FUIButton.m; sourceTree = "<group>"; };
+		E822C2F9666845385CA428ACF4B0D437 /* UITableViewCell+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+FlatUI.h"; path = "Classes/ios/UITableViewCell+FlatUI.h"; sourceTree = "<group>"; };
+		EC1EEFD3C3BE1274D8A6E5B902CDAFE8 /* UIFont+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+FlatUI.h"; path = "Classes/ios/UIFont+FlatUI.h"; sourceTree = "<group>"; };
+		EE3D1A671304B83257E21B8038BC71B0 /* UIToolbar+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+FlatUI.h"; path = "Classes/ios/UIToolbar+FlatUI.h"; sourceTree = "<group>"; };
+		F1431364175B69D3C54037F2438200CF /* FlatUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlatUIKit.h; path = Classes/ios/FlatUIKit.h; sourceTree = "<group>"; };
+		F656FCF49EF7F97295459570B5731F00 /* UINavigationBar+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+FlatUI.h"; path = "Classes/ios/UINavigationBar+FlatUI.h"; sourceTree = "<group>"; };
+		F73BBA08DDF7BAAB9A232DCBE1635D57 /* UIToolbar+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+FlatUI.m"; path = "Classes/ios/UIToolbar+FlatUI.m"; sourceTree = "<group>"; };
 		F8F277B10626AD18AF243858552CC938 /* Pods-Scheduler 3.0-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scheduler 3.0-frameworks.sh"; sourceTree = "<group>"; };
-		FBD33C67521F71B376256DCC7AE497A5 /* UIImage+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FlatUI.m"; path = "Classes/ios/UIImage+FlatUI.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		80BCEE055D4951DDB2A28BCD233763A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA07C796F0E2B981BDC2BA3A3B35693 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DF0F522B67FD65AE6A2212D2CDBEB8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,25 +205,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF98BC4CCB4DC4E07504C91619AEC85B /* Frameworks */ = {
+		A89E918F8C50577936F1B5DADB157708 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C3AEE080A0F24DF5B368130143C50B /* Foundation.framework in Frameworks */,
+				5A45449ECE68A7567190B9BC3D603164 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F12D5D951128C5B337110B42200F75A7 /* Frameworks */ = {
+		E3C68FE4A392891D3D6B2FEBA98F2BFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC583F0F6B82DDB0CB37DFB15998D6CA /* Foundation.framework in Frameworks */,
+				97836C78E4A78C2A4A1ADCD38E91FAD9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		017EC357731048C8F020DEBD6FEAFB51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E8EF9D56570F5A844D23914928C8088 /* flat-ui-icons-regular.ttf */,
+				DBD3247DD0DC17FF8F5ECC85B710BD9D /* Lato-Bold.ttf */,
+				007E909FCDD1DB950083C63C9853F939 /* Lato-Italic.ttf */,
+				88BE7108F29A8B4DF5240532596E114C /* Lato-Light.ttf */,
+				D7D73A35C917F4934AD28ED3E25DDA99 /* Lato-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		03C11F82A6A561E5113A34E10EB85D1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EF596C4B1DDFA7C95256ED1A5789DE6 /* FlatUIKit.framework */,
+				C479618E170023C925778EB1CD8A0A0C /* Pods_Scheduler_3_0.framework */,
+				131CE95B19DA020C9BA1821553555CDA /* SwiftDate.framework */,
+				81A1A092D5EB353D99D19ED0F10D9B14 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		0BE0C16B701ED74480534E54575B840D /* Pods-Scheduler 3.0 */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +273,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		13A7A9BE8B9AFD438990CFB40D9E5650 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DB2114CF70F2696EF06633573663749 /* Info.plist */,
+				D58518B2F790B656E0E899A42D6C8329 /* SwiftDate.modulemap */,
+				9EE808B8BDCBD5157EA754AC4BB727E0 /* SwiftDate.xcconfig */,
+				67591F62A8586E853113C0B0188B14F0 /* SwiftDate-dummy.m */,
+				4351C85FEBA1B0E28AB921D7B9898942 /* SwiftDate-prefix.pch */,
+				DF58530B03F0520C6E2BAB940B6ED0E8 /* SwiftDate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftDate";
+			sourceTree = "<group>";
+		};
+		233292FAA565414830B880671298C13B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5593A2FED4873EC0DAD745278C17BA6 /* Info.plist */,
+				6B74CF9B4855EA3B3CE656633ABC894E /* SwiftyJSON.modulemap */,
+				7724E23EFFC25CC083DBB2E331A96BB9 /* SwiftyJSON.xcconfig */,
+				2332254FAA6C0EFA83D5986F159EF1D5 /* SwiftyJSON-dummy.m */,
+				E30491412BB3E730DF0FFA117C1C505B /* SwiftyJSON-prefix.pch */,
+				87CB05515E95A8160755CB3FFD4C2446 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
 		36D015C689081AA3A0B1B076E6E71C83 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,25 +311,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5D124A69C001DFAB7B65A303F645D2E4 /* SwiftyJSON */ = {
+		5BFB738518B4717D0A79E5414EBD1F3B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1F12AB2386C3D4401E34EBDC465F3257 /* SwiftyJSON.swift */,
-				AA421416271AD1F0AB0B457A621DB704 /* Support Files */,
+				8CED2EFAE5FF787A5F462FE0A76313AE /* FlatUIKit */,
+				A732D70654CC7E072230CE70423D087D /* SwiftDate */,
+				F943F030B41116B7C6CA41C96EAC82B4 /* SwiftyJSON */,
 			);
-			path = SwiftyJSON;
-			sourceTree = "<group>";
-		};
-		67EFF117B85FA118CF35CDB39CC64228 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9FA40C451FE98983795E48FB636DCFA5 /* flat-ui-icons-regular.ttf */,
-				3E47C89874CF7714348012DED10F4025 /* Lato-Bold.ttf */,
-				0E90221DF4C71E217080A05B39FC4FFB /* Lato-Italic.ttf */,
-				A1F35ED131A5B254CCD91AA30D68D881 /* Lato-Light.ttf */,
-				3E2F9C5C0FFD73D3D9462AC78921D7B8 /* Lato-Regular.ttf */,
-			);
-			name = Resources;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -255,10 +326,74 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				E56472B94BB44D5D7CE3424B3BA54E4D /* Pods */,
-				B4612031675AA713718F33A69DF64BC1 /* Products */,
+				5BFB738518B4717D0A79E5414EBD1F3B /* Pods */,
+				03C11F82A6A561E5113A34E10EB85D1A /* Products */,
 				A45D9B582A35B4D6DBB283E0432CD9DF /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8CED2EFAE5FF787A5F462FE0A76313AE /* FlatUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F1431364175B69D3C54037F2438200CF /* FlatUIKit.h */,
+				C63A76EF9C15FD6AECF84F4A091FE99B /* FUIAlertView.h */,
+				A3AE37FF84EC309A55E4FE9CEA230193 /* FUIAlertView.m */,
+				909EACDFE0189C70CDCC0A15472F2A9F /* FUIButton.h */,
+				E534E0FE74E61143340C1A3791A639E8 /* FUIButton.m */,
+				E0F04D1E462D811A6527993AF4D64DD3 /* FUICellBackgroundView.h */,
+				0A79E3835A2B7D89D1113813FACC6556 /* FUICellBackgroundView.m */,
+				D8036232BA20965DDC92F937C2E844D5 /* FUIPopoverBackgroundView.h */,
+				0D357132EB78CF3930DA4E6AC9D2F7B7 /* FUIPopoverBackgroundView.m */,
+				BB7CD2FA70718234C346FEB9015C44E3 /* FUISegmentedControl.h */,
+				67E4B8575FC5EF67393A5E3085126B14 /* FUISegmentedControl.m */,
+				8F1C181313D61F616DCC7EDC873BA136 /* FUISwitch.h */,
+				069DDDCFF764FA591DEEE3A2DB3ACFE2 /* FUISwitch.m */,
+				C85B88FB44D0E8615682FBC2958029DB /* FUITextField.h */,
+				66F28BD551508937BEFB072B69F2F6C5 /* FUITextField.m */,
+				CB4850E544797F9295CFF5FC885E4D78 /* NSString+Icons.h */,
+				3687B09B2A38CCBB6B571C8040A65F3D /* NSString+Icons.m */,
+				69DEBBC913A7D0E3B1EB59DA23ADAE60 /* UIBarButtonItem+FlatUI.h */,
+				2DB754968A7403DCFDA0553EDBF6A23E /* UIBarButtonItem+FlatUI.m */,
+				06BD147F77194067C306B47EED6F2695 /* UIColor+FlatUI.h */,
+				38CD501D67918AC9B870FE419D8988E0 /* UIColor+FlatUI.m */,
+				EC1EEFD3C3BE1274D8A6E5B902CDAFE8 /* UIFont+FlatUI.h */,
+				D0FEAC9695187C5CFC40ABD53BC6F1DD /* UIFont+FlatUI.m */,
+				9165F98C1B6EC63CE3327E7AF0DD4707 /* UIImage+FlatUI.h */,
+				46011BEDE863B493D204D0E75CA01235 /* UIImage+FlatUI.m */,
+				F656FCF49EF7F97295459570B5731F00 /* UINavigationBar+FlatUI.h */,
+				9BFE549C17EF45B48D68D59653F999CB /* UINavigationBar+FlatUI.m */,
+				D217A1D5FBA33BC45D5C7C84CF7563FA /* UIPopoverController+FlatUI.h */,
+				B5EB4DC01630F7BC9D1B2B6491FD1205 /* UIPopoverController+FlatUI.m */,
+				0EA201BCED5827F01A2919C2FA15640E /* UIProgressView+FlatUI.h */,
+				AA1809A2B34A0CB79333C055D1A893D8 /* UIProgressView+FlatUI.m */,
+				306D0A7EFB497E3CAF4C42941C85226B /* UISlider+FlatUI.h */,
+				7399FA60D04F7EB9719157FF334FD3D3 /* UISlider+FlatUI.m */,
+				5FD31470FF1157C810968564907FF00A /* UIStepper+FlatUI.h */,
+				9A93245B4C84073DA633FDDE335EB2DE /* UIStepper+FlatUI.m */,
+				5B87A0C51E67FE624F96A2CB915F2CF3 /* UITabBar+FlatUI.h */,
+				AA9D8F353BD53E1EEAFFF900B3EB1D6C /* UITabBar+FlatUI.m */,
+				E822C2F9666845385CA428ACF4B0D437 /* UITableViewCell+FlatUI.h */,
+				D0298AB3B56FD1D9B3A37B586B2C4E71 /* UITableViewCell+FlatUI.m */,
+				EE3D1A671304B83257E21B8038BC71B0 /* UIToolbar+FlatUI.h */,
+				F73BBA08DDF7BAAB9A232DCBE1635D57 /* UIToolbar+FlatUI.m */,
+				017EC357731048C8F020DEBD6FEAFB51 /* Resources */,
+				9D18DA8B1966735E762964BC1B594B46 /* Support Files */,
+			);
+			path = FlatUIKit;
+			sourceTree = "<group>";
+		};
+		9D18DA8B1966735E762964BC1B594B46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				292ED5100FE1B8AB45B7AEDE02F1B553 /* FlatUIKit.modulemap */,
+				6119F2080F3C0D0A5456C627CCCFD12E /* FlatUIKit.xcconfig */,
+				74AA6440CDE412F883B448B766A483D8 /* FlatUIKit-dummy.m */,
+				1B8579E0BD9B11B9A35475AAB2389239 /* FlatUIKit-prefix.pch */,
+				924F43D7A7DB640AEA7E8C1C73A5E661 /* FlatUIKit-umbrella.h */,
+				BD9AF44D5D7C70BC9B2EA06928BE67E5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlatUIKit";
 			sourceTree = "<group>";
 		};
 		A45D9B582A35B4D6DBB283E0432CD9DF /* Targets Support Files */ = {
@@ -269,119 +404,42 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AA421416271AD1F0AB0B457A621DB704 /* Support Files */ = {
+		A732D70654CC7E072230CE70423D087D /* SwiftDate */ = {
 			isa = PBXGroup;
 			children = (
-				9EC7F9C3E0386AF0F2A7812FE3DF9289 /* Info.plist */,
-				E1EDF565B52D41BEDC82EF78CDE19377 /* SwiftyJSON.modulemap */,
-				3791DC7037495AA54FDE3E44308C9345 /* SwiftyJSON.xcconfig */,
-				40082A701891FC7423CF88AF03E6DA58 /* SwiftyJSON-dummy.m */,
-				0C1497EC8A6A45C783246FBC2038D0F9 /* SwiftyJSON-prefix.pch */,
-				97B8874DD6330793A446C232AB306E1F /* SwiftyJSON-umbrella.h */,
+				4374A0C726E9F37BC8EFD4B667DFE9BE /* DataStructures.swift */,
+				CE05EE0A1F921B93FC708740AA6A438D /* DateInRegion.swift */,
+				88181E08BE855979B7865027A09EF5E0 /* NSDate+Extension.swift */,
+				13A7A9BE8B9AFD438990CFB40D9E5650 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyJSON";
+			path = SwiftDate;
 			sourceTree = "<group>";
 		};
-		B4612031675AA713718F33A69DF64BC1 /* Products */ = {
+		F943F030B41116B7C6CA41C96EAC82B4 /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				9B2B9DF5C3674659BE44596382BA8E74 /* FlatUIKit.framework */,
-				B8C1DB910D3905BFCBB86390870DE61B /* Pods_Scheduler_3_0.framework */,
-				878D9ED71D40867F9E4D8EB88E8D8678 /* SwiftyJSON.framework */,
+				0701CE517497351938AAD17A16E78754 /* SwiftyJSON.swift */,
+				233292FAA565414830B880671298C13B /* Support Files */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B61D592CF4A4F8D11FD66DBD50E20E55 /* FlatUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				C03BD895542BE269B997AFC9161F38AF /* FlatUIKit.h */,
-				1D0C59F6DF3EF58388C4C062269E5780 /* FUIAlertView.h */,
-				B9028B935484542F7CFEDB2B7F949841 /* FUIAlertView.m */,
-				04FA2C513338A614AE2C4A95AAA649EA /* FUIButton.h */,
-				9432742297E3E88946A2FBE150BD00CA /* FUIButton.m */,
-				6E401D386EE277039C21F893BFEFA630 /* FUICellBackgroundView.h */,
-				6602AB4828205B6D181596DF224EF6CB /* FUICellBackgroundView.m */,
-				A2E41196C0A0F84E6029F951C395F4AC /* FUIPopoverBackgroundView.h */,
-				4B707C285052B8E3BA4E242E45D57A85 /* FUIPopoverBackgroundView.m */,
-				54FDF33923AF05157FF87AAA1E72129E /* FUISegmentedControl.h */,
-				0743E6AC126CC3E91D1D087481976EBC /* FUISegmentedControl.m */,
-				25D8F55E841ED2F998C7E6E3572886DC /* FUISwitch.h */,
-				D5686EE3427F14E60FD1FF387267BB67 /* FUISwitch.m */,
-				6F377A373B8289688727D894A5FC25AA /* FUITextField.h */,
-				9404B73798861296689D5B5A304AF28C /* FUITextField.m */,
-				D9B16E4885C17A904AE97A344218365C /* NSString+Icons.h */,
-				D0DD32A6DB777103C8B9EFE1BEF319AE /* NSString+Icons.m */,
-				CD9D2B58E5687B28C1F43E4C3FCF919B /* UIBarButtonItem+FlatUI.h */,
-				7042BBC56BCEC9760CB4F837539D5AC7 /* UIBarButtonItem+FlatUI.m */,
-				CBCC6390AAD6F85E671210CF55CB0CBB /* UIColor+FlatUI.h */,
-				7534EE29BBC8F5E3F54F4B444D49B5EA /* UIColor+FlatUI.m */,
-				74D410F99F1781F145DF66ACCAD6851E /* UIFont+FlatUI.h */,
-				7424D383DFFA7963EC4D55A1091F33BB /* UIFont+FlatUI.m */,
-				50B7DF314F03E2393C26ED3B0741672B /* UIImage+FlatUI.h */,
-				FBD33C67521F71B376256DCC7AE497A5 /* UIImage+FlatUI.m */,
-				F634F959573585330D9813D9762CD374 /* UINavigationBar+FlatUI.h */,
-				E5AB3865E408CE594427BFE9DB07B6D9 /* UINavigationBar+FlatUI.m */,
-				F5A7E903FEF798C6C8F7EA4CE84BC12D /* UIPopoverController+FlatUI.h */,
-				0BA130C829CA5B9FB7FC578DDC05CF56 /* UIPopoverController+FlatUI.m */,
-				92A459252B936D92F400B55DF7F3AEF5 /* UIProgressView+FlatUI.h */,
-				EE50B437022A68A3BBAC2AFD5C8CCB8D /* UIProgressView+FlatUI.m */,
-				6CB4FC15FA110B6D76B6122EDD598280 /* UISlider+FlatUI.h */,
-				30D53DDB8B63036DCBDDC126BAAD8D31 /* UISlider+FlatUI.m */,
-				A02FB31513FA4A56B86B00DDE55A1426 /* UIStepper+FlatUI.h */,
-				AA2923853C24C41CF5311825743C4475 /* UIStepper+FlatUI.m */,
-				3AF5D60259D3AC7F441BC32E46039A1B /* UITabBar+FlatUI.h */,
-				C7623C2BFC654727CC5EE02323CDBF8E /* UITabBar+FlatUI.m */,
-				59A5AE9FA6E38EEF7EA359A3AB21612A /* UITableViewCell+FlatUI.h */,
-				166FC87F3F366541F5712BE7B07CB171 /* UITableViewCell+FlatUI.m */,
-				13141E2218A161A2E2923B7B08D554AB /* UIToolbar+FlatUI.h */,
-				1DD0801ADCAE17456EA5483FF81C493B /* UIToolbar+FlatUI.m */,
-				67EFF117B85FA118CF35CDB39CC64228 /* Resources */,
-				EC446750F9D305C89502939635570EC9 /* Support Files */,
-			);
-			path = FlatUIKit;
-			sourceTree = "<group>";
-		};
-		E56472B94BB44D5D7CE3424B3BA54E4D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B61D592CF4A4F8D11FD66DBD50E20E55 /* FlatUIKit */,
-				5D124A69C001DFAB7B65A303F645D2E4 /* SwiftyJSON */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		EC446750F9D305C89502939635570EC9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BE6FF3A4B5CF1265F99DC0EB7AC654D3 /* FlatUIKit.modulemap */,
-				4CCE3D520177276FAFB52755D5383A1F /* FlatUIKit.xcconfig */,
-				38A2C9F7F8D65D3E1486AF8BFA8D098A /* FlatUIKit-dummy.m */,
-				EF4CDC553EB7F83CB7A2B66C134F08F1 /* FlatUIKit-prefix.pch */,
-				D2E7FE64397609119CDD45918DC712EB /* FlatUIKit-umbrella.h */,
-				3F5C204A8D67436CEEB2B67DF9DF5515 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FlatUIKit";
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1966874CED38B373FDFC804447D48C10 /* Headers */ = {
+		30DCEDD61F4240C0094661C8C0F2544E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8202542249F394EB94178687EF0A4C89 /* SwiftyJSON-umbrella.h in Headers */,
+				7FE74EE93F212ECB48C9432DD9F9FA26 /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		720BE1434DD86917004F1841C2BF8515 /* Headers */ = {
+		3164B1E9AD989F19C669FBDB841B0971 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D666A3E2B978CF6D89284BEA6E9280BE /* Pods-Scheduler 3.0-umbrella.h in Headers */,
+				F2A65EA247C524B76FC51A05ACF5217E /* SwiftDate-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,16 +472,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC4B0AF681C914D69E93E7DE9A4C1838 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AF3A4E20D910F373251F07EB30665F /* Pods-Scheduler 3.0-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		723F309110E479B30EB53BD2762482AC /* SwiftyJSON */ = {
+		1B7873A07F43CC474DC7700B22789B3D /* SwiftDate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED4DA8E60D2F25AA7228824F8D1EFC7B /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildConfigurationList = 0CBED18E57A7CB2D80E64DC09011FAE4 /* Build configuration list for PBXNativeTarget "SwiftDate" */;
 			buildPhases = (
-				3BBC39D34684E455BDFF883513F74D4F /* Sources */,
-				CF98BC4CCB4DC4E07504C91619AEC85B /* Frameworks */,
-				1966874CED38B373FDFC804447D48C10 /* Headers */,
+				C2602D2F607956D9DA719DCA729E3449 /* Sources */,
+				E3C68FE4A392891D3D6B2FEBA98F2BFF /* Frameworks */,
+				3164B1E9AD989F19C669FBDB841B0971 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDate;
+			productName = SwiftDate;
+			productReference = 131CE95B19DA020C9BA1821553555CDA /* SwiftDate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B9B2150588DBD80E5AE1795436614AF /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D338FDE6FC3A965B49374AD7D13DE5A9 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				6A67470BE68DA3354F729F77CD27DA09 /* Sources */,
+				80BCEE055D4951DDB2A28BCD233763A4 /* Frameworks */,
+				30DCEDD61F4240C0094661C8C0F2544E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -431,7 +514,7 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = 878D9ED71D40867F9E4D8EB88E8D8678 /* SwiftyJSON.framework */;
+			productReference = 81A1A092D5EB353D99D19ED0F10D9B14 /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AD0892BE565CA9D5A839B9137561277C /* FlatUIKit */ = {
@@ -449,26 +532,27 @@
 			);
 			name = FlatUIKit;
 			productName = FlatUIKit;
-			productReference = 9B2B9DF5C3674659BE44596382BA8E74 /* FlatUIKit.framework */;
+			productReference = 0EF596C4B1DDFA7C95256ED1A5789DE6 /* FlatUIKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F23FB70773F82CF77FF817AFF5FB1CC6 /* Pods-Scheduler 3.0 */ = {
+		BAF09519AC3FD08F596F2450E81BC019 /* Pods-Scheduler 3.0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECA33E84732288F304FA13E80350BB1E /* Build configuration list for PBXNativeTarget "Pods-Scheduler 3.0" */;
+			buildConfigurationList = 8CA9E5B2B8DA1DB0AC392FDF6D08C966 /* Build configuration list for PBXNativeTarget "Pods-Scheduler 3.0" */;
 			buildPhases = (
-				1857A38C5D65865D143D18A1DE2CBCB6 /* Sources */,
-				F12D5D951128C5B337110B42200F75A7 /* Frameworks */,
-				720BE1434DD86917004F1841C2BF8515 /* Headers */,
+				E6ECD58D1D553926F919FAFEFC160F8D /* Sources */,
+				A89E918F8C50577936F1B5DADB157708 /* Frameworks */,
+				FC4B0AF681C914D69E93E7DE9A4C1838 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9557E33DD9AE90050E82C2AC2A3C3985 /* PBXTargetDependency */,
-				35B555CEDA494F1528F01CE6DB494929 /* PBXTargetDependency */,
+				76CA1DFACBBFF8D1B28F591A785C9853 /* PBXTargetDependency */,
+				A657DD2F3991B52C5887CFC3419C1EC6 /* PBXTargetDependency */,
+				A4545A8046CD600657FBDEEABBC92036 /* PBXTargetDependency */,
 			);
 			name = "Pods-Scheduler 3.0";
 			productName = "Pods-Scheduler 3.0";
-			productReference = B8C1DB910D3905BFCBB86390870DE61B /* Pods_Scheduler_3_0.framework */;
+			productReference = C479618E170023C925778EB1CD8A0A0C /* Pods_Scheduler_3_0.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -488,13 +572,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B4612031675AA713718F33A69DF64BC1 /* Products */;
+			productRefGroup = 03C11F82A6A561E5113A34E10EB85D1A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				AD0892BE565CA9D5A839B9137561277C /* FlatUIKit */,
-				F23FB70773F82CF77FF817AFF5FB1CC6 /* Pods-Scheduler 3.0 */,
-				723F309110E479B30EB53BD2762482AC /* SwiftyJSON */,
+				BAF09519AC3FD08F596F2450E81BC019 /* Pods-Scheduler 3.0 */,
+				1B7873A07F43CC474DC7700B22789B3D /* SwiftDate */,
+				6B9B2150588DBD80E5AE1795436614AF /* SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
@@ -515,20 +600,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1857A38C5D65865D143D18A1DE2CBCB6 /* Sources */ = {
+		6A67470BE68DA3354F729F77CD27DA09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E4DF6273553138DF185E40CB9E70D1 /* Pods-Scheduler 3.0-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3BBC39D34684E455BDFF883513F74D4F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96FF8E0FFD15B6383BF9613CCD4BF652 /* SwiftyJSON-dummy.m in Sources */,
-				2746B1D5E8F1D5D0854710EDF8F92293 /* SwiftyJSON.swift in Sources */,
+				163F7CA29DAF3DD40E4016803EBB0127 /* SwiftyJSON-dummy.m in Sources */,
+				ABBB412ADD02E549FBD036E6E6EAAB37 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,27 +637,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C2602D2F607956D9DA719DCA729E3449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC288D73EE92E28F9286D780D32F575 /* DataStructures.swift in Sources */,
+				FE895B5D086833BCA7EBA5B83FCAC9F9 /* DateInRegion.swift in Sources */,
+				99EC61DE74BA2BB77F5C6E93EEF8A579 /* NSDate+Extension.swift in Sources */,
+				C6B958B7F4CEA8F4BD03529ECDDC6757 /* SwiftDate-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6ECD58D1D553926F919FAFEFC160F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA646332B74B4410C181D1368C6B401A /* Pods-Scheduler 3.0-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		35B555CEDA494F1528F01CE6DB494929 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyJSON;
-			target = 723F309110E479B30EB53BD2762482AC /* SwiftyJSON */;
-			targetProxy = DD72F77EFD8DBB85AF70872BEAE1653E /* PBXContainerItemProxy */;
-		};
-		9557E33DD9AE90050E82C2AC2A3C3985 /* PBXTargetDependency */ = {
+		76CA1DFACBBFF8D1B28F591A785C9853 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlatUIKit;
 			target = AD0892BE565CA9D5A839B9137561277C /* FlatUIKit */;
-			targetProxy = 1B60D54E26CF044BA0DC2FBC8406181D /* PBXContainerItemProxy */;
+			targetProxy = E8A07F4E12006650E08DF90CB806F68C /* PBXContainerItemProxy */;
+		};
+		A4545A8046CD600657FBDEEABBC92036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 6B9B2150588DBD80E5AE1795436614AF /* SwiftyJSON */;
+			targetProxy = B6038A53C81263A5FA119199A1B28A60 /* PBXContainerItemProxy */;
+		};
+		A657DD2F3991B52C5887CFC3419C1EC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftDate;
+			target = 1B7873A07F43CC474DC7700B22789B3D /* SwiftDate */;
+			targetProxy = 1A383419D56360A13AAF773997CDB74F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2FBEF4A3B0DEA114E38006B8A12DD96C /* Debug */ = {
+		009DFCDD4E6F147156BCB01C7211364A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3791DC7037495AA54FDE3E44308C9345 /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = B38D18BCB40FACB98286AFEB0762B077 /* Pods-Scheduler 3.0.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -589,26 +691,55 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Scheduler 3.0/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftyJSON;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scheduler 3.0/Pods-Scheduler 3.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Scheduler_3_0;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		43FC874FFAE8222E99ACD8C0795FC676 /* Release */ = {
+		0672F6042A0789CC3FFED5E8C89F2AEE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3791DC7037495AA54FDE3E44308C9345 /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 9EE808B8BDCBD5157EA754AC4BB727E0 /* SwiftDate.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDate/SwiftDate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftDate/SwiftDate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		289309BB1A58B02D7AE207CB2AB6426E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7724E23EFFC25CC083DBB2E331A96BB9 /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -635,7 +766,7 @@
 		};
 		4C7AD94E808BD9CC27A7366CB1A355A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CCE3D520177276FAFB52755D5383A1F /* FlatUIKit.xcconfig */;
+			baseConfigurationReference = 6119F2080F3C0D0A5456C627CCCFD12E /* FlatUIKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -662,7 +793,7 @@
 		};
 		568C8BDDD66B058082AF681BC78BCC55 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CCE3D520177276FAFB52755D5383A1F /* FlatUIKit.xcconfig */;
+			baseConfigurationReference = 6119F2080F3C0D0A5456C627CCCFD12E /* FlatUIKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -687,7 +818,7 @@
 			};
 			name = Release;
 		};
-		77FA0B22064897763D19FDD5E1D52AE6 /* Debug */ = {
+		9ECAF4548DC581F454DFB036E635F085 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 424FECDAC8DD471A7B3361D625933719 /* Pods-Scheduler 3.0.debug.xcconfig */;
 			buildSettings = {
@@ -757,9 +888,9 @@
 			};
 			name = Debug;
 		};
-		F97A8E3B1FE243AE9F2A83FB4DD6256C /* Release */ = {
+		F5556E772F13B0E9CC603EDFADB6AE04 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B38D18BCB40FACB98286AFEB0762B077 /* Pods-Scheduler 3.0.release.xcconfig */;
+			baseConfigurationReference = 7724E23EFFC25CC083DBB2E331A96BB9 /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -768,24 +899,22 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Scheduler 3.0/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Scheduler 3.0/Pods-Scheduler 3.0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Scheduler_3_0;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -821,9 +950,46 @@
 			};
 			name = Release;
 		};
+		FDF36F7AE1F5B62D7F2C1DF8F9909527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE808B8BDCBD5157EA754AC4BB727E0 /* SwiftDate.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDate/SwiftDate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftDate/SwiftDate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0CBED18E57A7CB2D80E64DC09011FAE4 /* Build configuration list for PBXNativeTarget "SwiftDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF36F7AE1F5B62D7F2C1DF8F9909527 /* Debug */,
+				0672F6042A0789CC3FFED5E8C89F2AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -842,20 +1008,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECA33E84732288F304FA13E80350BB1E /* Build configuration list for PBXNativeTarget "Pods-Scheduler 3.0" */ = {
+		8CA9E5B2B8DA1DB0AC392FDF6D08C966 /* Build configuration list for PBXNativeTarget "Pods-Scheduler 3.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77FA0B22064897763D19FDD5E1D52AE6 /* Debug */,
-				F97A8E3B1FE243AE9F2A83FB4DD6256C /* Release */,
+				9ECAF4548DC581F454DFB036E635F085 /* Debug */,
+				009DFCDD4E6F147156BCB01C7211364A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED4DA8E60D2F25AA7228824F8D1EFC7B /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+		D338FDE6FC3A965B49374AD7D13DE5A9 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FBEF4A3B0DEA114E38006B8A12DD96C /* Debug */,
-				43FC874FFAE8222E99ACD8C0795FC676 /* Release */,
+				F5556E772F13B0E9CC603EDFADB6AE04 /* Debug */,
+				289309BB1A58B02D7AE207CB2AB6426E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

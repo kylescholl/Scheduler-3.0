@@ -8,6 +8,14 @@
 
 import UIKit
 import SwiftyJSON
+import SwiftDate
+
+///////////////////
+//// SNOW DAYS ////
+//////// & ////////
+///// DELAYS //////
+///////////////////
+
 
 class WeatherViewController: UIViewController {
 	
@@ -17,11 +25,9 @@ class WeatherViewController: UIViewController {
 	@IBOutlet var currentWeatherIcon: UIImageView!
 	@IBOutlet var staticWeatherIcon: UIImageView!
 	
-	//	@IBOutlet var testWeatherIcon: UIImageView!
 	
     override func viewDidLoad() {
         super.viewDidLoad()
-		
 		
 		let manager = AFHTTPRequestOperationManager()
 		manager.GET(
@@ -129,6 +135,10 @@ class WeatherViewController: UIViewController {
 		})
     }
 
+	@IBAction func done(sender: AnyObject) {
+		self.dismissViewControllerAnimated(true, completion: nil)
+	}
+	
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
