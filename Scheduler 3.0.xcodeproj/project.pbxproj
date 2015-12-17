@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2686C13A87E8F6D6C2141E1E /* Pods_Scheduler_3_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C8E67C6AB536CFC684708B /* Pods_Scheduler_3_0.framework */; };
+		7EC9782DFCD6209A66581DC0 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC56CF772D0A725EE5B36451 /* Pods.framework */; };
 		F709FC721C17650000398709 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F709FC601C17650000398709 /* AFHTTPRequestOperation.m */; };
 		F709FC731C17650000398709 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F709FC621C17650000398709 /* AFHTTPRequestOperationManager.m */; };
 		F709FC741C17650000398709 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F709FC641C17650000398709 /* AFHTTPSessionManager.m */; };
@@ -48,6 +49,7 @@
 		F74C63D51BE84C6A0019DC24 /* SchedulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C63D41BE84C6A0019DC24 /* SchedulerViewController.swift */; };
 		F756EF7E1C1B279E003322BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F756EF7D1C1B279E003322BA /* Assets.xcassets */; };
 		F756F0071C21D5D2003322BA /* FadingAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F756F0061C21D5D2003322BA /* FadingAnimations.swift */; };
+		F756F0091C233162003322BA /* HaikuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F756F0081C233162003322BA /* HaikuViewController.swift */; };
 		F7B0264B1BFA9C0E001C4532 /* Directory.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7B0264A1BFA9C0E001C4532 /* Directory.ttf */; };
 		F7CC31D91C18B76900428DFD /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC31D81C18B76900428DFD /* WeatherViewController.swift */; };
 		F7EA6D4D1BE9A0F400F85FAE /* EditScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EA6D4C1BE9A0F400F85FAE /* EditScheduleViewController.swift */; };
@@ -73,6 +75,7 @@
 /* Begin PBXFileReference section */
 		27C8E67C6AB536CFC684708B /* Pods_Scheduler_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scheduler_3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C50BFC2D2616F125A5D81C /* Pods-Scheduler 3.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scheduler 3.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scheduler 3.0/Pods-Scheduler 3.0.release.xcconfig"; sourceTree = "<group>"; };
+		BC56CF772D0A725EE5B36451 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E296F0A119EFAFAAFB2C5D63 /* Pods-Scheduler 3.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scheduler 3.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scheduler 3.0/Pods-Scheduler 3.0.debug.xcconfig"; sourceTree = "<group>"; };
 		F709FC5F1C17650000398709 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		F709FC601C17650000398709 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
@@ -152,6 +155,7 @@
 		F74C63D41BE84C6A0019DC24 /* SchedulerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerViewController.swift; sourceTree = "<group>"; };
 		F756EF7D1C1B279E003322BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F756F0061C21D5D2003322BA /* FadingAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadingAnimations.swift; sourceTree = "<group>"; };
+		F756F0081C233162003322BA /* HaikuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaikuViewController.swift; sourceTree = "<group>"; };
 		F7B0264A1BFA9C0E001C4532 /* Directory.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Directory.ttf; sourceTree = "<group>"; };
 		F7CC31D81C18B76900428DFD /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		F7CC31DA1C1A3CDA00428DFD /* meteocons.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = meteocons.otf; sourceTree = "<group>"; };
@@ -164,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2686C13A87E8F6D6C2141E1E /* Pods_Scheduler_3_0.framework in Frameworks */,
+				7EC9782DFCD6209A66581DC0 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +203,7 @@
 			children = (
 				F74C63931BE822A40019DC24 /* ios */,
 				27C8E67C6AB536CFC684708B /* Pods_Scheduler_3_0.framework */,
+				BC56CF772D0A725EE5B36451 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -228,12 +234,13 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		F71280021C0D154D00F34A64 /* Net Classroom */ = {
+		F71280021C0D154D00F34A64 /* Webs */ = {
 			isa = PBXGroup;
 			children = (
 				F71280071C0D214200F34A64 /* NetClassroomViewController.swift */,
+				F756F0081C233162003322BA /* HaikuViewController.swift */,
 			);
-			name = "Net Classroom";
+			name = Webs;
 			sourceTree = "<group>";
 		};
 		F7488C871BE8144100F90F49 = {
@@ -354,7 +361,7 @@
 				F7488C951BE8144100F90F49 /* ViewController.swift */,
 				F7C3E0491BF0D91F00514E5E /* Scheduler path */,
 				F7CC31D71C18B6BF00428DFD /* Weather */,
-				F71280021C0D154D00F34A64 /* Net Classroom */,
+				F71280021C0D154D00F34A64 /* Webs */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -467,6 +474,7 @@
 				TargetAttributes = {
 					F7488C8F1BE8144100F90F49 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Q2A268ESHL;
 					};
 					F7488CA61BE8144200F90F49 = {
 						CreatedOnToolsVersion = 7.1;
@@ -554,7 +562,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scheduler 3.0/Pods-Scheduler 3.0-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D99C3AE43496D84BAA0D4422 /* Copy Pods Resources */ = {
@@ -602,6 +610,7 @@
 				F709FC771C17650000398709 /* AFURLConnectionOperation.m in Sources */,
 				F74C63CC1BE822A50019DC24 /* UISlider+FlatUI.m in Sources */,
 				F709FC781C17650000398709 /* AFURLRequestSerialization.m in Sources */,
+				F756F0091C233162003322BA /* HaikuViewController.swift in Sources */,
 				F74C63CF1BE822A50019DC24 /* UITableViewCell+FlatUI.m in Sources */,
 				F74C63D51BE84C6A0019DC24 /* SchedulerViewController.swift in Sources */,
 				F74C63C51BE822A50019DC24 /* UIBarButtonItem+FlatUI.m in Sources */,
@@ -758,6 +767,7 @@
 			baseConfigurationReference = E296F0A119EFAFAAFB2C5D63 /* Pods-Scheduler 3.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Scheduler 3.0/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -772,6 +782,7 @@
 			baseConfigurationReference = 48C50BFC2D2616F125A5D81C /* Pods-Scheduler 3.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Scheduler 3.0/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -808,6 +819,7 @@
 		F7488CC21BE8144200F90F49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Scheduler 3.0UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.patronusllc.Scheduler-3-0UITests";
@@ -820,6 +832,7 @@
 		F7488CC31BE8144200F90F49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Scheduler 3.0UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.patronusllc.Scheduler-3-0UITests";

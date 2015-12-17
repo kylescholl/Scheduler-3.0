@@ -1,6 +1,12 @@
 platform :ios, "8.0"
 use_frameworks!
 
+# ignore all warnings from all pods
+## inhibit_all_warnings!
+
+# ignore warnings from a specific pod
+pod 'FlatUIKit', :inhibit_warnings => true
+
 target 'Scheduler 3.0' do
 	pod 'FlatUIKit', '~> 1.6'
 	pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'

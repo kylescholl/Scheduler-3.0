@@ -10,66 +10,75 @@
 		097E6D2C2111CC0AC7461AF45F1D8755 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6C3EE63866231DEF7F61F752205148 /* QuartzCore.framework */; };
 		0BC288D73EE92E28F9286D780D32F575 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4374A0C726E9F37BC8EFD4B667DFE9BE /* DataStructures.swift */; };
 		0C5291482A3F7BA2CC58320C9B5BCA16 /* FUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 909EACDFE0189C70CDCC0A15472F2A9F /* FUIButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		112A4FB2ECD2A55F39EDA4928D2ACA9D /* FUIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AE37FF84EC309A55E4FE9CEA230193 /* FUIAlertView.m */; };
+		13AB2F54BD5C6CDAD83AB5B5A38F4450 /* UIPopoverController+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EB4DC01630F7BC9D1B2B6491FD1205 /* UIPopoverController+FlatUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		163F7CA29DAF3DD40E4016803EBB0127 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2332254FAA6C0EFA83D5986F159EF1D5 /* SwiftyJSON-dummy.m */; };
 		1768B9615B6D6518F559FA5355AE3C7E /* FUICellBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F04D1E462D811A6527993AF4D64DD3 /* FUICellBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A1996C93383A3C703E7DA5BC59F0FDB /* flat-ui-icons-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E8EF9D56570F5A844D23914928C8088 /* flat-ui-icons-regular.ttf */; };
 		1B8D06F57ABB9C73800ED039173E80A2 /* UINavigationBar+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F656FCF49EF7F97295459570B5731F00 /* UINavigationBar+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F01150CCF0FBD91A951A60C457623EC /* UISlider+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7399FA60D04F7EB9719157FF334FD3D3 /* UISlider+FlatUI.m */; };
 		201742A2D20350811849AC7E279D89C1 /* FUIAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = C63A76EF9C15FD6AECF84F4A091FE99B /* FUIAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20210326E14FAA2C05DEC09A2C822462 /* FUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F28BD551508937BEFB072B69F2F6C5 /* FUITextField.m */; };
+		21BCC71BCB361B97869AF2FF641510E2 /* UITabBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9D8F353BD53E1EEAFFF900B3EB1D6C /* UITabBar+FlatUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		28BAEF7B490AAA654C257B3B79715512 /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CD501D67918AC9B870FE419D8988E0 /* UIColor+FlatUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2A1E59654B89E214A131F4AA82B8741A /* UIPopoverController+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = D217A1D5FBA33BC45D5C7C84CF7563FA /* UIPopoverController+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A20DD6FD5B9EA1CB9D7D33AD25F6990 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 007E909FCDD1DB950083C63C9853F939 /* Lato-Italic.ttf */; };
 		2A91F18E93B99740BB80D48C536DD0B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D44C7445252760B80A4D77DE14F019 /* Foundation.framework */; };
+		2D9BE690B2452AC5849628C27C41C938 /* FUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E534E0FE74E61143340C1A3791A639E8 /* FUIButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2E8B5131B7D8788D688EF2ED7C654406 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9211CDA31B8B6976CC91D65357D9B225 /* CoreText.framework */; };
 		2ECF841EB016889D3AF3A8615708FB37 /* NSString+Icons.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4850E544797F9295CFF5FC885E4D78 /* NSString+Icons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EF4E8B5DA06CF8CF7E4C7437C04390A /* UIToolbar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F73BBA08DDF7BAAB9A232DCBE1635D57 /* UIToolbar+FlatUI.m */; };
 		2FA3641B2811D21FFBC3732564E11BD9 /* UIColor+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 06BD147F77194067C306B47EED6F2695 /* UIColor+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FD368C3F18F5F6AFAE5D2C1166D28F3 /* FUICellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A79E3835A2B7D89D1113813FACC6556 /* FUICellBackgroundView.m */; };
 		30686CFDA8810EA3FD79C81676D8BEE4 /* FUISwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1C181313D61F616DCC7EDC873BA136 /* FUISwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BEC156281D69151048A9799FB68580A /* UITabBar+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B87A0C51E67FE624F96A2CB915F2CF3 /* UITabBar+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C993E9055C907D131B70A13725FCBD2 /* UITableViewCell+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = E822C2F9666845385CA428ACF4B0D437 /* UITableViewCell+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D4A2C38A4B724B57E7DB7D5A42A5068 /* UIToolbar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F73BBA08DDF7BAAB9A232DCBE1635D57 /* UIToolbar+FlatUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		420E5F12AB7FC7093F055D7B3EEE0595 /* UIFont+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1EEFD3C3BE1274D8A6E5B902CDAFE8 /* UIFont+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		429BDD849236D233D4CACF52B67C9598 /* UITableViewCell+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D0298AB3B56FD1D9B3A37B586B2C4E71 /* UITableViewCell+FlatUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		48303E0C3327C7EB6FAF609E6B42387E /* UIImage+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9165F98C1B6EC63CE3327E7AF0DD4707 /* UIImage+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BDFF6BEA49BDB9DBB4E06E17868248D /* FlatUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AA6440CDE412F883B448B766A483D8 /* FlatUIKit-dummy.m */; };
+		4C23220CE1F229EB0EC0544E7D204276 /* FUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E4B8575FC5EF67393A5E3085126B14 /* FUISegmentedControl.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		561FDB72BA8B61417BC0109D57FB53DD /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBD3247DD0DC17FF8F5ECC85B710BD9D /* Lato-Bold.ttf */; };
 		5638E8C1AC3D36348BF52B821A63184E /* FlatUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F1431364175B69D3C54037F2438200CF /* FlatUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56C20D36C1BE8A7DAE8498DA7D73F8F7 /* FUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E534E0FE74E61143340C1A3791A639E8 /* FUIButton.m */; };
 		5A45449ECE68A7567190B9BC3D603164 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D44C7445252760B80A4D77DE14F019 /* Foundation.framework */; };
-		5AF0906E3CC401EF05B9E306B3EFD499 /* UIBarButtonItem+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB754968A7403DCFDA0553EDBF6A23E /* UIBarButtonItem+FlatUI.m */; };
-		5F072C98A3888CDCE924B1E0AE6CE025 /* UITabBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9D8F353BD53E1EEAFFF900B3EB1D6C /* UITabBar+FlatUI.m */; };
-		5F2F9A38D20F0DA3A1216644C2FCE99F /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 46011BEDE863B493D204D0E75CA01235 /* UIImage+FlatUI.m */; };
+		5D5C41DE4DECD71B356F44781086BCA6 /* Pods-Scheduler 3.0UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A6ABE656981365FC82611724A7C31A /* Pods-Scheduler 3.0UITests-dummy.m */; };
 		6047CAC2349B1C186BA37A51DE790C9E /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7D73A35C917F4934AD28ED3E25DDA99 /* Lato-Regular.ttf */; };
-		6385A4FCE4594DB3C4C0AE3630B86375 /* FUISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 069DDDCFF764FA591DEEE3A2DB3ACFE2 /* FUISwitch.m */; };
-		65C63243CF9B34F40546B4773EB0F188 /* UIFont+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FEAC9695187C5CFC40ABD53BC6F1DD /* UIFont+FlatUI.m */; };
-		67B70A96D6BBBB9C9DC6D7BC1BE729D6 /* UINavigationBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE549C17EF45B48D68D59653F999CB /* UINavigationBar+FlatUI.m */; };
+		61E83D0C498F268356F3BED02CC9160D /* FUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F28BD551508937BEFB072B69F2F6C5 /* FUITextField.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6B4F96C280717746A98B11A1EAFD274F /* FUIPopoverBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = D8036232BA20965DDC92F937C2E844D5 /* FUIPopoverBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71AE1C6AA9C0C176DA32C2A23DADCE3E /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B648580F02A09FFDE2539CD4FC0A607D /* Pods-dummy.m */; };
 		7AA07C796F0E2B981BDC2BA3A3B35693 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D44C7445252760B80A4D77DE14F019 /* Foundation.framework */; };
-		7AE363356D9DAF059498E982C5BD0AD9 /* NSString+Icons.m in Sources */ = {isa = PBXBuildFile; fileRef = 3687B09B2A38CCBB6B571C8040A65F3D /* NSString+Icons.m */; };
+		7D110D39CB276BCD9E72F8B642F267A9 /* FUISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 069DDDCFF764FA591DEEE3A2DB3ACFE2 /* FUISwitch.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7FE74EE93F212ECB48C9432DD9F9FA26 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87CB05515E95A8160755CB3FFD4C2446 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82071F7B917CFEC200BB890A42A0BF1A /* FlatUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AA6440CDE412F883B448B766A483D8 /* FlatUIKit-dummy.m */; };
+		860614ADC6D0AC2B7921F966E0DF9DEC /* Pods-Scheduler 3.0Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E04176509C6DA9A77F40AC94784D2EDE /* Pods-Scheduler 3.0Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F01EB31611C387391505D6E5DD6BD72 /* UIProgressView+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1809A2B34A0CB79333C055D1A893D8 /* UIProgressView+FlatUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		90B5234F7A39486C0870574CFE43313C /* Pods-Scheduler 3.0UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 282F26A855DE3D9350DA0CC33FB1BB4C /* Pods-Scheduler 3.0UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90C59FC3F564446630540B6EAD602839 /* UINavigationBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE549C17EF45B48D68D59653F999CB /* UINavigationBar+FlatUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9662A48A22D4A32C5C2C202338DE6A7C /* UIBarButtonItem+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB754968A7403DCFDA0553EDBF6A23E /* UIBarButtonItem+FlatUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		96B8E925EA9DD5D8394039CB6E187FAA /* UIStepper+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FD31470FF1157C810968564907FF00A /* UIStepper+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97836C78E4A78C2A4A1ADCD38E91FAD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D44C7445252760B80A4D77DE14F019 /* Foundation.framework */; };
-		97C1D50670F0A109D5533CD3B1A3F6BF /* UIStepper+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A93245B4C84073DA633FDDE335EB2DE /* UIStepper+FlatUI.m */; };
 		9953A1F6E763CEED3CC4DB86C9D55845 /* UISlider+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 306D0A7EFB497E3CAF4C42941C85226B /* UISlider+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99EC61DE74BA2BB77F5C6E93EEF8A579 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88181E08BE855979B7865027A09EF5E0 /* NSDate+Extension.swift */; };
-		A1818D9416A84341F98AFC7AF54565DC /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CD501D67918AC9B870FE419D8988E0 /* UIColor+FlatUI.m */; };
 		A301B8F6BC707D768D1BA401B66CA18A /* FUISegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = BB7CD2FA70718234C346FEB9015C44E3 /* FUISegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3856F999C2EBB1F3A28359DD1F9C49A /* UIPopoverController+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EB4DC01630F7BC9D1B2B6491FD1205 /* UIPopoverController+FlatUI.m */; };
+		A86527E9F257E254F01F52544DE2A5F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D44C7445252760B80A4D77DE14F019 /* Foundation.framework */; };
+		AA888EAAA082C7E0354BB892E7B29E99 /* FUIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AE37FF84EC309A55E4FE9CEA230193 /* FUIAlertView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		ABBB412ADD02E549FBD036E6E6EAAB37 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0701CE517497351938AAD17A16E78754 /* SwiftyJSON.swift */; };
-		ACE1EEC5A30626AE9ECC8B8D13D1BBC6 /* UIProgressView+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1809A2B34A0CB79333C055D1A893D8 /* UIProgressView+FlatUI.m */; };
-		B5CE0157F1F9EB6AF6F004D818F58A3A /* FUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E4B8575FC5EF67393A5E3085126B14 /* FUISegmentedControl.m */; };
-		BCB526791EA218830B02817A425FC7B0 /* UITableViewCell+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D0298AB3B56FD1D9B3A37B586B2C4E71 /* UITableViewCell+FlatUI.m */; };
+		BC2B3C2A4F9B2B7F06796803CE4093D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D44C7445252760B80A4D77DE14F019 /* Foundation.framework */; };
+		C396F9DE6CABDFC3D6F4AE37C0661287 /* Pods-Scheduler 3.0Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0B50713F7AF04C9AD747EC729DEF98 /* Pods-Scheduler 3.0Tests-dummy.m */; };
+		C47C632E6C893B8519137C3ED230DCDF /* NSString+Icons.m in Sources */ = {isa = PBXBuildFile; fileRef = 3687B09B2A38CCBB6B571C8040A65F3D /* NSString+Icons.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C487BF47D0AEBFFB32FDA30A03F2903D /* UIBarButtonItem+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 69DEBBC913A7D0E3B1EB59DA23ADAE60 /* UIBarButtonItem+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6B958B7F4CEA8F4BD03529ECDDC6757 /* SwiftDate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67591F62A8586E853113C0B0188B14F0 /* SwiftDate-dummy.m */; };
-		DA646332B74B4410C181D1368C6B401A /* Pods-Scheduler 3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 588382C4E05F2167961B8A1837F2C189 /* Pods-Scheduler 3.0-dummy.m */; };
+		C7083013AA2206F33F0591173FE6EE73 /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 46011BEDE863B493D204D0E75CA01235 /* UIImage+FlatUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D3FAE2859ECB593E5021BCCE8B15F61C /* FUIPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D357132EB78CF3930DA4E6AC9D2F7B7 /* FUIPopoverBackgroundView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D853A58D848362FDA0D8E4A05ABB3FC6 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 895047E3C4A25B43F2EDA96A358EF1A7 /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA646332B74B4410C181D1368C6B401A /* Pods-Scheduler 3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A929B3B09126FA50305F54D72D4A71 /* Pods-Scheduler 3.0-dummy.m */; };
 		DE88AADD6CDD355FDEF74226741ADA01 /* UIToolbar+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3D1A671304B83257E21B8038BC71B0 /* UIToolbar+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4AF3A4E20D910F373251F07EB30665F /* Pods-Scheduler 3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32551EFFD6DF3756231DD48C1DE4A02D /* Pods-Scheduler 3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E296EC353FDBE78EFD77A13B10C5063C /* UIStepper+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A93245B4C84073DA633FDDE335EB2DE /* UIStepper+FlatUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E4AF3A4E20D910F373251F07EB30665F /* Pods-Scheduler 3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DFCDD35DE02360D8AF02DFB71BB41D0 /* Pods-Scheduler 3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7A0DF07BEE9186EAA58D701552BEBE0 /* UIProgressView+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA201BCED5827F01A2919C2FA15640E /* UIProgressView+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF479ABEEE6F16D8B37197AA22C70A02 /* FUIPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D357132EB78CF3930DA4E6AC9D2F7B7 /* FUIPopoverBackgroundView.m */; };
+		E8FEF4942E91BB01A9E726824D7F5DEF /* UIFont+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FEAC9695187C5CFC40ABD53BC6F1DD /* UIFont+FlatUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E98EB846345E36360C4CEAA188D77AB6 /* FUICellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A79E3835A2B7D89D1113813FACC6556 /* FUICellBackgroundView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F1CBCA5C3884FC3B35ED52FEA2D91F8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D44C7445252760B80A4D77DE14F019 /* Foundation.framework */; };
 		F2A65EA247C524B76FC51A05ACF5217E /* SwiftDate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF58530B03F0520C6E2BAB940B6ED0E8 /* SwiftDate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2FA2A4CAE1467E990B61BA78254E651 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88BE7108F29A8B4DF5240532596E114C /* Lato-Light.ttf */; };
 		F80F0C5DD55B014CBCE737C87E3E24F0 /* FUITextField.h in Headers */ = {isa = PBXBuildFile; fileRef = C85B88FB44D0E8615682FBC2958029DB /* FUITextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F888C8B955E332D7B81BA8E85F1BCC4B /* FlatUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 924F43D7A7DB640AEA7E8C1C73A5E661 /* FlatUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAFA27A6C4909C8FB6531370B0F16FB7 /* UISlider+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7399FA60D04F7EB9719157FF334FD3D3 /* UISlider+FlatUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FE895B5D086833BCA7EBA5B83FCAC9F9 /* DateInRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE05EE0A1F921B93FC708740AA6A438D /* DateInRegion.swift */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +89,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1B7873A07F43CC474DC7700B22789B3D;
 			remoteInfo = SwiftDate;
+		};
+		491986E715D22070E0F1BC5E7FF0DA3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD0892BE565CA9D5A839B9137561277C;
+			remoteInfo = FlatUIKit;
+		};
+		624EFE59EDEB3BEF2B786947FD232ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD0892BE565CA9D5A839B9137561277C;
+			remoteInfo = FlatUIKit;
 		};
 		B6038A53C81263A5FA119199A1B28A60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -95,98 +118,162 @@
 			remoteGlobalIDString = AD0892BE565CA9D5A839B9137561277C;
 			remoteInfo = FlatUIKit;
 		};
+		F4B53CEA394BB1FE8CF6B45DD2DD5288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD0892BE565CA9D5A839B9137561277C;
+			remoteInfo = FlatUIKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		007E909FCDD1DB950083C63C9853F939 /* Lato-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Italic.ttf"; path = "Resources/Lato-Italic.ttf"; sourceTree = "<group>"; };
+		019AA1403B12B737A5DFD378C186ADD5 /* Pods-Scheduler 3.0UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scheduler 3.0UITests-frameworks.sh"; sourceTree = "<group>"; };
+		067740C0901403785079B264B86E731E /* Pods_Scheduler_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scheduler_3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		069DDDCFF764FA591DEEE3A2DB3ACFE2 /* FUISwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUISwitch.m; path = Classes/ios/FUISwitch.m; sourceTree = "<group>"; };
 		06BD147F77194067C306B47EED6F2695 /* UIColor+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+FlatUI.h"; path = "Classes/ios/UIColor+FlatUI.h"; sourceTree = "<group>"; };
 		0701CE517497351938AAD17A16E78754 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		0A79E3835A2B7D89D1113813FACC6556 /* FUICellBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUICellBackgroundView.m; path = Classes/ios/FUICellBackgroundView.m; sourceTree = "<group>"; };
 		0D357132EB78CF3930DA4E6AC9D2F7B7 /* FUIPopoverBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUIPopoverBackgroundView.m; path = Classes/ios/FUIPopoverBackgroundView.m; sourceTree = "<group>"; };
+		0DD104FE3E47967AA3B1ABDD361FF8D5 /* Pods-Scheduler 3.0UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Scheduler 3.0UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0EA201BCED5827F01A2919C2FA15640E /* UIProgressView+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+FlatUI.h"; path = "Classes/ios/UIProgressView+FlatUI.h"; sourceTree = "<group>"; };
-		0EF596C4B1DDFA7C95256ED1A5789DE6 /* FlatUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlatUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		131CE95B19DA020C9BA1821553555CDA /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		14985D135C1A8A66F8F2EAF0B85C0292 /* Pods-Scheduler 3.0-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scheduler 3.0-resources.sh"; sourceTree = "<group>"; };
-		14994C04D69FD2D90C2ADBD33CE2EBF1 /* Pods-Scheduler 3.0-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scheduler 3.0-acknowledgements.plist"; sourceTree = "<group>"; };
+		0FB81873D691B3A71C9ADD78C01DA6FB /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		116851DBE417DFD2575E02A1FBE463BF /* Pods-Scheduler 3.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scheduler 3.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		17DF1102974CDAC48B76C62DFD6D3455 /* Pods-Scheduler 3.0-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scheduler 3.0-resources.sh"; sourceTree = "<group>"; };
 		1B8579E0BD9B11B9A35475AAB2389239 /* FlatUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlatUIKit-prefix.pch"; sourceTree = "<group>"; };
+		1C6B06AF9BCC6BE41266F578F8864561 /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DFCDD35DE02360D8AF02DFB71BB41D0 /* Pods-Scheduler 3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Scheduler 3.0-umbrella.h"; sourceTree = "<group>"; };
 		1E6C3EE63866231DEF7F61F752205148 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		2332254FAA6C0EFA83D5986F159EF1D5 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		248449811EEB2FFA95AC21DAE4FA9162 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		25CA6789BBEE75999F75A3D4CA271BB6 /* Pods-Scheduler 3.0Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scheduler 3.0Tests-resources.sh"; sourceTree = "<group>"; };
+		282F26A855DE3D9350DA0CC33FB1BB4C /* Pods-Scheduler 3.0UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Scheduler 3.0UITests-umbrella.h"; sourceTree = "<group>"; };
+		2861DCEC3D6D9BB61EECBDEBE32B550F /* Pods-Scheduler 3.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scheduler 3.0Tests.release.xcconfig"; sourceTree = "<group>"; };
 		292ED5100FE1B8AB45B7AEDE02F1B553 /* FlatUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FlatUIKit.modulemap; sourceTree = "<group>"; };
 		2DB2114CF70F2696EF06633573663749 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DB754968A7403DCFDA0553EDBF6A23E /* UIBarButtonItem+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+FlatUI.m"; path = "Classes/ios/UIBarButtonItem+FlatUI.m"; sourceTree = "<group>"; };
+		301B6C7B7D0D26133FC73CA6AECF804B /* Pods-Scheduler 3.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scheduler 3.0.release.xcconfig"; sourceTree = "<group>"; };
 		306D0A7EFB497E3CAF4C42941C85226B /* UISlider+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISlider+FlatUI.h"; path = "Classes/ios/UISlider+FlatUI.h"; sourceTree = "<group>"; };
-		32551EFFD6DF3756231DD48C1DE4A02D /* Pods-Scheduler 3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Scheduler 3.0-umbrella.h"; sourceTree = "<group>"; };
 		3687B09B2A38CCBB6B571C8040A65F3D /* NSString+Icons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Icons.m"; path = "Classes/ios/NSString+Icons.m"; sourceTree = "<group>"; };
 		38CD501D67918AC9B870FE419D8988E0 /* UIColor+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FlatUI.m"; path = "Classes/ios/UIColor+FlatUI.m"; sourceTree = "<group>"; };
+		3DCD938D590D92434DB8F48920F995AD /* Pods-Scheduler 3.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scheduler 3.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E8EF9D56570F5A844D23914928C8088 /* flat-ui-icons-regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "flat-ui-icons-regular.ttf"; path = "Resources/flat-ui-icons-regular.ttf"; sourceTree = "<group>"; };
-		424FECDAC8DD471A7B3361D625933719 /* Pods-Scheduler 3.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scheduler 3.0.debug.xcconfig"; sourceTree = "<group>"; };
 		4351C85FEBA1B0E28AB921D7B9898942 /* SwiftDate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDate-prefix.pch"; sourceTree = "<group>"; };
 		4374A0C726E9F37BC8EFD4B667DFE9BE /* DataStructures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataStructures.swift; path = SwiftDate/DataStructures.swift; sourceTree = "<group>"; };
 		46011BEDE863B493D204D0E75CA01235 /* UIImage+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FlatUI.m"; path = "Classes/ios/UIImage+FlatUI.m"; sourceTree = "<group>"; };
-		4F80F46293BCD7AD86B353CF73D5AD5D /* Pods-Scheduler 3.0-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Scheduler 3.0-acknowledgements.markdown"; sourceTree = "<group>"; };
-		588382C4E05F2167961B8A1837F2C189 /* Pods-Scheduler 3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Scheduler 3.0-dummy.m"; sourceTree = "<group>"; };
+		482ACCCB1F3A632CC6EF8EA55A7D7757 /* Pods_Scheduler_3_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scheduler_3_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAE7F8C73E4B0769941E2E27B1CA3F2 /* FlatUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlatUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B87A0C51E67FE624F96A2CB915F2CF3 /* UITabBar+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+FlatUI.h"; path = "Classes/ios/UITabBar+FlatUI.h"; sourceTree = "<group>"; };
 		5FD31470FF1157C810968564907FF00A /* UIStepper+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIStepper+FlatUI.h"; path = "Classes/ios/UIStepper+FlatUI.h"; sourceTree = "<group>"; };
 		6119F2080F3C0D0A5456C627CCCFD12E /* FlatUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlatUIKit.xcconfig; sourceTree = "<group>"; };
 		66F28BD551508937BEFB072B69F2F6C5 /* FUITextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUITextField.m; path = Classes/ios/FUITextField.m; sourceTree = "<group>"; };
 		67591F62A8586E853113C0B0188B14F0 /* SwiftDate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftDate-dummy.m"; sourceTree = "<group>"; };
 		67E4B8575FC5EF67393A5E3085126B14 /* FUISegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUISegmentedControl.m; path = Classes/ios/FUISegmentedControl.m; sourceTree = "<group>"; };
+		69D203ED03EF65EA2754E28E9CD8B3BB /* Pods_Scheduler_3_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scheduler_3_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DEBBC913A7D0E3B1EB59DA23ADAE60 /* UIBarButtonItem+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+FlatUI.h"; path = "Classes/ios/UIBarButtonItem+FlatUI.h"; sourceTree = "<group>"; };
 		6B74CF9B4855EA3B3CE656633ABC894E /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		7399FA60D04F7EB9719157FF334FD3D3 /* UISlider+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISlider+FlatUI.m"; path = "Classes/ios/UISlider+FlatUI.m"; sourceTree = "<group>"; };
 		74AA6440CDE412F883B448B766A483D8 /* FlatUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlatUIKit-dummy.m"; sourceTree = "<group>"; };
 		7724E23EFFC25CC083DBB2E331A96BB9 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
-		818F7D8EC57DE384BC3F8C0CEBE9F22B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81A1A092D5EB353D99D19ED0F10D9B14 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AF6817A99416B7D2EFA5053B6AE013 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C0F8153CE1C2753295190593923D2B4 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
 		87CB05515E95A8160755CB3FFD4C2446 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		88181E08BE855979B7865027A09EF5E0 /* NSDate+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDate+Extension.swift"; path = "SwiftDate/NSDate+Extension.swift"; sourceTree = "<group>"; };
 		88BE7108F29A8B4DF5240532596E114C /* Lato-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "Resources/Lato-Light.ttf"; sourceTree = "<group>"; };
+		895047E3C4A25B43F2EDA96A358EF1A7 /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		8E22FD8ADBFF194036F7C397B7C3E4CE /* Pods-Scheduler 3.0-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scheduler 3.0-frameworks.sh"; sourceTree = "<group>"; };
 		8F1C181313D61F616DCC7EDC873BA136 /* FUISwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUISwitch.h; path = Classes/ios/FUISwitch.h; sourceTree = "<group>"; };
 		909EACDFE0189C70CDCC0A15472F2A9F /* FUIButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUIButton.h; path = Classes/ios/FUIButton.h; sourceTree = "<group>"; };
 		9165F98C1B6EC63CE3327E7AF0DD4707 /* UIImage+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FlatUI.h"; path = "Classes/ios/UIImage+FlatUI.h"; sourceTree = "<group>"; };
 		9211CDA31B8B6976CC91D65357D9B225 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		924F43D7A7DB640AEA7E8C1C73A5E661 /* FlatUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlatUIKit-umbrella.h"; sourceTree = "<group>"; };
+		99C79226DBD62804CDCA313E694A86ED /* Pods-Scheduler 3.0Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scheduler 3.0Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9A93245B4C84073DA633FDDE335EB2DE /* UIStepper+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIStepper+FlatUI.m"; path = "Classes/ios/UIStepper+FlatUI.m"; sourceTree = "<group>"; };
 		9BFE549C17EF45B48D68D59653F999CB /* UINavigationBar+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+FlatUI.m"; path = "Classes/ios/UINavigationBar+FlatUI.m"; sourceTree = "<group>"; };
 		9EE808B8BDCBD5157EA754AC4BB727E0 /* SwiftDate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftDate.xcconfig; sourceTree = "<group>"; };
 		A3AE37FF84EC309A55E4FE9CEA230193 /* FUIAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUIAlertView.m; path = Classes/ios/FUIAlertView.m; sourceTree = "<group>"; };
+		A5E9DA9C3ADFF3EDB38F9F8315817DE1 /* Pods-Scheduler 3.0-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Scheduler 3.0-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7A929B3B09126FA50305F54D72D4A71 /* Pods-Scheduler 3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Scheduler 3.0-dummy.m"; sourceTree = "<group>"; };
 		AA1809A2B34A0CB79333C055D1A893D8 /* UIProgressView+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+FlatUI.m"; path = "Classes/ios/UIProgressView+FlatUI.m"; sourceTree = "<group>"; };
 		AA9D8F353BD53E1EEAFFF900B3EB1D6C /* UITabBar+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+FlatUI.m"; path = "Classes/ios/UITabBar+FlatUI.m"; sourceTree = "<group>"; };
+		AC0B50713F7AF04C9AD747EC729DEF98 /* Pods-Scheduler 3.0Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Scheduler 3.0Tests-dummy.m"; sourceTree = "<group>"; };
+		ACBCF81691BE55A04F9EAEDBD7BBF7AA /* Pods-Scheduler 3.0Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scheduler 3.0Tests-frameworks.sh"; sourceTree = "<group>"; };
+		ACF5B93F281D7AF4B97B660E86D3A1C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF554681D081F108C271C9C0A9D881CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1D44C7445252760B80A4D77DE14F019 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B38D18BCB40FACB98286AFEB0762B077 /* Pods-Scheduler 3.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scheduler 3.0.release.xcconfig"; sourceTree = "<group>"; };
 		B5EB4DC01630F7BC9D1B2B6491FD1205 /* UIPopoverController+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPopoverController+FlatUI.m"; path = "Classes/ios/UIPopoverController+FlatUI.m"; sourceTree = "<group>"; };
+		B648580F02A09FFDE2539CD4FC0A607D /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BB7CD2FA70718234C346FEB9015C44E3 /* FUISegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUISegmentedControl.h; path = Classes/ios/FUISegmentedControl.h; sourceTree = "<group>"; };
 		BD9AF44D5D7C70BC9B2EA06928BE67E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C479618E170023C925778EB1CD8A0A0C /* Pods_Scheduler_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scheduler_3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5593A2FED4873EC0DAD745278C17BA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C63A76EF9C15FD6AECF84F4A091FE99B /* FUIAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUIAlertView.h; path = Classes/ios/FUIAlertView.h; sourceTree = "<group>"; };
+		C83AEB525E241C1116C01DDAB72B5C78 /* Pods-Scheduler 3.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scheduler 3.0.debug.xcconfig"; sourceTree = "<group>"; };
+		C85AE2506C5581D315041FCA15D5CDB2 /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
 		C85B88FB44D0E8615682FBC2958029DB /* FUITextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUITextField.h; path = Classes/ios/FUITextField.h; sourceTree = "<group>"; };
+		C8B05F902B038FEF32C288FBBDD83430 /* Pods-Scheduler 3.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scheduler 3.0UITests.release.xcconfig"; sourceTree = "<group>"; };
 		CB4850E544797F9295CFF5FC885E4D78 /* NSString+Icons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Icons.h"; path = "Classes/ios/NSString+Icons.h"; sourceTree = "<group>"; };
 		CE05EE0A1F921B93FC708740AA6A438D /* DateInRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInRegion.swift; path = SwiftDate/DateInRegion.swift; sourceTree = "<group>"; };
+		CE790B9E0EF94CAD6E268AE5B2E4D3B8 /* Pods-Scheduler 3.0UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scheduler 3.0UITests-resources.sh"; sourceTree = "<group>"; };
 		D0298AB3B56FD1D9B3A37B586B2C4E71 /* UITableViewCell+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+FlatUI.m"; path = "Classes/ios/UITableViewCell+FlatUI.m"; sourceTree = "<group>"; };
+		D0A6ABE656981365FC82611724A7C31A /* Pods-Scheduler 3.0UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Scheduler 3.0UITests-dummy.m"; sourceTree = "<group>"; };
 		D0FEAC9695187C5CFC40ABD53BC6F1DD /* UIFont+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+FlatUI.m"; path = "Classes/ios/UIFont+FlatUI.m"; sourceTree = "<group>"; };
+		D1F877570FF9BF39A86020717B2548BE /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		D217A1D5FBA33BC45D5C7C84CF7563FA /* UIPopoverController+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPopoverController+FlatUI.h"; path = "Classes/ios/UIPopoverController+FlatUI.h"; sourceTree = "<group>"; };
+		D3C5BF3A12759B98AC396BC37300C806 /* Pods-Scheduler 3.0UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Scheduler 3.0UITests.modulemap"; sourceTree = "<group>"; };
 		D58518B2F790B656E0E899A42D6C8329 /* SwiftDate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftDate.modulemap; sourceTree = "<group>"; };
 		D7D73A35C917F4934AD28ED3E25DDA99 /* Lato-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "Resources/Lato-Regular.ttf"; sourceTree = "<group>"; };
 		D8036232BA20965DDC92F937C2E844D5 /* FUIPopoverBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUIPopoverBackgroundView.h; path = Classes/ios/FUIPopoverBackgroundView.h; sourceTree = "<group>"; };
 		DBD3247DD0DC17FF8F5ECC85B710BD9D /* Lato-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "Resources/Lato-Bold.ttf"; sourceTree = "<group>"; };
-		DF3B3B17CF2CEA7AC1642127F47E3C04 /* Pods-Scheduler 3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Scheduler 3.0.modulemap"; sourceTree = "<group>"; };
 		DF58530B03F0520C6E2BAB940B6ED0E8 /* SwiftDate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDate-umbrella.h"; sourceTree = "<group>"; };
+		E04176509C6DA9A77F40AC94784D2EDE /* Pods-Scheduler 3.0Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Scheduler 3.0Tests-umbrella.h"; sourceTree = "<group>"; };
+		E092DF5ACD30B605244F9A913183D290 /* Pods-Scheduler 3.0Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Scheduler 3.0Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E0F04D1E462D811A6527993AF4D64DD3 /* FUICellBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUICellBackgroundView.h; path = Classes/ios/FUICellBackgroundView.h; sourceTree = "<group>"; };
 		E30491412BB3E730DF0FFA117C1C505B /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		E3D4076DE27436309631F60C0FDB0EE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E534E0FE74E61143340C1A3791A639E8 /* FUIButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUIButton.m; path = Classes/ios/FUIButton.m; sourceTree = "<group>"; };
+		E5EB637BE25A3682BC10EFE8D3B1F486 /* Pods-Scheduler 3.0Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Scheduler 3.0Tests.modulemap"; sourceTree = "<group>"; };
+		E7B167607F589DA6AD68F8D09CE3EBBE /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E822C2F9666845385CA428ACF4B0D437 /* UITableViewCell+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+FlatUI.h"; path = "Classes/ios/UITableViewCell+FlatUI.h"; sourceTree = "<group>"; };
 		EC1EEFD3C3BE1274D8A6E5B902CDAFE8 /* UIFont+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+FlatUI.h"; path = "Classes/ios/UIFont+FlatUI.h"; sourceTree = "<group>"; };
+		ED42A3F741229036FA081B28411681BA /* Pods-Scheduler 3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Scheduler 3.0.modulemap"; sourceTree = "<group>"; };
+		ED984F8131969E32C4D23CBA769D3DB1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
 		EE3D1A671304B83257E21B8038BC71B0 /* UIToolbar+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+FlatUI.h"; path = "Classes/ios/UIToolbar+FlatUI.h"; sourceTree = "<group>"; };
+		F0235CD3098562207D2EEE8F260793EE /* Pods-Scheduler 3.0UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scheduler 3.0UITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F1431364175B69D3C54037F2438200CF /* FlatUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlatUIKit.h; path = Classes/ios/FlatUIKit.h; sourceTree = "<group>"; };
+		F59BA0C64747622062506CF356D3099B /* Pods-Scheduler 3.0-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scheduler 3.0-acknowledgements.plist"; sourceTree = "<group>"; };
 		F656FCF49EF7F97295459570B5731F00 /* UINavigationBar+FlatUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+FlatUI.h"; path = "Classes/ios/UINavigationBar+FlatUI.h"; sourceTree = "<group>"; };
 		F73BBA08DDF7BAAB9A232DCBE1635D57 /* UIToolbar+FlatUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+FlatUI.m"; path = "Classes/ios/UIToolbar+FlatUI.m"; sourceTree = "<group>"; };
-		F8F277B10626AD18AF243858552CC938 /* Pods-Scheduler 3.0-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scheduler 3.0-frameworks.sh"; sourceTree = "<group>"; };
+		FBDF720D5CD42DDBD9BF4CCFE08B8A4C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		FEE4E080C757AE4D9DEABC0F36F45FC2 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		05085F70ABEDFA0EEF5C6267EB1BB846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CBCA5C3884FC3B35ED52FEA2D91F8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1329CA27A479F2880CCC6922D30AC851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86527E9F257E254F01F52544DE2A5F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6778920A053A8712FD9F2087B8433814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2B3C2A4F9B2B7F06796803CE4093D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80BCEE055D4951DDB2A28BCD233763A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,33 +323,40 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		03C11F82A6A561E5113A34E10EB85D1A /* Products */ = {
+		038A7442124507B2C9B702D3D3095017 /* Pods-Scheduler 3.0Tests */ = {
 			isa = PBXGroup;
 			children = (
-				0EF596C4B1DDFA7C95256ED1A5789DE6 /* FlatUIKit.framework */,
-				C479618E170023C925778EB1CD8A0A0C /* Pods_Scheduler_3_0.framework */,
-				131CE95B19DA020C9BA1821553555CDA /* SwiftDate.framework */,
-				81A1A092D5EB353D99D19ED0F10D9B14 /* SwiftyJSON.framework */,
+				E3D4076DE27436309631F60C0FDB0EE6 /* Info.plist */,
+				E5EB637BE25A3682BC10EFE8D3B1F486 /* Pods-Scheduler 3.0Tests.modulemap */,
+				E092DF5ACD30B605244F9A913183D290 /* Pods-Scheduler 3.0Tests-acknowledgements.markdown */,
+				99C79226DBD62804CDCA313E694A86ED /* Pods-Scheduler 3.0Tests-acknowledgements.plist */,
+				AC0B50713F7AF04C9AD747EC729DEF98 /* Pods-Scheduler 3.0Tests-dummy.m */,
+				ACBCF81691BE55A04F9EAEDBD7BBF7AA /* Pods-Scheduler 3.0Tests-frameworks.sh */,
+				25CA6789BBEE75999F75A3D4CA271BB6 /* Pods-Scheduler 3.0Tests-resources.sh */,
+				E04176509C6DA9A77F40AC94784D2EDE /* Pods-Scheduler 3.0Tests-umbrella.h */,
+				3DCD938D590D92434DB8F48920F995AD /* Pods-Scheduler 3.0Tests.debug.xcconfig */,
+				2861DCEC3D6D9BB61EECBDEBE32B550F /* Pods-Scheduler 3.0Tests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-Scheduler 3.0Tests";
+			path = "Target Support Files/Pods-Scheduler 3.0Tests";
 			sourceTree = "<group>";
 		};
-		0BE0C16B701ED74480534E54575B840D /* Pods-Scheduler 3.0 */ = {
+		05AA485DA21B64F2EECCE2E1850D2F44 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				818F7D8EC57DE384BC3F8C0CEBE9F22B /* Info.plist */,
-				DF3B3B17CF2CEA7AC1642127F47E3C04 /* Pods-Scheduler 3.0.modulemap */,
-				4F80F46293BCD7AD86B353CF73D5AD5D /* Pods-Scheduler 3.0-acknowledgements.markdown */,
-				14994C04D69FD2D90C2ADBD33CE2EBF1 /* Pods-Scheduler 3.0-acknowledgements.plist */,
-				588382C4E05F2167961B8A1837F2C189 /* Pods-Scheduler 3.0-dummy.m */,
-				F8F277B10626AD18AF243858552CC938 /* Pods-Scheduler 3.0-frameworks.sh */,
-				14985D135C1A8A66F8F2EAF0B85C0292 /* Pods-Scheduler 3.0-resources.sh */,
-				32551EFFD6DF3756231DD48C1DE4A02D /* Pods-Scheduler 3.0-umbrella.h */,
-				424FECDAC8DD471A7B3361D625933719 /* Pods-Scheduler 3.0.debug.xcconfig */,
-				B38D18BCB40FACB98286AFEB0762B077 /* Pods-Scheduler 3.0.release.xcconfig */,
+				AF554681D081F108C271C9C0A9D881CA /* Info.plist */,
+				C85AE2506C5581D315041FCA15D5CDB2 /* Pods.modulemap */,
+				7C0F8153CE1C2753295190593923D2B4 /* Pods-acknowledgements.markdown */,
+				248449811EEB2FFA95AC21DAE4FA9162 /* Pods-acknowledgements.plist */,
+				B648580F02A09FFDE2539CD4FC0A607D /* Pods-dummy.m */,
+				D1F877570FF9BF39A86020717B2548BE /* Pods-frameworks.sh */,
+				0FB81873D691B3A71C9ADD78C01DA6FB /* Pods-resources.sh */,
+				895047E3C4A25B43F2EDA96A358EF1A7 /* Pods-umbrella.h */,
+				ED984F8131969E32C4D23CBA769D3DB1 /* Pods.debug.xcconfig */,
+				FBDF720D5CD42DDBD9BF4CCFE08B8A4C /* Pods.release.xcconfig */,
 			);
-			name = "Pods-Scheduler 3.0";
-			path = "Target Support Files/Pods-Scheduler 3.0";
+			name = Pods;
+			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
@@ -311,6 +405,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		57AE5ED927D13D67FAFFD1A49E83A7A2 /* Pods-Scheduler 3.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF5B93F281D7AF4B97B660E86D3A1C1 /* Info.plist */,
+				D3C5BF3A12759B98AC396BC37300C806 /* Pods-Scheduler 3.0UITests.modulemap */,
+				0DD104FE3E47967AA3B1ABDD361FF8D5 /* Pods-Scheduler 3.0UITests-acknowledgements.markdown */,
+				F0235CD3098562207D2EEE8F260793EE /* Pods-Scheduler 3.0UITests-acknowledgements.plist */,
+				D0A6ABE656981365FC82611724A7C31A /* Pods-Scheduler 3.0UITests-dummy.m */,
+				019AA1403B12B737A5DFD378C186ADD5 /* Pods-Scheduler 3.0UITests-frameworks.sh */,
+				CE790B9E0EF94CAD6E268AE5B2E4D3B8 /* Pods-Scheduler 3.0UITests-resources.sh */,
+				282F26A855DE3D9350DA0CC33FB1BB4C /* Pods-Scheduler 3.0UITests-umbrella.h */,
+				116851DBE417DFD2575E02A1FBE463BF /* Pods-Scheduler 3.0UITests.debug.xcconfig */,
+				C8B05F902B038FEF32C288FBBDD83430 /* Pods-Scheduler 3.0UITests.release.xcconfig */,
+			);
+			name = "Pods-Scheduler 3.0UITests";
+			path = "Target Support Files/Pods-Scheduler 3.0UITests";
+			sourceTree = "<group>";
+		};
 		5BFB738518B4717D0A79E5414EBD1F3B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,8 +439,8 @@
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				5BFB738518B4717D0A79E5414EBD1F3B /* Pods */,
-				03C11F82A6A561E5113A34E10EB85D1A /* Products */,
-				A45D9B582A35B4D6DBB283E0432CD9DF /* Targets Support Files */,
+				CE23AB92FDB6E4B514CC215B5C03E187 /* Products */,
+				B296475BDF919A5A17FBB63F487ED042 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -396,14 +508,6 @@
 			path = "../Target Support Files/FlatUIKit";
 			sourceTree = "<group>";
 		};
-		A45D9B582A35B4D6DBB283E0432CD9DF /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0BE0C16B701ED74480534E54575B840D /* Pods-Scheduler 3.0 */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		A732D70654CC7E072230CE70423D087D /* SwiftDate */ = {
 			isa = PBXGroup;
 			children = (
@@ -413,6 +517,49 @@
 				13A7A9BE8B9AFD438990CFB40D9E5650 /* Support Files */,
 			);
 			path = SwiftDate;
+			sourceTree = "<group>";
+		};
+		ACCD4B46F09E81FFB9C2E367696E8DFB /* Pods-Scheduler 3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				79AF6817A99416B7D2EFA5053B6AE013 /* Info.plist */,
+				ED42A3F741229036FA081B28411681BA /* Pods-Scheduler 3.0.modulemap */,
+				A5E9DA9C3ADFF3EDB38F9F8315817DE1 /* Pods-Scheduler 3.0-acknowledgements.markdown */,
+				F59BA0C64747622062506CF356D3099B /* Pods-Scheduler 3.0-acknowledgements.plist */,
+				A7A929B3B09126FA50305F54D72D4A71 /* Pods-Scheduler 3.0-dummy.m */,
+				8E22FD8ADBFF194036F7C397B7C3E4CE /* Pods-Scheduler 3.0-frameworks.sh */,
+				17DF1102974CDAC48B76C62DFD6D3455 /* Pods-Scheduler 3.0-resources.sh */,
+				1DFCDD35DE02360D8AF02DFB71BB41D0 /* Pods-Scheduler 3.0-umbrella.h */,
+				C83AEB525E241C1116C01DDAB72B5C78 /* Pods-Scheduler 3.0.debug.xcconfig */,
+				301B6C7B7D0D26133FC73CA6AECF804B /* Pods-Scheduler 3.0.release.xcconfig */,
+			);
+			name = "Pods-Scheduler 3.0";
+			path = "Target Support Files/Pods-Scheduler 3.0";
+			sourceTree = "<group>";
+		};
+		B296475BDF919A5A17FBB63F487ED042 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05AA485DA21B64F2EECCE2E1850D2F44 /* Pods */,
+				ACCD4B46F09E81FFB9C2E367696E8DFB /* Pods-Scheduler 3.0 */,
+				038A7442124507B2C9B702D3D3095017 /* Pods-Scheduler 3.0Tests */,
+				57AE5ED927D13D67FAFFD1A49E83A7A2 /* Pods-Scheduler 3.0UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CE23AB92FDB6E4B514CC215B5C03E187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AAE7F8C73E4B0769941E2E27B1CA3F2 /* FlatUIKit.framework */,
+				FEE4E080C757AE4D9DEABC0F36F45FC2 /* Pods.framework */,
+				067740C0901403785079B264B86E731E /* Pods_Scheduler_3_0.framework */,
+				69D203ED03EF65EA2754E28E9CD8B3BB /* Pods_Scheduler_3_0Tests.framework */,
+				482ACCCB1F3A632CC6EF8EA55A7D7757 /* Pods_Scheduler_3_0UITests.framework */,
+				1C6B06AF9BCC6BE41266F578F8864561 /* SwiftDate.framework */,
+				E7B167607F589DA6AD68F8D09CE3EBBE /* SwiftyJSON.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		F943F030B41116B7C6CA41C96EAC82B4 /* SwiftyJSON */ = {
@@ -440,6 +587,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2A65EA247C524B76FC51A05ACF5217E /* SwiftDate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D7B420C7B4266529AA32DC2EF7550A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860614ADC6D0AC2B7921F966E0DF9DEC /* Pods-Scheduler 3.0Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F1B4F94981727660C18686876C0865 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D853A58D848362FDA0D8E4A05ABB3FC6 /* Pods-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +635,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E2B0B99D2C609CE47157707A67A835AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B5234F7A39486C0870574CFE43313C /* Pods-Scheduler 3.0UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FC4B0AF681C914D69E93E7DE9A4C1838 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -497,7 +668,7 @@
 			);
 			name = SwiftDate;
 			productName = SwiftDate;
-			productReference = 131CE95B19DA020C9BA1821553555CDA /* SwiftDate.framework */;
+			productReference = 1C6B06AF9BCC6BE41266F578F8864561 /* SwiftDate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6B9B2150588DBD80E5AE1795436614AF /* SwiftyJSON */ = {
@@ -514,14 +685,32 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = 81A1A092D5EB353D99D19ED0F10D9B14 /* SwiftyJSON.framework */;
+			productReference = E7B167607F589DA6AD68F8D09CE3EBBE /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8746F8FDC5E209F5FE2B2E9151D032F4 /* Pods-Scheduler 3.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F9ABC1F7A98A9EE9602BDA4B260954 /* Build configuration list for PBXNativeTarget "Pods-Scheduler 3.0UITests" */;
+			buildPhases = (
+				C777AD0DDCB3CDB80008E4FF877570F5 /* Sources */,
+				05085F70ABEDFA0EEF5C6267EB1BB846 /* Frameworks */,
+				E2B0B99D2C609CE47157707A67A835AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBA7E670F18A309EF45B99968859C96D /* PBXTargetDependency */,
+			);
+			name = "Pods-Scheduler 3.0UITests";
+			productName = "Pods-Scheduler 3.0UITests";
+			productReference = 482ACCCB1F3A632CC6EF8EA55A7D7757 /* Pods_Scheduler_3_0UITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AD0892BE565CA9D5A839B9137561277C /* FlatUIKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74EF3DD21DD17AECC1EDC763152044A7 /* Build configuration list for PBXNativeTarget "FlatUIKit" */;
 			buildPhases = (
-				7AF601FD3EC7FA8E282708517FDBCE90 /* Sources */,
+				7AF9BF79441A39713FC8779C4F837CB3 /* Sources */,
 				8DF0F522B67FD65AE6A2212D2CDBEB8B /* Frameworks */,
 				D82B999D20A683EA96D970C990A92BDD /* Headers */,
 				8E7DDBD73DD0BAF319AA8F87317B6547 /* Resources */,
@@ -532,7 +721,7 @@
 			);
 			name = FlatUIKit;
 			productName = FlatUIKit;
-			productReference = 0EF596C4B1DDFA7C95256ED1A5789DE6 /* FlatUIKit.framework */;
+			productReference = 4AAE7F8C73E4B0769941E2E27B1CA3F2 /* FlatUIKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BAF09519AC3FD08F596F2450E81BC019 /* Pods-Scheduler 3.0 */ = {
@@ -552,7 +741,43 @@
 			);
 			name = "Pods-Scheduler 3.0";
 			productName = "Pods-Scheduler 3.0";
-			productReference = C479618E170023C925778EB1CD8A0A0C /* Pods_Scheduler_3_0.framework */;
+			productReference = 067740C0901403785079B264B86E731E /* Pods_Scheduler_3_0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D34C0A4953EB3E9E093A1BCB3BDF8404 /* Pods-Scheduler 3.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EC34D7D5CC30FC10DD3FF845430652 /* Build configuration list for PBXNativeTarget "Pods-Scheduler 3.0Tests" */;
+			buildPhases = (
+				3BD2B4FEECD0E9DB5A2DE7717E252EB1 /* Sources */,
+				1329CA27A479F2880CCC6922D30AC851 /* Frameworks */,
+				45D7B420C7B4266529AA32DC2EF7550A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				589288A9E01D94A07DB3B0F32F30B9FD /* PBXTargetDependency */,
+			);
+			name = "Pods-Scheduler 3.0Tests";
+			productName = "Pods-Scheduler 3.0Tests";
+			productReference = 69D203ED03EF65EA2754E28E9CD8B3BB /* Pods_Scheduler_3_0Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D609B8C8417736A45D0129D8E31F3AD0 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DCC1679D67CFE33A51F68B99CF5FD5B /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				6DD6455F643D42EC9FF75A82208F37DA /* Sources */,
+				6778920A053A8712FD9F2087B8433814 /* Frameworks */,
+				B4F1B4F94981727660C18686876C0865 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				415EECAB71E89FF41AE2D86C037020D6 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = FEE4E080C757AE4D9DEABC0F36F45FC2 /* Pods.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -572,12 +797,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 03C11F82A6A561E5113A34E10EB85D1A /* Products */;
+			productRefGroup = CE23AB92FDB6E4B514CC215B5C03E187 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				AD0892BE565CA9D5A839B9137561277C /* FlatUIKit */,
+				D609B8C8417736A45D0129D8E31F3AD0 /* Pods */,
 				BAF09519AC3FD08F596F2450E81BC019 /* Pods-Scheduler 3.0 */,
+				D34C0A4953EB3E9E093A1BCB3BDF8404 /* Pods-Scheduler 3.0Tests */,
+				8746F8FDC5E209F5FE2B2E9151D032F4 /* Pods-Scheduler 3.0UITests */,
 				1B7873A07F43CC474DC7700B22789B3D /* SwiftDate */,
 				6B9B2150588DBD80E5AE1795436614AF /* SwiftyJSON */,
 			);
@@ -600,6 +828,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3BD2B4FEECD0E9DB5A2DE7717E252EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C396F9DE6CABDFC3D6F4AE37C0661287 /* Pods-Scheduler 3.0Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6A67470BE68DA3354F729F77CD27DA09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -609,31 +845,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AF601FD3EC7FA8E282708517FDBCE90 /* Sources */ = {
+		6DD6455F643D42EC9FF75A82208F37DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BDFF6BEA49BDB9DBB4E06E17868248D /* FlatUIKit-dummy.m in Sources */,
-				112A4FB2ECD2A55F39EDA4928D2ACA9D /* FUIAlertView.m in Sources */,
-				56C20D36C1BE8A7DAE8498DA7D73F8F7 /* FUIButton.m in Sources */,
-				2FD368C3F18F5F6AFAE5D2C1166D28F3 /* FUICellBackgroundView.m in Sources */,
-				EF479ABEEE6F16D8B37197AA22C70A02 /* FUIPopoverBackgroundView.m in Sources */,
-				B5CE0157F1F9EB6AF6F004D818F58A3A /* FUISegmentedControl.m in Sources */,
-				6385A4FCE4594DB3C4C0AE3630B86375 /* FUISwitch.m in Sources */,
-				20210326E14FAA2C05DEC09A2C822462 /* FUITextField.m in Sources */,
-				7AE363356D9DAF059498E982C5BD0AD9 /* NSString+Icons.m in Sources */,
-				5AF0906E3CC401EF05B9E306B3EFD499 /* UIBarButtonItem+FlatUI.m in Sources */,
-				A1818D9416A84341F98AFC7AF54565DC /* UIColor+FlatUI.m in Sources */,
-				65C63243CF9B34F40546B4773EB0F188 /* UIFont+FlatUI.m in Sources */,
-				5F2F9A38D20F0DA3A1216644C2FCE99F /* UIImage+FlatUI.m in Sources */,
-				67B70A96D6BBBB9C9DC6D7BC1BE729D6 /* UINavigationBar+FlatUI.m in Sources */,
-				A3856F999C2EBB1F3A28359DD1F9C49A /* UIPopoverController+FlatUI.m in Sources */,
-				ACE1EEC5A30626AE9ECC8B8D13D1BBC6 /* UIProgressView+FlatUI.m in Sources */,
-				1F01150CCF0FBD91A951A60C457623EC /* UISlider+FlatUI.m in Sources */,
-				97C1D50670F0A109D5533CD3B1A3F6BF /* UIStepper+FlatUI.m in Sources */,
-				5F072C98A3888CDCE924B1E0AE6CE025 /* UITabBar+FlatUI.m in Sources */,
-				BCB526791EA218830B02817A425FC7B0 /* UITableViewCell+FlatUI.m in Sources */,
-				2EF4E8B5DA06CF8CF7E4C7437C04390A /* UIToolbar+FlatUI.m in Sources */,
+				71AE1C6AA9C0C176DA32C2A23DADCE3E /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF9BF79441A39713FC8779C4F837CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82071F7B917CFEC200BB890A42A0BF1A /* FlatUIKit-dummy.m in Sources */,
+				AA888EAAA082C7E0354BB892E7B29E99 /* FUIAlertView.m in Sources */,
+				2D9BE690B2452AC5849628C27C41C938 /* FUIButton.m in Sources */,
+				E98EB846345E36360C4CEAA188D77AB6 /* FUICellBackgroundView.m in Sources */,
+				D3FAE2859ECB593E5021BCCE8B15F61C /* FUIPopoverBackgroundView.m in Sources */,
+				4C23220CE1F229EB0EC0544E7D204276 /* FUISegmentedControl.m in Sources */,
+				7D110D39CB276BCD9E72F8B642F267A9 /* FUISwitch.m in Sources */,
+				61E83D0C498F268356F3BED02CC9160D /* FUITextField.m in Sources */,
+				C47C632E6C893B8519137C3ED230DCDF /* NSString+Icons.m in Sources */,
+				9662A48A22D4A32C5C2C202338DE6A7C /* UIBarButtonItem+FlatUI.m in Sources */,
+				28BAEF7B490AAA654C257B3B79715512 /* UIColor+FlatUI.m in Sources */,
+				E8FEF4942E91BB01A9E726824D7F5DEF /* UIFont+FlatUI.m in Sources */,
+				C7083013AA2206F33F0591173FE6EE73 /* UIImage+FlatUI.m in Sources */,
+				90C59FC3F564446630540B6EAD602839 /* UINavigationBar+FlatUI.m in Sources */,
+				13AB2F54BD5C6CDAD83AB5B5A38F4450 /* UIPopoverController+FlatUI.m in Sources */,
+				8F01EB31611C387391505D6E5DD6BD72 /* UIProgressView+FlatUI.m in Sources */,
+				FAFA27A6C4909C8FB6531370B0F16FB7 /* UISlider+FlatUI.m in Sources */,
+				E296EC353FDBE78EFD77A13B10C5063C /* UIStepper+FlatUI.m in Sources */,
+				21BCC71BCB361B97869AF2FF641510E2 /* UITabBar+FlatUI.m in Sources */,
+				429BDD849236D233D4CACF52B67C9598 /* UITableViewCell+FlatUI.m in Sources */,
+				3D4A2C38A4B724B57E7DB7D5A42A5068 /* UIToolbar+FlatUI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,6 +892,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C777AD0DDCB3CDB80008E4FF877570F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5C41DE4DECD71B356F44781086BCA6 /* Pods-Scheduler 3.0UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E6ECD58D1D553926F919FAFEFC160F8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -659,6 +911,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		415EECAB71E89FF41AE2D86C037020D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlatUIKit;
+			target = AD0892BE565CA9D5A839B9137561277C /* FlatUIKit */;
+			targetProxy = 624EFE59EDEB3BEF2B786947FD232ACB /* PBXContainerItemProxy */;
+		};
+		589288A9E01D94A07DB3B0F32F30B9FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlatUIKit;
+			target = AD0892BE565CA9D5A839B9137561277C /* FlatUIKit */;
+			targetProxy = 491986E715D22070E0F1BC5E7FF0DA3B /* PBXContainerItemProxy */;
+		};
 		76CA1DFACBBFF8D1B28F591A785C9853 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlatUIKit;
@@ -677,12 +941,18 @@
 			target = 1B7873A07F43CC474DC7700B22789B3D /* SwiftDate */;
 			targetProxy = 1A383419D56360A13AAF773997CDB74F /* PBXContainerItemProxy */;
 		};
+		CBA7E670F18A309EF45B99968859C96D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlatUIKit;
+			target = AD0892BE565CA9D5A839B9137561277C /* FlatUIKit */;
+			targetProxy = F4B53CEA394BB1FE8CF6B45DD2DD5288 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		009DFCDD4E6F147156BCB01C7211364A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B38D18BCB40FACB98286AFEB0762B077 /* Pods-Scheduler 3.0.release.xcconfig */;
+			baseConfigurationReference = 301B6C7B7D0D26133FC73CA6AECF804B /* Pods-Scheduler 3.0.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -729,6 +999,66 @@
 				MODULEMAP_FILE = "Target Support Files/SwiftDate/SwiftDate.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = SwiftDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0CB942C97E592295ECCB1CE2CC553DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116851DBE417DFD2575E02A1FBE463BF /* Pods-Scheduler 3.0UITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Scheduler 3.0UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scheduler 3.0UITests/Pods-Scheduler 3.0UITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Scheduler_3_0UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		232AE9D67B7EAC432DC528E41AA0EE43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8B05F902B038FEF32C288FBBDD83430 /* Pods-Scheduler 3.0UITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Scheduler 3.0UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scheduler 3.0UITests/Pods-Scheduler 3.0UITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Scheduler_3_0UITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -791,6 +1121,36 @@
 			};
 			name = Debug;
 		};
+		4E46B644578DDFC74BC3677F2977072B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DCD938D590D92434DB8F48920F995AD /* Pods-Scheduler 3.0Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Scheduler 3.0Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scheduler 3.0Tests/Pods-Scheduler 3.0Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Scheduler_3_0Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		568C8BDDD66B058082AF681BC78BCC55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6119F2080F3C0D0A5456C627CCCFD12E /* FlatUIKit.xcconfig */;
@@ -820,7 +1180,7 @@
 		};
 		9ECAF4548DC581F454DFB036E635F085 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 424FECDAC8DD471A7B3361D625933719 /* Pods-Scheduler 3.0.debug.xcconfig */;
+			baseConfigurationReference = C83AEB525E241C1116C01DDAB72B5C78 /* Pods-Scheduler 3.0.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -885,6 +1245,96 @@
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C3F86ECD881030ECE0EA3FE91FEEC26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBDF720D5CD42DDBD9BF4CCFE08B8A4C /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC428F367FAA461229E5F0C5DC4BCA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2861DCEC3D6D9BB61EECBDEBE32B550F /* Pods-Scheduler 3.0Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Scheduler 3.0Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scheduler 3.0Tests/Pods-Scheduler 3.0Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Scheduler_3_0Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF5384999B12843E76D8A557C6C7F365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED984F8131969E32C4D23CBA769D3DB1 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -999,6 +1449,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4DCC1679D67CFE33A51F68B99CF5FD5B /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5384999B12843E76D8A557C6C7F365 /* Debug */,
+				C3F86ECD881030ECE0EA3FE91FEEC26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		74EF3DD21DD17AECC1EDC763152044A7 /* Build configuration list for PBXNativeTarget "FlatUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1008,11 +1467,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		79F9ABC1F7A98A9EE9602BDA4B260954 /* Build configuration list for PBXNativeTarget "Pods-Scheduler 3.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB942C97E592295ECCB1CE2CC553DB2 /* Debug */,
+				232AE9D67B7EAC432DC528E41AA0EE43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8CA9E5B2B8DA1DB0AC392FDF6D08C966 /* Build configuration list for PBXNativeTarget "Pods-Scheduler 3.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9ECAF4548DC581F454DFB036E635F085 /* Debug */,
 				009DFCDD4E6F147156BCB01C7211364A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2EC34D7D5CC30FC10DD3FF845430652 /* Build configuration list for PBXNativeTarget "Pods-Scheduler 3.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E46B644578DDFC74BC3677F2977072B /* Debug */,
+				CC428F367FAA461229E5F0C5DC4BCA5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

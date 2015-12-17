@@ -13,6 +13,7 @@ class ViewController: UIViewController {
 	
 	@IBOutlet var showScheduleButton: UIButton!
 	@IBOutlet var netClassroomButton: UIButton!
+	@IBOutlet var showHaikuButton: UIButton!
 	@IBOutlet var weatherButton: UIButton!
 	
 	
@@ -57,7 +58,7 @@ class ViewController: UIViewController {
 		let components = calendar.components([.Year, .Month, .Day, .Weekday, .Hour, .Minute], fromDate: date)
 		
 		let minute : Int = components.minute
-		let hour : Int = components.hour
+		var hour : Int = components.hour
 		let weekday : Int = components.weekday
 		let day : Int = components.day
 		let month : Int = components.month
@@ -114,6 +115,35 @@ class ViewController: UIViewController {
 			NSLog("Error")
 		}
 		
+		switch hour {
+		case 13:
+			hour = 1
+		case 14:
+			hour = 2
+		case 15:
+			hour = 3
+		case 16:
+			hour = 4
+		case 17:
+			hour = 5
+		case 18:
+			hour = 6
+		case 19:
+			hour = 7
+		case 20:
+			hour = 8
+		case 21:
+			hour = 9
+		case 22:
+			hour = 10
+		case 23:
+			hour = 11
+		case 24:
+			hour = 12
+		default:
+			NSLog("Error")
+		}
+		
 		dateLabel.text = ("\(currentWeekday), \(currentMonth) \(day)")
 		timeLabel.text = ("\(hour):\(minute)")
 	}
@@ -121,13 +151,11 @@ class ViewController: UIViewController {
 	
 	@IBAction func helpButton(sender: UIButton) {
 		NSLog("HelpButtonPressed")
-		
 		helpView.fadeIn(duration: 1.0)
 	}
 	
 	@IBAction func showScheduleButtonPressed(sender: UIButton) {
 		NSLog("showScheduleButtonPressed")
-		
 		self.performSegueWithIdentifier("SchedulerSegue", sender: self)
 	}
 	
@@ -135,6 +163,12 @@ class ViewController: UIViewController {
 		NSLog("netClassroomButton")
 		self.performSegueWithIdentifier("NetClassroomSegue", sender: self)
 	}
+	
+	@IBAction func showHaikuButtonPressed(sender: UIButton) {
+		NSLog("showHaikuButton")
+		self.performSegueWithIdentifier("HaikuSegue", sender: self)
+	}
+	
 	
 	func dismissView() {
 		//	view.endEditing(true)

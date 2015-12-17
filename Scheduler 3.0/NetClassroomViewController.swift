@@ -22,9 +22,8 @@ class NetClassroomViewController: UIViewController, NSURLConnectionDelegate {
 	
 	@IBOutlet var webView: UIWebView!
 
-	
-	@IBAction func done(sender: UIBarButtonItem) {
-		self.navigationController!.popViewControllerAnimated(true)
+	@IBAction func dismiss(sender: AnyObject) {
+		self.dismissViewControllerAnimated(true, completion: nil)
 	}
 	
 	
