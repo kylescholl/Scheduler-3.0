@@ -4,27 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FlatUIKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-Scheduler 3.0.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Scheduler 3.0Tests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Scheduler 3.0UITests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,17 +32,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1B7873A07F43CC474DC7700B22789B3D</key>
+		<key>1C3436CEA5C3D39764C5F54374794ECB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6B9B2150588DBD80E5AE1795436614AF</key>
+		<key>32EF64A2A067C02B45EC825E86AD26F7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8746F8FDC5E209F5FE2B2E9151D032F4</key>
+		<key>8C1A6615124BC0099BB81B5A1E2DB9E1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,17 +52,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BAF09519AC3FD08F596F2450E81BC019</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D34C0A4953EB3E9E093A1BCB3BDF8404</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D609B8C8417736A45D0129D8E31F3AD0</key>
+		<key>E83875B285515D8DEEF6AAB3E15FD444</key>
 		<dict>
 			<key>primary</key>
 			<true/>

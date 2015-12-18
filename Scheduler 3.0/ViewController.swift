@@ -7,19 +7,20 @@
 //
 
 import UIKit
+// import FlatUIKit
 
 class ViewController: UIViewController {
 	
 	
 	@IBOutlet var showScheduleButton: UIButton!
 	@IBOutlet var netClassroomButton: UIButton!
-	@IBOutlet var showHaikuButton: UIButton!
-	@IBOutlet var weatherButton: UIButton!
+	@IBOutlet var showHaikuButton:    UIButton!
+	@IBOutlet var weatherButton:      UIButton!
 	
 	
-	@IBOutlet var orangeButton: UIButton!
-	@IBOutlet var carrotButton: UIButton!
-	@IBOutlet var pumpkinButton: UIButton!
+	@IBOutlet var orangeButton:   UIButton!
+	@IBOutlet var carrotButton:   UIButton!
+	@IBOutlet var pumpkinButton:  UIButton!
 	@IBOutlet var greenSeaButton: UIButton!
 	
 	
@@ -32,36 +33,35 @@ class ViewController: UIViewController {
 	
 	func setButtonStyles() {
 		
-		let ssb = showScheduleButton
-		let ncb = netClassroomButton
-		let wb = weatherButton
+		let schedule     = showScheduleButton
+		let netClassroom = netClassroomButton
+		let haiku        = showHaikuButton
+		let weather      = weatherButton
 		
-		ssb.layer.cornerRadius = 10.0
-		ncb.layer.cornerRadius = 10.0
-		wb.layer.cornerRadius = 10.0
-
-		ssb.setTitle("Schedule", forState: UIControlState.Normal)
-		ncb.setTitle("NetClassroom", forState: UIControlState.Normal)
-		wb.setTitle("Weather", forState: UIControlState.Normal)
+		schedule.layer.cornerRadius     = 10.0
+		netClassroom.layer.cornerRadius = 10.0
+		haiku.layer.cornerRadius        = 10.0
+		weather.layer.cornerRadius      = 10.0
 		
-		ssb.titleLabel!.font = UIFont(name: "Helvetica Neue Light", size: 50.0)
-		ncb.titleLabel!.font = UIFont(name: "Helvetica Neue Light", size: 50.0)
-		wb.titleLabel!.font = UIFont(name: "Helvetica Neue Light", size: 50.0)
+		schedule.setTitle      ("Schedule",     forState: UIControlState.Normal)
+		netClassroom.setTitle  ("NetClassroom", forState: UIControlState.Normal)
+		haiku.setTitle         ("Haiku",        forState: UIControlState.Normal)
+		weather.setTitle       ("Weather",      forState: UIControlState.Normal)
 		
-		displayDate()
+		displayDateOnScreen()
 	}
 	
-	func displayDate() {
+	func displayDateOnScreen() {
 		
-		let date = NSDate()
-		let calendar = NSCalendar.currentCalendar()
+		let date       = NSDate()
+		let calendar   = NSCalendar.currentCalendar()
 		let components = calendar.components([.Year, .Month, .Day, .Weekday, .Hour, .Minute], fromDate: date)
 		
-		let minute : Int = components.minute
-		var hour : Int = components.hour
+		let minute  : Int = components.minute
+		var hour    : Int = components.hour
 		let weekday : Int = components.weekday
-		let day : Int = components.day
-		let month : Int = components.month
+		let day     : Int = components.day
+		let month   : Int = components.month
 		
 		let currentMonth : String
 		switch month {

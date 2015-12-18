@@ -84,11 +84,13 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-Scheduler 3.0/AFNetworking.framework"
   install_framework "Pods-Scheduler 3.0/FlatUIKit.framework"
   install_framework "Pods-Scheduler 3.0/SwiftDate.framework"
   install_framework "Pods-Scheduler 3.0/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-Scheduler 3.0/AFNetworking.framework"
   install_framework "Pods-Scheduler 3.0/FlatUIKit.framework"
   install_framework "Pods-Scheduler 3.0/SwiftDate.framework"
   install_framework "Pods-Scheduler 3.0/SwiftyJSON.framework"
